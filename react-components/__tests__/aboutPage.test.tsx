@@ -3,6 +3,6 @@ import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import AboutPage from '../src/routes/aboutPage';
 
-test('renders the landing page', () => {
+test('renders the about page', () => {
   render(<AboutPage />);
 });

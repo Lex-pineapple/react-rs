@@ -6,4 +6,6 @@ module.exports = {
   },
   testMatch: ['**/__tests__/**.[tj]s?(x)'],
   testEnvironment: 'jsdom',
+  resetMocks: false,
+  setupFiles: ['jest-localstorage-mock'],
 };

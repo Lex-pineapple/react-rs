@@ -18,8 +18,8 @@ class HomePage extends React.Component {
   input = React.createRef<HTMLInputElement>();
   componentWillUnmount() {
     localStorage.setItem('searchItem44582', this.state.searchValue);
-  };
-  
+  }
+
   inputHandler(event: ChangeEvent<HTMLInputElement>) {
     const evTarget = event.target;
     if (evTarget) {

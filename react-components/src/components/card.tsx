@@ -3,46 +3,45 @@ import './card.css';
 import catPlaceholder from '../assets/lycanCat.jpg';
 import likeIcon from '../assets/like-icon.svg';
 import viewIcon from '../assets/view-icon.svg';
+import { ICardProps } from 'types/interfaces';
 
-interface ICardProps {
-  author: string;
-  cardName: string;
-  views: number;
-  likes: number;
-  tags: string[];
-}
+class Card extends React.Component<ICardProps> {
+  constructor(props: ICardProps) {
+    super(props);
+  }
 
-function Card(props: ICardProps) {
-  return (
-    <div className="card-container">
-      <img src={catPlaceholder} alt="cat-picture" className="card-mainImg" />
-      <p className="card-mainName">{props.cardName}</p>
-      <p className="card-author">
-        by <a href="">{props.author}</a>
-      </p>
-      <div className="card-tags">
-        <ul className="card-tags-list">
-          {props.tags.map((item, key) => {
-            return (
-              <li className="card-tags-list__item" key={key}>
-                #{item}
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-      <div className="card-bottom">
-        <div className="card-bottom__item">
-          <img src={likeIcon} alt="" className="card-icon" />
-          <p className="card-likes-txt">{props.likes}</p>
+  render() {
+    return (
+      <div className="card-container">
+        <img src={catPlaceholder} alt="cat-picture" className="card-mainImg" />
+        <p className="card-mainName">{this.props.cardName}</p>
+        <p className="card-author">
+          by <a href="">{this.props.author}</a>
+        </p>
+        <div className="card-tags">
+          <ul className="card-tags-list">
+            {this.props.tags.map((item, key) => {
+              return (
+                <li className="card-tags-list__item" key={key}>
+                  #{item}
+                </li>
+              );
+            })}
+          </ul>
         </div>
-        <div className="card-bottom__item">
-          <img src={viewIcon} alt="" className="card-icon" />
-          <p className="card-views-txt">{props.views}</p>
+        <div className="card-bottom">
+          <div className="card-bottom__item">
+            <img src={likeIcon} alt="" className="card-icon" />
+            <p className="card-likes-txt">{this.props.likes}</p>
+          </div>
+          <div className="card-bottom__item">
+            <img src={viewIcon} alt="" className="card-icon" />
+            <p className="card-views-txt">{this.props.views}</p>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Card;

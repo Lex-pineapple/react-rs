@@ -3,7 +3,7 @@ import './aboutPage.css';
 
 class AboutPage extends React.Component {
   render() {
-    return <div>About</div>;
+    return <div className="about-container">About</div>;
   }
 }
 

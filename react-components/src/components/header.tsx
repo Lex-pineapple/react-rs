@@ -1,12 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
+import { WithRouterProps } from './withRouter';
 
-class Header extends React.Component {
+class Header extends React.Component<WithRouterProps> {
+  state: { path: string };
+  constructor(props: WithRouterProps) {
+    super(props);
+    this.state = {
+      path: 'Home',
+    };
+  }
+
+  makeHeaderName(path: string) {
+    if (path == '/') return 'Home';
+    else if (path == '/about') return 'About';
+    else return 'Not Found';
+  }
+
   render() {
     return (
       <header className="header">
         <div className="header-container">
+          <p className="header-pathname">{this.makeHeaderName(this.props.location.pathname)}</p>
           <ul className="header-list">
             <li className="header-list__item">
               <Link to="/">Home</Link>

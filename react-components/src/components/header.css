@@ -11,6 +11,13 @@
   margin: 0 auto;
 }
 
+.header-pathname {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  font-size: 32px;
+}
+
 .header-list {
   padding: 0;
   /* margin: 0 auto; */

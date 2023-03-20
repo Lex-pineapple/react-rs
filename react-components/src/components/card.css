@@ -1,0 +1,54 @@
+.card-container {
+  border: 2px solid #d3d5e3;
+  border-radius: 12px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.card-mainImg {
+  width: 300px;
+}
+
+.card-mainName,
+.card-author,
+.card-tags-list {
+  margin: 10px;
+}
+
+.card-mainName {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-mainName,
+.card-author {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.card-tags-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.card-tags-list__item {
+  font-style: italic;
+  color: #212853;
+}
+
+.card-bottom {
+  background: #d3d5e3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-bottom__item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-icon {
+  width: 40px;
+}

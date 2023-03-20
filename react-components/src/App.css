@@ -44,3 +44,14 @@ ul {
 .read-the-docs {
   color: #888;
 }
+
+.head-path {
+  font-size: 32px;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+
+.appContent {
+  margin-top: 100px;
+}

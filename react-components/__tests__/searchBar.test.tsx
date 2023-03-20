@@ -20,8 +20,3 @@ it('check for search bar input', () => {
   fireEvent.change(searchBar, { target: { value: 'test input' } });
   expect(searchBar.value).toBe('test input');
 });
-
-it('should save to localStorage', () => {
-  const item = 'test';
-  const key = 'searchItem44582';
-});

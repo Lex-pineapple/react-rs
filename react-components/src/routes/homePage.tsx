@@ -30,7 +30,8 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="homePage-container">
-        <h1 className="header">Cats cards</h1>
+        <p className="head-path">Home</p>
+        <h1 className="header-name">Cats cards</h1>
         <SearchBar keyword={this.state.searchValue} handler={this.inputHandler}></SearchBar>
         <div className="cards-container">
           {data.map((item) => (

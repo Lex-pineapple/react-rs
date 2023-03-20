@@ -10,6 +10,4 @@ it('renders the landing page', () => {
     expect(headerItems[i]).toBeInTheDocument();
   }
   expect(screen.getByText(/Cats cards/i)).toBeInTheDocument();
-  
 });
-

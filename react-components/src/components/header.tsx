@@ -15,6 +15,7 @@ class Header extends React.Component<WithRouterProps> {
   makeHeaderName(path: string) {
     if (path == '/') return 'Home';
     else if (path == '/about') return 'About';
+    else if (path == '/form') return 'Form';
     else return 'Not Found';
   }
 
@@ -29,6 +30,9 @@ class Header extends React.Component<WithRouterProps> {
             </li>
             <li className="header-list__item">
               <Link to="/about">About</Link>
+            </li>
+            <li className="header-list__item">
+              <Link to="/form">Form</Link>
             </li>
           </ul>
         </div>

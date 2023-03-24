@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import Header from './components/header';
-import HomePage from './routes/homePage';
 import { Routes, Route } from 'react-router-dom';
+import HomePage from './routes/homePage';
 import AboutPage from './routes/aboutPage';
 import Page404 from './routes/page404';
+import FormPage from './routes/formPage';
 import { withRouter, WithRouterProps } from './components/withRouter';
 
 class App extends React.Component<WithRouterProps> {
@@ -20,6 +21,7 @@ class App extends React.Component<WithRouterProps> {
           <Routes>
             <Route path="/" element={<HomePage />}></Route>
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/form" element={<FormPage />}/>
             <Route path="*" element={<Page404 />} />
           </Routes>
         </div>

@@ -1,3 +1,5 @@
+import DateInput from 'components/form-components/dateInput';
+import TextInput from 'components/form-components/textInput';
 import { ChangeEvent } from 'react';
 
 export interface ISearchProps {
@@ -11,4 +13,12 @@ export interface ICardProps {
   views: number;
   likes: number;
   tags: string[];
+}
+
+export interface ITxtInputProps {
+  label: string;
+}
+
+export interface IDateInputProps {
+  label: string;
 }

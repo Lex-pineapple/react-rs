@@ -1,19 +1,16 @@
 import React from 'react';
-import { ITxtInputProps } from 'types/interfaces';
+import { ISelectProps } from 'types/interfaces';
 
-class DropDownInput extends React.Component<ITxtInputProps> {
-  input: React.RefObject<HTMLInputElement>;
-
-  constructor(props: ITxtInputProps) {
+class DropDownInput extends React.Component<ISelectProps> {
+  constructor(props: ISelectProps) {
     super(props);
-    this.input = React.createRef<HTMLInputElement>();
   }
 
   render() {
     return (
       <label htmlFor="breeds">
         {this.props.label}
-        <select id="breeds">
+        <select id="breeds" ref={this.props.input}>
           <option value="cornish-rex">Cornish Rex</option>
           <option value="Other">Other</option>
         </select>

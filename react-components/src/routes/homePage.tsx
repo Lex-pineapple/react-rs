@@ -3,6 +3,7 @@ import './homePage.css';
 import SearchBar from '../components/searchBar';
 import Card from '../components/card';
 import data from '../assets/catData';
+import catPlaceholder from '../assets/lycanCat.jpg';
 
 class HomePage extends React.Component {
   state: { searchValue: string };
@@ -36,6 +37,10 @@ class HomePage extends React.Component {
           {data.map((item) => (
             <Card
               key={item.key}
+              image={catPlaceholder}
+              date="2023-03-02"
+              sex="Girl"
+              breed="Cornish Rex"
               author={item.author}
               cardName={item.name}
               views={item.views}

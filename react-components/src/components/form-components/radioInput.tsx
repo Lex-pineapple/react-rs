@@ -1,22 +1,19 @@
 import React from 'react';
-import { ITxtInputProps } from 'types/interfaces';
+import { IInputProps } from 'types/interfaces';
 
-class RadioInput extends React.Component<ITxtInputProps> {
-  input: React.RefObject<HTMLInputElement>;
-
-  constructor(props: ITxtInputProps) {
+class RadioInput extends React.Component<IInputProps> {
+  constructor(props: IInputProps) {
     super(props);
-    this.input = React.createRef<HTMLInputElement>();
   }
 
   render() {
     return (
       <label>
         {this.props.label}
-        <input type="radio" ref={this.input} id="male" />
+        <input type={this.props.type} id="male" name="sex" />
         <label htmlFor="male">Male</label>
-        <input type="radio" ref={this.input} id="female" />
-        <label htmlFor="female">female</label>
+        <input type={this.props.type} ref={this.props.input} id="female" name="sex" />
+        <label htmlFor="female">Female</label>
       </label>
     );
   }

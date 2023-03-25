@@ -1,5 +1,3 @@
-import DateInput from 'components/form-components/dateInput';
-import TextInput from 'components/form-components/textInput';
 import { ChangeEvent } from 'react';
 
 export interface ISearchProps {
@@ -8,6 +6,10 @@ export interface ISearchProps {
 }
 
 export interface ICardProps {
+  image: string;
+  date: string;
+  sex: string;
+  breed: string;
   author: string;
   cardName: string;
   views: number;
@@ -15,10 +17,14 @@ export interface ICardProps {
   tags: string[];
 }
 
-export interface ITxtInputProps {
+export interface IInputProps {
   label: string;
+  type: string;
+  input: React.RefObject<HTMLInputElement>;
 }
 
-export interface IDateInputProps {
+export interface ISelectProps {
   label: string;
+  type: string;
+  input: React.RefObject<HTMLSelectElement>;
 }

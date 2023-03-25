@@ -1,7 +1,7 @@
 import React from 'react';
 import { IInputProps } from 'types/interfaces';
 
-class CheckboxInput extends React.Component<IInputProps> {
+class GeneralInput extends React.Component<IInputProps> {
   constructor(props: IInputProps) {
     super(props);
   }
@@ -10,11 +10,10 @@ class CheckboxInput extends React.Component<IInputProps> {
     return (
       <label>
         {this.props.label}
-        <input type={this.props.type} ref={this.props.input} id="friendly" />
-        <label htmlFor="friendly">Friendly</label>
+        <input type={this.props.type} ref={this.props.input} />
       </label>
     );
   }
 }
 
-export default CheckboxInput;
+export default GeneralInput;

@@ -21,7 +21,7 @@ class App extends React.Component<WithRouterProps> {
           <Routes>
             <Route path="/" element={<HomePage />}></Route>
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/form" element={<FormPage />}/>
+            <Route path="/form" element={<FormPage />} />
             <Route path="*" element={<Page404 />} />
           </Routes>
         </div>

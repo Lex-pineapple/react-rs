@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/components/card.tsx</title>
+    <title>Code coverage report for src/components/form-components/dropdown.tsx</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../prettify.css" />
-    <link rel="stylesheet" href="../../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../../sort-arrow-sprite.png);
+            background-image: url(../../../sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/components</a> card.tsx</h1>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/form-components</a> dropdown.tsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -86,42 +86,16 @@
 <a name='L21'></a><a href='#L21'>21</a>
 <a name='L22'></a><a href='#L22'>22</a>
 <a name='L23'></a><a href='#L23'>23</a>
-<a name='L24'></a><a href='#L24'>24</a>
-<a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a>
-<a name='L29'></a><a href='#L29'>29</a>
-<a name='L30'></a><a href='#L30'>30</a>
-<a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L24'></a><a href='#L24'>24</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -136,41 +110,28 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
-import './card.css';
-import { ICardProps } from 'types/interfaces';
-import CardBottomItem from './card-components/cardBottomItem';
-import CardTagList from './card-components/carsTagsList';
+import { ISelectProps } from 'types/interfaces';
 &nbsp;
-class Card extends React.Component&lt;ICardProps&gt; {
-  constructor(props: ICardProps) {
+class DropDownInput extends React.Component&lt;ISelectProps&gt; {
+  constructor(props: ISelectProps) {
     super(props);
   }
 &nbsp;
   render() {
     return (
-      &lt;div className="card-container"&gt;
-        &lt;div className="card-image-wrapper"&gt;
-          &lt;img src={this.props.image} alt="cat-picture" className="card-mainImg" /&gt;
-        &lt;/div&gt;
-        &lt;div className="card-date-container"&gt;
-          Date of birth: &lt;p className="card-date"&gt;{this.props.date}&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div className="card-sex-container"&gt;
-          &lt;p className="card-mainName"&gt;{this.props.cardName}&lt;/p&gt;
-          &lt;p className="card-sex"&gt;{this.props.sex}&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;p className="card-breed"&gt;{this.props.breed}&lt;/p&gt;
-        &lt;p className="card-author"&gt;
-          by &lt;a href=""&gt;{this.props.author}&lt;/a&gt;
-        &lt;/p&gt;
-        &lt;CardTagList tags={this.props.tags} /&gt;
-        &lt;CardBottomItem views={this.props.views} likes={this.props.likes} /&gt;
-      &lt;/div&gt;
+      &lt;label htmlFor="breeds" className="form-label"&gt;
+        {this.props.label}
+        &lt;select id="breeds" ref={this.props.input} className="form-input"&gt;
+          &lt;option value="Cornish-rex"&gt;Cornish Rex&lt;/option&gt;
+          &lt;option value="Munchkin"&gt;Munchkin&lt;/option&gt;
+          &lt;option value="Other"&gt;Other&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/label&gt;
     );
   }
 }
 &nbsp;
-export default Card;
+export default DropDownInput;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -180,14 +141,14 @@ export default Card;
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
                 at 2023-03-26T12:45:34.914Z
             </div>
-        <script src="../../prettify.js"></script>
+        <script src="../../../prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../../sorter.js"></script>
-        <script src="../../block-navigation.js"></script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
     </body>
 </html>
     

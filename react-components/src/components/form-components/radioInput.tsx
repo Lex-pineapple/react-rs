@@ -8,12 +8,29 @@ class RadioInput extends React.Component<IInputProps> {
 
   render() {
     return (
-      <label>
+      <label className="form-label">
         {this.props.label}
-        <input type={this.props.type} id="male" name="sex" />
-        <label htmlFor="male">Male</label>
-        <input type={this.props.type} ref={this.props.input} id="female" name="sex" />
-        <label htmlFor="female">Female</label>
+        <div className="form-input-container">
+          <div className="form-input-radio-container">
+            <input type={this.props.type} id="male" name="sex" className="form-input-radio" />
+            <label htmlFor="male" className="form-input-radio-label">
+              Male
+            </label>
+          </div>
+          <div className="form-input-radio-container">
+            <input
+              defaultChecked
+              type={this.props.type}
+              ref={this.props.input}
+              id="female"
+              name="sex"
+              className="form-input-radio"
+            />
+            <label htmlFor="female" className="form-input-radio-label">
+              Female
+            </label>
+          </div>
+        </div>
       </label>
     );
   }

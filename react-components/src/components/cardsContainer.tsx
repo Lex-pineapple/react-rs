@@ -1,14 +1,33 @@
 import React from 'react';
-import './card.css';
 import { ICardProps } from 'types/interfaces';
+import Card from './card';
 
-class CardsContainer extends React.Component<ICardProps[]> {
-  constructor(props: ICardProps[]) {
+class CardsContainer extends React.Component<{ cards: ICardProps[] }> {
+  constructor(props: { cards: ICardProps[] }) {
     super(props);
   }
 
   render() {
-    return <div className="cards-container"></div>;
+    return (
+      <div className="cards-container">
+        {this.props.cards.map((item, idx) => {
+          return (
+            <Card
+              key={idx}
+              image={item.image}
+              date={item.date}
+              sex={item.sex}
+              breed={item.breed}
+              author={item.author}
+              cardName={item.cardName}
+              views={item.views}
+              likes={item.views}
+              tags={item.tags}
+            />
+          );
+        })}
+      </div>
+    );
   }
 }
 

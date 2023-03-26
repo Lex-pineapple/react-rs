@@ -6,8 +6,15 @@
   position: relative;
 }
 
-.card-mainImg {
+.card-image-wrapper {
   width: 300px;
+  height: 217px;
+  overflow: hidden;
+
+}
+
+.card-mainImg {
+  height: 300px;
 }
 
 .card-mainName,

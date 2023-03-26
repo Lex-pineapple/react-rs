@@ -1,7 +1,7 @@
 import React from 'react';
 import { IInputProps } from 'types/interfaces';
 
-class GeneralInput extends React.Component<IInputProps> {
+class FileInput extends React.Component<IInputProps> {
   constructor(props: IInputProps) {
     super(props);
   }
@@ -11,7 +11,13 @@ class GeneralInput extends React.Component<IInputProps> {
       <div className="form-cell">
         <label className="form-label">
           {this.props.label}
-          <input type={this.props.type} ref={this.props.input} className="form-input" />
+          <input
+            type={this.props.type}
+            ref={this.props.input}
+            className="form-input-file"
+            accept={this.props.accept}
+            id="file-upload"
+          />
         </label>
         <div className={this.props.validationName}>{this.props.validationData}</div>
       </div>
@@ -19,4 +25,4 @@ class GeneralInput extends React.Component<IInputProps> {
   }
 }
 
-export default GeneralInput;
+export default FileInput;

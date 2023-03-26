@@ -8,10 +8,11 @@ class DropDownInput extends React.Component<ISelectProps> {
 
   render() {
     return (
-      <label htmlFor="breeds">
+      <label htmlFor="breeds" className="form-label">
         {this.props.label}
-        <select id="breeds" ref={this.props.input}>
-          <option value="cornish-rex">Cornish Rex</option>
+        <select id="breeds" ref={this.props.input} className="form-input">
+          <option value="Cornish-rex">Cornish Rex</option>
+          <option value="Munchkin">Munchkin</option>
           <option value="Other">Other</option>
         </select>
       </label>

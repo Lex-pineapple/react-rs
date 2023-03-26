@@ -89,7 +89,7 @@ class FormPage extends React.Component {
   resetCard() {
     this.nameInput.current!.value = '';
     this.dateInput.current!.value = '';
-    this.selectInput.current!.value = '';
+    this.selectInput.current!.value = 'Other';
     this.checkboxInput.current!.checked = false;
     this.radioInput.current!.checked = true;
     this.fileInput.current!.value = '';

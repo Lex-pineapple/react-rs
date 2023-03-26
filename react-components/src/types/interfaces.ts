@@ -47,6 +47,7 @@ export interface IValidationResult {
 
 export interface IInputProps {
   label: string;
+  labelFor: string;
   type: string;
   input: React.RefObject<HTMLInputElement>;
   validationName?: string;

@@ -9,9 +9,14 @@ class GeneralInput extends React.Component<IInputProps> {
   render() {
     return (
       <div className="form-cell">
-        <label className="form-label">
+        <label className="form-label" htmlFor={this.props.labelFor}>
           {this.props.label}
-          <input type={this.props.type} ref={this.props.input} className="form-input" />
+          <input
+            type={this.props.type}
+            ref={this.props.input}
+            className="form-input"
+            id={this.props.labelFor}
+          />
         </label>
         <div className={this.props.validationName}>{this.props.validationData}</div>
       </div>

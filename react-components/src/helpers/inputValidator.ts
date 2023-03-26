@@ -34,7 +34,7 @@ class InputValidator {
   }
 
   validateFile(fileInput: HTMLInputElement) {
-    return fileInput.value != '';
+    return Boolean(fileInput!.files!.length);
   }
 }
 

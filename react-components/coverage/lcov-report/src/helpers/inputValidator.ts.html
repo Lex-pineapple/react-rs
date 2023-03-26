@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>12/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/6</span>
+                <span class='fraction'>6/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>12/12</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -108,11 +108,11 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -124,23 +124,23 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -148,12 +148,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { IValidationData, IValidationResult } from 'types/interfaces';
 &nbsp;
 class InputValidator {
-<span class="fstat-no" title="function not covered" >  va</span>lidateSubmit(validationData: IValidationData): IValidationResult {
-    const nameInput = <span class="cstat-no" title="statement not covered" >this.validateName(validationData.nameInput);</span>
-    const dateInput = <span class="cstat-no" title="statement not covered" >this.validateDate(validationData.dateInput);</span>
-    const checkboxInput = <span class="cstat-no" title="statement not covered" >this.validateCheckbox(validationData.checkboxInput);</span>
-    const fileInput = <span class="cstat-no" title="statement not covered" >this.validateFile(validationData.fileInput);</span>
-<span class="cstat-no" title="statement not covered" >    return {</span>
+  validateSubmit(validationData: IValidationData): IValidationResult {
+    const nameInput = this.validateName(validationData.nameInput);
+    const dateInput = this.validateDate(validationData.dateInput);
+    const checkboxInput = this.validateCheckbox(validationData.checkboxInput);
+    const fileInput = this.validateFile(validationData.fileInput);
+    return {
       valid: nameInput &amp;&amp; dateInput &amp;&amp; checkboxInput &amp;&amp; fileInput,
       details: {
         nameInput,
@@ -164,24 +164,24 @@ class InputValidator {
     };
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  va</span>lidateName(nameInput: HTMLInputElement) {
-<span class="cstat-no" title="statement not covered" >    return nameInput.value.length &gt; 3;</span>
+  validateName(nameInput: HTMLInputElement) {
+    return nameInput.value.length &gt; 3;
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  va</span>lidateDate(dateInput: HTMLInputElement) {
-    const year = <span class="cstat-no" title="statement not covered" >dateInput.value.split('-')[0];</span>
-<span class="cstat-no" title="statement not covered" >    return parseInt(year) &gt; 1990;</span>
+  validateDate(dateInput: HTMLInputElement) {
+    const year = dateInput.value.split('-')[0];
+    return parseInt(year) &gt; 1990;
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  va</span>lidateCheckbox(checkboxInput: HTMLInputElement[]): boolean {
-    const temp = <span class="cstat-no" title="statement not covered" >checkboxInput.filter(<span class="fstat-no" title="function not covered" >(i</span>tem) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >      return item.checked;</span>
+  validateCheckbox(checkboxInput: HTMLInputElement[]): boolean {
+    const temp = checkboxInput.filter((item) =&gt; {
+      return item.checked;
     });
-<span class="cstat-no" title="statement not covered" >    return Boolean(temp.length);</span>
+    return Boolean(temp.length);
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  va</span>lidateFile(fileInput: HTMLInputElement) {
-<span class="cstat-no" title="statement not covered" >    return fileInput.value != '';</span>
+  validateFile(fileInput: HTMLInputElement) {
+    return Boolean(fileInput!.files!.length);
   }
 }
 &nbsp;
@@ -193,7 +193,7 @@ export default InputValidator;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-03-26T12:45:34.914Z
+                at 2023-03-26T17:50:37.826Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

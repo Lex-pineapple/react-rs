@@ -8,6 +8,7 @@ import GeneralInput from '../components/form-components/generalInput';
 import { ICardProps, IValidationDetails } from 'types/interfaces';
 import FileInput from '../components/form-components/fileInput';
 import InputValidator from '../helpers/inputValidator';
+import Modal from '../components/modal';
 
 class FormPage extends React.Component {
   nameInput: React.RefObject<HTMLInputElement>;
@@ -23,6 +24,7 @@ class FormPage extends React.Component {
     checkboxInputTXT: string;
     fileInputTXT: string;
     cardData: ICardProps[];
+    modalShow: boolean;
   };
   inputValidator: InputValidator;
 
@@ -36,6 +38,7 @@ class FormPage extends React.Component {
       checkboxInputTXT: '',
       fileInputTXT: '',
       cardData: [],
+      modalShow: false,
     };
     this.nameInput = React.createRef<HTMLInputElement>();
     this.dateInput = React.createRef<HTMLInputElement>();
@@ -44,6 +47,7 @@ class FormPage extends React.Component {
     this.radioInput = React.createRef<HTMLInputElement>();
     this.fileInput = React.createRef<HTMLInputElement>();
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.hideMessage = this.hideMessage.bind(this);
   }
 
   handleSubmit(event: ChangeEvent<HTMLFormElement>) {
@@ -61,9 +65,9 @@ class FormPage extends React.Component {
       checkboxInput: [this.checkboxInput.current!],
       fileInput: this.fileInput.current!,
     };
-
     const validationResult = this.inputValidator.validateSubmit(dataForValidation);
     if (validationResult.valid) {
+      this.showMessage();
       const cardInfo = {
         image: URL.createObjectURL(this.fileInput.current!.files![0]),
         date: this.dateInput.current!.value,
@@ -94,6 +98,15 @@ class FormPage extends React.Component {
   createCard(cardInfo: ICardProps) {
     this.setState({ cardData: [...this.state.cardData, cardInfo] });
   }
+
+  showMessage() {
+    this.setState({ modalShow: true });
+  }
+
+  hideMessage() {
+    this.setState({ modalShow: false });
+  }
+
   showValidationError(validationDetails: IValidationDetails) {
     if (!validationDetails.nameInput)
       this.setState({ nameInputTXT: 'The name must be longer than 3 symbols' });
@@ -111,6 +124,7 @@ class FormPage extends React.Component {
         <form onSubmit={this.handleSubmit} className="card-create-form">
           <GeneralInput
             label="Name of the cat:"
+            labelFor="name-input"
             type="text"
             input={this.nameInput}
             validationName="form-validation form-validation-name"
@@ -118,6 +132,7 @@ class FormPage extends React.Component {
           />
           <GeneralInput
             label="Date of birth:"
+            labelFor="date-input"
             type="date"
             input={this.dateInput}
             validationName="form-validation form-validation-date"
@@ -126,14 +141,16 @@ class FormPage extends React.Component {
           <DropDownInput label="Choose breed:" type="select" input={this.selectInput} />
           <CheckboxInput
             label="What are they like?"
+            labelFor="checkbox-input"
             type="checkbox"
             input={this.checkboxInput}
             validationName="form-validation form-validation-checkbox"
             validationData={this.state.checkboxInputTXT}
           />
-          <RadioInput label="Sex:" type="radio" input={this.radioInput} />
+          <RadioInput label="Sex:" type="radio" input={this.radioInput} labelFor="radio-input" />
           <FileInput
-            label="Upload photo: "
+            label="Upload photo:"
+            labelFor="file-input"
             type="file"
             input={this.fileInput}
             accept="image/png, image/jpeg"
@@ -143,6 +160,7 @@ class FormPage extends React.Component {
           <input type="submit" value="Submit" className="form-submit-btn" />
         </form>
         <CardsContainer cards={this.state.cardData} />
+        <Modal show={this.state.modalShow} handleClose={this.hideMessage} />
       </div>
     );
   }

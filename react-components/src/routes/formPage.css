@@ -1,0 +1,127 @@
+.card-create-form {
+  background-color: #f1f3fc;
+  border-radius: 20px;
+  padding: 30px;
+  display: grid;
+  grid-template-rows: repeat(6, 80px);
+  width: fit-content;
+  margin: 0 auto;
+
+  font-size: 24px;
+  justify-items: start;
+}
+
+.form-cell {
+  width: 100%;
+}
+
+.form-validation {
+  color: rgb(163, 22, 22);
+  font-size: 16px;
+}
+
+.form-label {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-input,
+.form-input-file {
+  border: 0px;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+  border: 0px;
+  outline-color: #1d1b7f;
+}
+
+.form-input-radio,
+.form-input-checkbox {
+  /* display: none; */
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.form-input-radio-label,
+.form-input-checkbox-label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+
+.form-input-radio-label::before,
+.form-input-checkbox-label::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+}
+
+.form-input-radio-label::before {
+  background: url('../assets/radio-icon.svg') center/cover no-repeat;
+}
+
+.form-input-checkbox-label::before {
+  background: url('../assets/checkbox-icon.svg') center/cover no-repeat;
+}
+
+
+.form-input-radio:checked + .form-input-radio-label::before{
+  background: url('../assets/radio-icon-checked.svg') center/cover no-repeat;
+}
+
+.form-input-checkbox:checked + .form-input-checkbox-label::before{
+  background: url('../assets/checkbox-icon-checked.svg') center/cover no-repeat;
+}
+
+.form-input-file {
+  cursor: pointer;
+  justify-self: flex-end;
+  width: 350px;
+}
+
+.form-input-file::-webkit-file-upload-button {
+  display: none;
+}
+
+.form-input-file::before {
+  content: 'Select image';
+  display: inline-block;
+  background: #ffffff;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.form-input-file:hover::before {
+  box-shadow: 0 0 5px #1d1b7f;
+}
+
+.form-submit-btn {
+  background-color: #ffffff;
+  border: 0px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-self: end;
+  cursor: pointer;
+}
+
+.cards-container {
+  margin-top: 40px;
+}

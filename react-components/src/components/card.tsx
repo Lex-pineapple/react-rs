@@ -24,7 +24,10 @@ class Card extends React.Component<ICardProps> {
         </div>
         <p className="card-breed">{this.props.breed}</p>
         <p className="card-author">
-          by <a href="">{this.props.author}</a>
+          by{' '}
+          <a href="" className="card__link">
+            {this.props.author}
+          </a>
         </p>
         <CardTagList tags={this.props.tags} />
         <CardBottomItem views={this.props.views} likes={this.props.likes} />

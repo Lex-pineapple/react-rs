@@ -1,5 +1,5 @@
 .card-create-form {
-  background-color: #f1f3fc;
+  background-color: #c8e0d3;
   border-radius: 20px;
   padding: 30px;
   display: grid;
@@ -120,6 +120,11 @@
   border-radius: 10px;
   justify-self: end;
   cursor: pointer;
+  transition: ease-in-out background-color 0.1s;
+}
+
+.form-submit-btn:hover {
+  background-color: #76c3a4;
 }
 
 .cards-container {

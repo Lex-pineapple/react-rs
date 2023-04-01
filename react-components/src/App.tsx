@@ -6,17 +6,12 @@ import HomePage from './routes/homePage';
 import AboutPage from './routes/aboutPage';
 import Page404 from './routes/page404';
 import FormPage from './routes/formPage';
-import { withRouter, WithRouterProps } from './components/withRouter';
 
-class App extends React.Component<WithRouterProps> {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header
-          location={this.props.location}
-          params={this.props.params}
-          navigate={this.props.navigate}
-        ></Header>
+        <Header></Header>
         <div className="appContent">
           <Routes>
             <Route path="/" element={<HomePage />}></Route>
@@ -30,4 +25,4 @@ class App extends React.Component<WithRouterProps> {
   }
 }
 
-export default withRouter(App);
+export default App;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.css';
+import '../styles/components/card.css';
 import { ICardProps } from 'types/interfaces';
 import CardBottomItem from './card-components/cardBottomItem';
 import CardTagList from './card-components/carsTagsList';

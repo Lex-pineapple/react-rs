@@ -1,7 +1,6 @@
 import PrettifyLocation from '../helpers/locationPrettifyer';
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './header.css';
+import '../styles/components/header.css';
 
 function Header() {
   const location = useLocation();

@@ -1,5 +1,5 @@
-import React, { ChangeEvent, useEffect, useState } from 'react';
-import './homePage.css';
+import { ChangeEvent, useEffect, useState } from 'react';
+import '../styles/homePage.css';
 import SearchBar from '../components/searchBar';
 import Card from '../components/card';
 import data from '../assets/catData';

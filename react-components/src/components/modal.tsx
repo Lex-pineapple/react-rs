@@ -1,5 +1,5 @@
 import React from 'react';
-import './modal.css';
+import '../styles/components/modal.css';
 interface IModalProps {
   handleClose: () => void;
   show: boolean;

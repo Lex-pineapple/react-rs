@@ -1,7 +1,5 @@
 /**
- * Summary. (use period)
- *
- * Description. (use period)
+ * Takes the path from the router and transforms it to user friendly output.
  *
  * @param {string}   path        The path within the router.
  *

@@ -1,5 +1,5 @@
 import React, { ChangeEvent } from 'react';
-import './formPage.css';
+import '../styles/formPage.css';
 import CardsContainer from '../components/cardsContainer';
 import DropDownInput from '../components/form-components/dropdown';
 import CheckboxInput from '../components/form-components/checkboxInput';

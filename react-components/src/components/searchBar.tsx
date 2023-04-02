@@ -12,6 +12,7 @@ function SearchBar(props: ISearchProps) {
         value={props.keyword}
         placeholder={'search cards'}
         onChange={props.handler}
+        data-testid="searchbar"
       />
       <img src={searchIcon} className="search-img" />
     </div>

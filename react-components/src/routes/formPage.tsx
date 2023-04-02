@@ -53,7 +53,7 @@ function FormPage() {
     setCard([...cards, formData]);
   }
 
-  async function showValidationMessage(validationDetails: IValidationMessage) {
+  function showValidationMessage(validationDetails: IValidationMessage) {
     setValidationMessage(validationDetails);
   }
 

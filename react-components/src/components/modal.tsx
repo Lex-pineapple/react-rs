@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/components/modal.css';
 interface IModalProps {
   handleClose: () => void;
@@ -11,12 +10,12 @@ function Modal(props: IModalProps) {
     : 'modal-container display-none';
 
   return (
-    <div className={showHideClassName}>
+    <div className={showHideClassName} data-testid="modal-window">
       <div className="overlay"></div>
       <div className="modal">
         <section className="modal-main">
           <p className="modal-txt">Card created successfully!</p>
-          <button type="button" onClick={props.handleClose}>
+          <button type="button" onClick={props.handleClose} data-testid="modal-close-btn">
             Close
           </button>
         </section>

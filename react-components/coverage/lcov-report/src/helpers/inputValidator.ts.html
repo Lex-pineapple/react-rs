@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">20% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>2/10</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>12/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/5</span>
+                <span class='fraction'>5/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">20% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>2/10</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -106,10 +106,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -125,16 +125,16 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -144,10 +144,10 @@
 class InputValidator {
   validateSubmit(validationData: IForm): IValidationResult {
     const nameInput = this.validateName(validationData.name);
-    const dateInput = <span class="cstat-no" title="statement not covered" >this.validateDate(validationData.date);</span>
-    const checkboxInput = <span class="cstat-no" title="statement not covered" >this.validateCheckbox(validationData.tags);</span>
-    const fileInput = <span class="cstat-no" title="statement not covered" >this.validateFile(validationData.file);</span>
-<span class="cstat-no" title="statement not covered" >    return {</span>
+    const dateInput = this.validateDate(validationData.date);
+    const checkboxInput = this.validateCheckbox(validationData.tags);
+    const fileInput = this.validateFile(validationData.file);
+    return {
       valid: nameInput &amp;&amp; dateInput &amp;&amp; checkboxInput &amp;&amp; fileInput,
       details: {
         nameInput: nameInput ? '' : 'The name must be longer than 3 symbols',
@@ -162,17 +162,17 @@ class InputValidator {
     return name.length &gt; 3;
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  va</span>lidateDate(date: string) {
-    const year = <span class="cstat-no" title="statement not covered" >date.split('-')[0];</span>
-<span class="cstat-no" title="statement not covered" >    return parseInt(year) &gt; 1990;</span>
+  validateDate(date: string) {
+    const year = date.split('-')[0];
+    return parseInt(year) &gt; 1990;
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  va</span>lidateCheckbox(checkbox: string[]): boolean {
-<span class="cstat-no" title="statement not covered" >    return Boolean(checkbox.length);</span>
+  validateCheckbox(checkbox: string[]): boolean {
+    return Boolean(checkbox.length);
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  va</span>lidateFile(file: FileList) {
-<span class="cstat-no" title="statement not covered" >    return Boolean(file.length);</span>
+  validateFile(file: FileList) {
+    return Boolean(file.length);
   }
 }
 &nbsp;
@@ -184,7 +184,7 @@ export default InputValidator;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-04-02T13:23:50.738Z
+                at 2023-04-02T16:03:57.892Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

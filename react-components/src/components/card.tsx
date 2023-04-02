@@ -5,7 +5,7 @@ import CardTagList from './card-components/carsTagsList';
 
 function Card(props: ICardProps) {
   return (
-    <div className="card-container">
+    <div className="card-container" data-testid="card">
       <div className="card-image-wrapper">
         <img src={props.file} alt="cat-picture" className="card-mainImg" />
       </div>

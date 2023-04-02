@@ -8,16 +8,22 @@ function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        <p className="header-pathname">{PrettifyLocation(location.pathname)}</p>
+        <p className="header-pathname" data-testid="header-header">
+          {PrettifyLocation(location.pathname)}
+        </p>
         <ul className="header-list">
-          <li className="header-list__item">
+          <li className="header-list__item" data-testid="header-link-home">
             <Link to="/">Home</Link>
           </li>
           <li className="header-list__item">
-            <Link to="/about">About</Link>
+            <Link to="/about" data-testid="header-link-about">
+              About
+            </Link>
           </li>
           <li className="header-list__item">
-            <Link to="/form">Form</Link>
+            <Link to="/form" data-testid="header-link-form">
+              Form
+            </Link>
           </li>
         </ul>
       </div>

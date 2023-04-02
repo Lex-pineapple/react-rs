@@ -1,6 +1,18 @@
 import { IForm, IValidationResult } from 'types/interfaces';
 
+/**
+ * Provides validation for the form.
+ *
+ * @module InputValidator
+ *
+ */
+
 class InputValidator {
+  /**
+   * methodTwo description
+   * @param  {IForm} validationData      The form data.
+   * @return {IValidationResult}         The result of validation, property 'valid' - determines the validity of the form.
+   */
   validateSubmit(validationData: IForm): IValidationResult {
     const nameInput = this.validateName(validationData.name);
     const dateInput = this.validateDate(validationData.date);

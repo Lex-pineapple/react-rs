@@ -2,26 +2,16 @@ import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import FormPage from '../src/routes/formPage';
-import InputValidator from '../src/helpers/inputValidator';
-import CardsContainer from '../src/components/cardsContainer';
+import { act } from 'react-dom/test-utils';
 
-it('renders the form page', () => {
-  render(<FormPage />);
+describe('Form page rendering', () => {
+  test('renders the form page', () => {
+    render(<FormPage />);
+  });
 });
 
-describe('file upload and validation', () => {
-  let file;
-  const inputValidator = new InputValidator();
-  // global.URL.createObjectURL = jest.fn();
-  const mockValidationResult = {
-    valid: true,
-    details: {
-      nameInput: true,
-      dateInput: true,
-      checkboxInput: true,
-      fileInput: true,
-    },
-  };
+describe('File upload and validation', () => {
+  let file: File;
   if (typeof window.URL.createObjectURL === 'undefined') {
     window.URL.createObjectURL = jest.fn();
   }
@@ -30,7 +20,7 @@ describe('file upload and validation', () => {
     file = new File(['(⌐□_□)'], 'chucknorris.png', { type: 'image/png' });
   });
 
-  test('validates the form page correctly', async () => {
+  test('the validation should pass', async () => {
     render(<FormPage />);
     const nameInput = screen.getByLabelText('Name of the cat:') as HTMLInputElement;
     const dateInput = screen.getByLabelText('Date of birth:') as HTMLInputElement;
@@ -38,107 +28,65 @@ describe('file upload and validation', () => {
     const fileInput = screen.getByLabelText('Upload photo:') as HTMLInputElement;
     const submit = screen.getByDisplayValue('Submit');
 
-    fireEvent.change(nameInput, {
-      target: {
-        value: 'asdfbn',
-      },
-    });
-    fireEvent.change(dateInput, {
-      target: {
-        value: '2000-12-12',
-      },
-    });
-    fireEvent.change(checkboxInput, {
-      target: {
-        checked: true,
-      },
-    });
-    await waitFor(() => {
-      fireEvent.change(fileInput, {
-        target: { files: [file] },
+    await act(async () => {
+      fireEvent.change(nameInput, {
+        target: {
+          value: 'asdfbn',
+        },
       });
+      fireEvent.change(dateInput, {
+        target: {
+          value: '2000-12-12',
+        },
+      });
+      fireEvent.click(checkboxInput);
+      await waitFor(() => {
+        fireEvent.change(fileInput, {
+          target: { files: [file] },
+        });
+      });
+      fireEvent.submit(submit);
     });
-    const validationResult = inputValidator.validateSubmit({
-      nameInput,
-      dateInput,
-      checkboxInput: [checkboxInput],
-      fileInput,
-    });
-    fireEvent.submit(submit);
-    expect(validationResult).toEqual(mockValidationResult);
+
+    expect(screen.getByTestId('modal-window')).toHaveClass('modal-container display-block');
+    const modalCloseBtn = screen.getByTestId('modal-close-btn');
+    fireEvent.click(modalCloseBtn);
+    expect(screen.getByTestId('modal-window')).toHaveClass('modal-container display-none');
+
+    expect(screen.getByTestId('card')).toBeInTheDocument();
   });
-});
 
-describe('validation error', () => {
-  const inputValidator = new InputValidator();
-  // global.URL.createObjectURL = jest.fn();
-  const mockValidationResult = {
-    valid: false,
-    details: {
-      nameInput: false,
-      dateInput: false,
-      checkboxInput: false,
-      fileInput: false,
-    },
-  };
-  if (typeof window.URL.createObjectURL === 'undefined') {
-    window.URL.createObjectURL = jest.fn();
-  }
-
-  test('validates the form page correctly', async () => {
+  test('the validation should fail', async () => {
+    const validationErrorMsg = {
+      name: 'The name must be longer than 3 symbols',
+      date: 'The year must be after 1990',
+      checkbox: 'Check at least one checkbox',
+      file: 'Please choose an image file',
+    };
     render(<FormPage />);
     const nameInput = screen.getByLabelText('Name of the cat:') as HTMLInputElement;
     const dateInput = screen.getByLabelText('Date of birth:') as HTMLInputElement;
-    const checkboxInput = screen.getByLabelText('Friendly') as HTMLInputElement;
-    const fileInput = screen.getByLabelText('Upload photo:') as HTMLInputElement;
     const submit = screen.getByDisplayValue('Submit');
 
-    fireEvent.change(nameInput, {
-      target: {
-        value: 'a',
-      },
+    await act(async () => {
+      fireEvent.change(nameInput, {
+        target: {
+          value: 'as',
+        },
+      });
+      fireEvent.change(dateInput, {
+        target: {
+          value: '1850-12-12',
+        },
+      });
+      fireEvent.submit(submit);
     });
-    fireEvent.change(dateInput, {
-      target: {
-        value: '0020-12-12',
-      },
-    });
-    fireEvent.change(checkboxInput, {
-      target: {
-        checked: false,
-      },
-    });
-    // await waitFor(() => {
-    //   fireEvent.change(fileInput, {
-    //     target: { files: [file] },
-    //   });
-    // });
-    // fileInput.files = file;
-    // console.log(fileInput.files.length);
 
-    const validationResult = inputValidator.validateSubmit({
-      nameInput,
-      dateInput,
-      checkboxInput: [checkboxInput],
-      fileInput,
-    });
-    fireEvent.submit(submit);
-    expect(validationResult).toEqual(mockValidationResult);
+    expect(screen.getByText(validationErrorMsg.name).textContent).toBe(validationErrorMsg.name);
+    expect(screen.getByText(validationErrorMsg.date).textContent).toBe(validationErrorMsg.date);
+    expect(screen.getByText(validationErrorMsg.checkbox).textContent).toBe(
+      validationErrorMsg.checkbox
+    );
+    expect(screen.getByText(validationErrorMsg.file).textContent).toBe(validationErrorMsg.file);
   });
-});
-
-describe('cards are created', () => {
-  const cardData = {
-    image: '../src/assets/lycanCat.jpeg',
-    date: '2022-02-03',
-    sex: 'Girl',
-    breed: 'Cat',
-    author: 'admin',
-    cardName: 'name',
-    views: 0,
-    likes: 0,
-    tags: ['friendly'],
-  };
-
-  render(<CardsContainer cards={[cardData]} />);
 });

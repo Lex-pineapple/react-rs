@@ -70,6 +70,15 @@ export interface IInputProps {
   className: string;
 }
 
+export interface ISelectorInput {
+  register: UseFormRegister<FieldValues>;
+  name: string;
+  className: string;
+  id: string;
+  value: string;
+  type: string;
+}
+
 export interface IValidatedInputProps {
   register: UseFormRegister<FieldValues>;
   name: string;

@@ -1,4 +1,5 @@
 import { IValidatedRadioInputProps } from 'types/interfaces';
+import SelectorInput from './selectorInput';
 
 function CheckboxInput({ register, name, label, validationDetails }: IValidatedRadioInputProps) {
   return (
@@ -6,38 +7,30 @@ function CheckboxInput({ register, name, label, validationDetails }: IValidatedR
       <label className="form-label">
         {label}
         <div className="form-input-container">
-          <div className="form-input-checkbox-container">
-            <input
-              id="friendly"
-              value="friendly"
-              type="checkbox"
-              {...register(name)}
-              className="form-input-checkbox"
-            />
-            <label htmlFor="friendly" className="form-input-checkbox-label">
-              Friendly
-            </label>
-            <input
-              id="angry"
-              value="angry"
-              type="checkbox"
-              {...register(name)}
-              className="form-input-checkbox"
-            />
-            <label htmlFor="angry" className="form-input-checkbox-label">
-              Angry
-            </label>
-            <input
-              id="shy"
-              value="shy"
-              type="checkbox"
-              {...register(name)}
-              className="form-input-checkbox"
-            />
-            <label htmlFor="shy" className="form-input-checkbox-label">
-              Shy
-            </label>
-          </div>
+          <SelectorInput
+            register={register}
+            name={name}
+            className="form-input-checkbox"
+            id="friendly"
+            value="friendly"
+            type="checkbox"
+          />
+          <SelectorInput
+            register={register}
+            name={name}
+            className="form-input-checkbox"
+            id="angry"
+            value="angry"
+            type="checkbox"
+          />
+          <SelectorInput
+            register={register}
+            name={name}
+            className="form-input-checkbox"
+            id="shy"
+            value="shy"
+            type="checkbox"
+          />
         </div>
       </label>
       <div className={validationDetails.validationName}>{validationDetails.validationData}</div>

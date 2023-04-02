@@ -28,6 +28,10 @@
   align-items: center;
 }
 
+.form-input-container {
+  display: flex;
+}
+
 .form-input,
 .form-input-file {
   border: 0px;

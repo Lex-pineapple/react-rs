@@ -1,40 +1,37 @@
-import { IValidationData, IValidationResult } from 'types/interfaces';
+import { IForm, IValidationResult } from 'types/interfaces';
 
 class InputValidator {
-  validateSubmit(validationData: IValidationData): IValidationResult {
-    const nameInput = this.validateName(validationData.nameInput);
-    const dateInput = this.validateDate(validationData.dateInput);
-    const checkboxInput = this.validateCheckbox(validationData.checkboxInput);
-    const fileInput = this.validateFile(validationData.fileInput);
+  validateSubmit(validationData: IForm): IValidationResult {
+    const nameInput = this.validateName(validationData.name);
+    const dateInput = this.validateDate(validationData.date);
+    const checkboxInput = this.validateCheckbox(validationData.tags);
+    const fileInput = this.validateFile(validationData.file);
     return {
       valid: nameInput && dateInput && checkboxInput && fileInput,
       details: {
-        nameInput,
-        dateInput,
-        checkboxInput,
-        fileInput,
+        nameInput: nameInput ? '' : 'The name must be longer than 3 symbols',
+        dateInput: dateInput ? '' : 'The year must be after 1990',
+        checkboxInput: checkboxInput ? '' : 'Check at least one checkbox',
+        fileInput: fileInput ? '' : 'Please choose an image file',
       },
     };
   }
 
-  validateName(nameInput: HTMLInputElement) {
-    return nameInput.value.length > 3;
+  validateName(name: string) {
+    return name.length > 3;
   }
 
-  validateDate(dateInput: HTMLInputElement) {
-    const year = dateInput.value.split('-')[0];
+  validateDate(date: string) {
+    const year = date.split('-')[0];
     return parseInt(year) > 1990;
   }
 
-  validateCheckbox(checkboxInput: HTMLInputElement[]): boolean {
-    const temp = checkboxInput.filter((item) => {
-      return item.checked;
-    });
-    return Boolean(temp.length);
+  validateCheckbox(checkbox: string[]): boolean {
+    return Boolean(checkbox.length);
   }
 
-  validateFile(fileInput: HTMLInputElement) {
-    return Boolean(fileInput!.files!.length);
+  validateFile(file: FileList) {
+    return Boolean(file.length);
   }
 }
 

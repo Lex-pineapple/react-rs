@@ -1,9 +1,9 @@
 import '../styles/components/card.css';
-import { ICardProps, IForm } from 'types/interfaces';
+import { ICardProps } from 'types/interfaces';
 import CardBottomItem from './card-components/cardBottomItem';
 import CardTagList from './card-components/carsTagsList';
 
-function Card(props: IForm) {
+function Card(props: ICardProps) {
   return (
     <div className="card-container">
       <div className="card-image-wrapper">

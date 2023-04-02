@@ -1,4 +1,5 @@
 import { ChangeEvent } from 'react';
+import { FieldValues, UseFormRegister } from 'react-hook-form';
 
 export interface ISearchProps {
   keyword: string;
@@ -6,30 +7,24 @@ export interface ISearchProps {
 }
 
 export interface ICardProps {
-  file: {
-    value: string;
-    parsedValue: string;
-  };
-  date: string;
-  sex: string;
-  breed: string;
-  author?: string;
   name: string;
-  views?: number;
-  likes?: number;
-  tags: boolean[];
+  date: string;
+  breed: string;
+  sex: string;
+  tags: string[];
+  file: string;
+  author: string;
+  views: number;
+  likes: number;
 }
 
 export interface IForm {
-  file: string;
-  date: string;
-  sex: string;
-  breed: string;
-  author: string;
   name: string;
-  views: number;
-  likes: number;
+  date: string;
+  breed: string;
+  sex: string;
   tags: string[];
+  file: FileList;
 }
 
 export interface IValidationData {
@@ -55,19 +50,50 @@ export interface IValidationDetails {
   fileInput: boolean;
 }
 
-export interface IValidationResult {
-  valid: boolean;
-  details: IValidationDetails;
+export interface IValidationMessage {
+  nameInput: string;
+  dateInput: string;
+  checkboxInput: string;
+  fileInput: string;
 }
 
-export interface IInputProps<T, E> {
-  label: string;
+export interface IValidationResult {
+  valid: boolean;
+  details: IValidationMessage;
+}
+
+export interface IInputProps {
+  register: UseFormRegister<FieldValues>;
   name: string;
+  label: string;
   type: string;
-  input: T;
   className: string;
-  validationName?: string;
-  validationData?: string;
-  accept?: string;
-  onChange: (e: ChangeEvent<E>) => void;
+}
+
+export interface IValidatedInputProps {
+  register: UseFormRegister<FieldValues>;
+  name: string;
+  label: string;
+  validationDetails: {
+    validationName: string;
+    validationData: string;
+  };
+  type: string;
+  className: string;
+}
+
+export interface IRadioInputProps {
+  register: UseFormRegister<FieldValues>;
+  name: string;
+  label: string;
+}
+
+export interface IValidatedRadioInputProps {
+  register: UseFormRegister<FieldValues>;
+  name: string;
+  label: string;
+  validationDetails: {
+    validationName: string;
+    validationData: string;
+  };
 }

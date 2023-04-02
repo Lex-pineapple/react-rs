@@ -25,7 +25,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
@@ -95,23 +95,13 @@
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
 <a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L33'></a><a href='#L33'>33</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">13x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -135,39 +125,37 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
-import './card.css';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import '../styles/components/card.css';
 import { ICardProps } from 'types/interfaces';
 import CardBottomItem from './card-components/cardBottomItem';
 import CardTagList from './card-components/carsTagsList';
 &nbsp;
-class Card extends React.Component&lt;ICardProps&gt; {
-  constructor(props: ICardProps) {
-    super(props);
-  }
-&nbsp;
-  render() {
-    return (
-      &lt;div className="card-container"&gt;
-        &lt;div className="card-image-wrapper"&gt;
-          &lt;img src={this.props.image} alt="cat-picture" className="card-mainImg" /&gt;
-        &lt;/div&gt;
-        &lt;div className="card-date-container"&gt;
-          Date of birth: &lt;p className="card-date"&gt;{this.props.date}&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div className="card-sex-container"&gt;
-          &lt;p className="card-mainName"&gt;{this.props.cardName}&lt;/p&gt;
-          &lt;p className="card-sex"&gt;{this.props.sex}&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;p className="card-breed"&gt;{this.props.breed}&lt;/p&gt;
-        &lt;p className="card-author"&gt;
-          by &lt;a href=""&gt;{this.props.author}&lt;/a&gt;
-        &lt;/p&gt;
-        &lt;CardTagList tags={this.props.tags} /&gt;
-        &lt;CardBottomItem views={this.props.views} likes={this.props.likes} /&gt;
+function Card(props: ICardProps) {
+  return (
+    &lt;div className="card-container"&gt;
+      &lt;div className="card-image-wrapper"&gt;
+        &lt;img src={props.file} alt="cat-picture" className="card-mainImg" /&gt;
       &lt;/div&gt;
-    );
-  }
+      &lt;div className="card-date-container"&gt;
+        Date of birth: &lt;p className="card-date"&gt;{props.date}&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div className="card-sex-container"&gt;
+        &lt;p className="card-mainName"&gt;{props.name}&lt;/p&gt;
+        &lt;p className="card-sex"&gt;{props.sex}&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;p className="card-breed"&gt;{props.breed}&lt;/p&gt;
+      &lt;p className="card-author"&gt;
+        by{' '}
+        &lt;a href="" className="card__link"&gt;
+          {props.author}
+        &lt;/a&gt;
+      &lt;/p&gt;
+      &lt;CardTagList tags={props.tags} /&gt;
+      &lt;CardBottomItem views={props.views} likes={props.likes} /&gt;
+    &lt;/div&gt;
+  );
 }
 &nbsp;
 export default Card;
@@ -178,7 +166,7 @@ export default Card;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-03-26T19:02:07.637Z
+                at 2023-04-02T10:46:38.531Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

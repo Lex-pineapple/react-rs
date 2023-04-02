@@ -1,21 +1,19 @@
-import { IInputProps } from 'types/interfaces';
+import { IValidatedInputProps } from 'types/interfaces';
 
-function GeneralInput(props: IInputProps<string, HTMLInputElement>) {
+function GeneralInput({
+  register,
+  name,
+  label,
+  validationDetails,
+  ...props
+}: IValidatedInputProps) {
   return (
     <div className="form-cell">
-      <label className="form-label" htmlFor={props.name}>
-        {props.label}
-        <input
-          id={props.name}
-          name={props.name}
-          type={props.type}
-          value={props.input}
-          className={props.className}
-          onChange={props.onChange}
-          accept={props.accept}
-        />
+      <label className="form-label">
+        {label}
+        <input {...register(name)} {...props} />
       </label>
-      <div className={props.validationName}>{props.validationData}</div>
+      <div className={validationDetails.validationName}>{validationDetails.validationData}</div>
     </div>
   );
 }

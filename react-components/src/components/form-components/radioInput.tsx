@@ -1,19 +1,21 @@
-import { IInputProps } from 'types/interfaces';
+import { IRadioInputProps } from 'types/interfaces';
 
-function RadioInput(props: IInputProps<string, HTMLInputElement>) {
+function RadioInput({ register, name, label }: IRadioInputProps) {
   return (
     <label className="form-label">
-      {props.label}
+      {label}
       <div className="form-input-container">
         <div className="form-input-radio-container">
           <input
             id="male"
             value="male"
-            type={props.type}
-            checked={props.input === 'male'}
-            onChange={props.onChange}
-            name={props.name}
-            className={props.className} />
+            type="radio"
+            {...register(name)}
+            // checked={props.input === 'male'}
+            // onChange={props.onChange}
+            // name={props.name}
+            className="form-input-radio"
+          />
           <label htmlFor="male" className="form-input-radio-label">
             Male
           </label>
@@ -22,11 +24,12 @@ function RadioInput(props: IInputProps<string, HTMLInputElement>) {
           <input
             id="female"
             value="female"
-            type={props.type}
-            checked={props.input === 'female'}
-            onChange={props.onChange}
-            name={props.name}
-            className={props.className}
+            type="radio"
+            {...register(name)}
+            // checked={props.input === 'female'}
+            // onChange={props.onChange}
+            // name={props.name}
+            className="form-input-radio"
           />
           <label htmlFor="female" className="form-input-radio-label">
             Female

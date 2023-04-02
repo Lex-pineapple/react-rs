@@ -26,12 +26,12 @@ function HomePage() {
         {data.map((item) => (
           <Card
             key={item.key}
-            image={catPlaceholder}
+            file={catPlaceholder}
             date="2023-03-02"
             sex="Girl"
             breed="Cornish Rex"
             author={item.author}
-            cardName={item.name}
+            name={item.name}
             views={item.views}
             likes={item.likes}
             tags={item.tags}

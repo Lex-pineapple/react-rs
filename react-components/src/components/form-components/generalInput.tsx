@@ -1,27 +1,23 @@
-import React from 'react';
 import { IInputProps } from 'types/interfaces';
 
-class GeneralInput extends React.Component<IInputProps> {
-  constructor(props: IInputProps) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className="form-cell">
-        <label className="form-label" htmlFor={this.props.labelFor}>
-          {this.props.label}
-          <input
-            type={this.props.type}
-            ref={this.props.input}
-            className="form-input"
-            id={this.props.labelFor}
-          />
-        </label>
-        <div className={this.props.validationName}>{this.props.validationData}</div>
-      </div>
-    );
-  }
+function GeneralInput(props: IInputProps<string, HTMLInputElement>) {
+  return (
+    <div className="form-cell">
+      <label className="form-label" htmlFor={props.name}>
+        {props.label}
+        <input
+          id={props.name}
+          name={props.name}
+          type={props.type}
+          value={props.input}
+          className={props.className}
+          onChange={props.onChange}
+          accept={props.accept}
+        />
+      </label>
+      <div className={props.validationName}>{props.validationData}</div>
+    </div>
+  );
 }
 
 export default GeneralInput;

@@ -6,12 +6,27 @@ export interface ISearchProps {
 }
 
 export interface ICardProps {
-  image: string;
+  file: {
+    value: string;
+    parsedValue: string;
+  };
+  date: string;
+  sex: string;
+  breed: string;
+  author?: string;
+  name: string;
+  views?: number;
+  likes?: number;
+  tags: boolean[];
+}
+
+export interface IForm {
+  file: string;
   date: string;
   sex: string;
   breed: string;
   author: string;
-  cardName: string;
+  name: string;
   views: number;
   likes: number;
   tags: string[];
@@ -45,18 +60,14 @@ export interface IValidationResult {
   details: IValidationDetails;
 }
 
-export interface IInputProps {
+export interface IInputProps<T, E> {
   label: string;
-  labelFor: string;
+  name: string;
   type: string;
-  input: React.RefObject<HTMLInputElement>;
+  input: T;
+  className: string;
   validationName?: string;
   validationData?: string;
   accept?: string;
-}
-
-export interface ISelectProps {
-  label: string;
-  type: string;
-  input: React.RefObject<HTMLSelectElement>;
+  onChange: (e: ChangeEvent<E>) => void;
 }

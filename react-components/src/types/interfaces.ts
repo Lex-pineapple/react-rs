@@ -4,6 +4,7 @@ import { FieldValues, UseFormRegister } from 'react-hook-form';
 export interface ISearchProps {
   keyword: string;
   handler: (event: ChangeEvent<HTMLInputElement>) => void;
+  handleKey: (e: React.KeyboardEvent<HTMLInputElement>) => void;
 }
 
 export interface ICardProps {
@@ -105,4 +106,16 @@ export interface IValidatedRadioInputProps {
     validationName: string;
     validationData: string;
   };
+}
+
+export interface IPhotoResponse {
+  id: string;
+  owner: string;
+  secret: string;
+  server: string;
+  farm: number;
+  title: string;
+  ispublic: number;
+  isfriend: number;
+  isfamily: number;
 }

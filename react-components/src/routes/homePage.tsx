@@ -9,7 +9,7 @@ function HomePage() {
     <div className="homePage-container">
       <h1 className="header-name">Cats cards</h1>
       <SearchForm />
-      <div className="cards-container">
+      {/* <div className="cards-container">
         {data.map((item) => (
           <Card
             key={item.key}
@@ -24,7 +24,7 @@ function HomePage() {
             tags={item.tags}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

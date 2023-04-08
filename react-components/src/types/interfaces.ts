@@ -8,6 +8,7 @@ export interface ISearchProps {
 }
 
 export interface ICardProps {
+  id: string;
   name: string;
   date: string;
   breed: string;
@@ -17,6 +18,7 @@ export interface ICardProps {
   author: string;
   views: number;
   likes: number;
+  handleClick: (id: string) => void;
 }
 
 export interface IForm {
@@ -118,4 +120,13 @@ export interface IPhotoResponse {
   ispublic: number;
   isfriend: number;
   isfamily: number;
+}
+
+export interface IModalProps {
+  handleClose: () => void;
+  show: boolean;
+}
+
+export interface ICardModalProps extends IModalProps {
+  item: IPhotoResponse;
 }

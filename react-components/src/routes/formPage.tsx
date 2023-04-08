@@ -9,6 +9,7 @@ import { useState } from 'react';
 import { ICardProps, IForm, IValidationMessage } from 'types/interfaces';
 import InputValidator from '../helpers/inputValidator';
 import Modal from '../components/modal';
+import Card from '../components/card';
 
 function FormPage() {
   const { register, handleSubmit, reset } = useForm<FieldValues>({
@@ -120,7 +121,24 @@ function FormPage() {
         />
         <input type="submit" value="Submit" className="form-submit-btn" />
       </form>
-      <CardsContainer cards={cards} />
+      {cards.map((item, idx) => {
+        return (
+          <Card
+            id={idx}
+            key={idx}
+            file={item.file}
+            date={item.date}
+            sex="Girl"
+            breed="Other"
+            author="admin"
+            name={item.name}
+            views={0}
+            likes={0}
+            tags={item.tags}
+            handleClick={showMessage}
+          />
+        );
+      })}
       <Modal show={modalShow} handleClose={hideMessage} />
     </div>
   );

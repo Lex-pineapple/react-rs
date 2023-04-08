@@ -2,14 +2,38 @@ import { getCurrentDate } from '../helpers/getCurrentDate';
 import PhotoResultsMapper from '../helpers/protoResultsMapper';
 import { IPhotoResponse } from 'types/interfaces';
 import Card from './card';
+import { useState } from 'react';
+import CardModal from './cardModal';
 
 interface ISearchResultProps {
   error: Error | null;
   isLoaded: boolean;
-  items: IPhotoResponse[];
+  items: ISearchResponse;
+}
+
+interface ISearchResponse {
+  photos: ISearchPhotoResponse;
+  stat: string;
+}
+
+interface ISearchPhotoResponse {
+  page: number;
+  pages: number;
+  perpage: number;
+  photo: IPhotoResponse[];
+  total: number;
 }
 
 function CardsContainer(props: ISearchResultProps) {
+  const [showModal, setShowModal] = useState(false);
+  const [isOpen, setIsOpen] = useState<IPhotoResponse | null>(null);
+  function openModal(id: number) {
+    setIsOpen(props.items.photos.photo[id]);
+    setShowModal(true);
+  }
+  function closeModal() {
+    setShowModal(false);
+  }
   if (props.error !== null) {
     console.log('error fire');
 
@@ -31,6 +55,7 @@ function CardsContainer(props: ISearchResultProps) {
         {props.items.photos.photo.map((item, idx) => {
           return (
             <Card
+              id={idx}
               key={idx}
               file={PhotoResultsMapper(item)}
               date={getCurrentDate()}
@@ -41,6 +66,7 @@ function CardsContainer(props: ISearchResultProps) {
               views={0}
               likes={0}
               tags={['photos']}
+              handleClick={openModal}
             />
           );
         })}
@@ -60,6 +86,7 @@ function CardsContainer(props: ISearchResultProps) {
             />
           );
         })} */}
+        <CardModal show={showModal} handleClose={closeModal} item={isOpen} />
       </div>
     );
   }

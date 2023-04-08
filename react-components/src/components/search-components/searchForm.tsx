@@ -18,10 +18,17 @@ function SearchForm() {
   function keyHandler(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key === 'Enter') {
       setSearchSubmit(true);
-      console.log(searchBarValue);
       localStorage.setItem('searchItem44582', searchBarValue);
     }
   }
+
+  useEffect(() => {
+    if (localStorage.getItem('searchItem44582')) {
+      setSearchSubmit(true);
+    } else {
+      // setSearchBarValue('cat');
+    }
+  }, []);
 
   useEffect(() => {
     if (searchSubmit) {

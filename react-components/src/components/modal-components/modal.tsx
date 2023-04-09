@@ -1,4 +1,4 @@
-import '../styles/components/modal.css';
+import '../../styles/components/modal.css';
 interface IModalProps {
   handleClose: () => void;
   show: boolean;

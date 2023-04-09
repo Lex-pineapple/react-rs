@@ -1,15 +1,13 @@
-import '../styles/components/card.css';
-import { ICardProps } from 'types/interfaces';
-import CardBottomItem from './card-components/cardBottomItem';
-import CardTagList from './card-components/cardsTagsList';
+import '../../styles/components/card.css';
+import { ISimpleCardProps } from 'types/interfaces';
 
-function Card(props: ICardProps) {
+function SimpleCard(props: ISimpleCardProps) {
   return (
     <div
       className="card-container"
       data-testid="card"
       onClick={() => props.handleClick(props.id)}
-      id={props.id}
+      id={String(props.id)}
     >
       <div className="card-image-wrapper">
         <img src={props.file} alt="cat-picture" className="card-mainImg" />
@@ -29,4 +27,4 @@ function Card(props: ICardProps) {
   );
 }
 
-export default Card;
+export default SimpleCard;

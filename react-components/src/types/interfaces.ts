@@ -1,14 +1,14 @@
-import { ChangeEvent } from 'react';
+import React, { ChangeEvent } from 'react';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
 
 export interface ISearchProps {
   keyword: string;
   handler: (event: ChangeEvent<HTMLInputElement>) => void;
   handleKey: (e: React.KeyboardEvent<HTMLInputElement>) => void;
+  handleClick: () => void;
 }
 
 export interface ICardProps {
-  id: string;
   name: string;
   date: string;
   breed: string;
@@ -18,7 +18,14 @@ export interface ICardProps {
   author: string;
   views: number;
   likes: number;
-  handleClick: (id: string) => void;
+}
+
+export interface ISimpleCardProps {
+  id: number;
+  file: string;
+  date: string;
+  name: string;
+  handleClick: (id: number) => void;
 }
 
 export interface IForm {
@@ -128,5 +135,114 @@ export interface IModalProps {
 }
 
 export interface ICardModalProps extends IModalProps {
-  item: IPhotoResponse;
+  info: { id: string } | null;
+}
+
+export interface ISearchResultProps {
+  error: Error | null;
+  isLoaded: boolean;
+  items: ISearchResponse;
+}
+
+export interface ISearchResponse {
+  photos: ISearchPhotoResponse;
+  stat: string;
+}
+
+export interface ISearchPhotoResponse {
+  page: number;
+  pages: number;
+  perpage: number;
+  photo: IPhotoResponse[];
+  total: number;
+}
+
+export interface IPhotoInfoResponse {
+  photo: IPhotoInfo;
+  stat: string;
+}
+
+export interface IPhotoInfo {
+  id: string;
+  secret: string;
+  server: string;
+  farm: number;
+  dateuploaded: string;
+  isfavorite: number;
+  license: string;
+  safety_level: string;
+  rotation: number;
+  owner: {
+    nsid: string;
+    username: string;
+    realname: string;
+    location: null;
+    iconserver: string;
+    iconfarm: number;
+    path_alias: string;
+    gift: {
+      gift_eligible: boolean;
+      eligible_durations: string[];
+      new_flow: boolean;
+    };
+  };
+  title: {
+    _content: string;
+  };
+  description: {
+    _content: string;
+  };
+  visibility: {
+    ispublic: number;
+    isfriend: number;
+    isfamily: number;
+  };
+  dates: {
+    posted: string;
+    taken: string;
+    takengranularity: number;
+    takenunknown: string;
+    lastupdate: string;
+  };
+  views: string;
+  editability: {
+    cancomment: number;
+    canaddmeta: number;
+  };
+  publiceditability: {
+    cancomment: number;
+    canaddmeta: number;
+  };
+  usage: {
+    candownload: number;
+    canblog: number;
+    canprint: number;
+    canshare: number;
+  };
+  comments: {
+    _content: string;
+  };
+  notes: {
+    note: [];
+  };
+  people: {
+    haspeople: number;
+  };
+  tags: {
+    tag: {
+      id: string;
+      author: string;
+      authorname: string;
+      raw: string;
+      _content: string;
+      machine_tag: boolean;
+    }[];
+  };
+  urls: {
+    url: {
+      type: string;
+      _content: string;
+    }[];
+  };
+  media: string;
 }

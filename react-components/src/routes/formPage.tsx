@@ -4,12 +4,11 @@ import GeneralInput from '../components/form-components/generalInput';
 import DropDownInput from '../components/form-components/dropdownInput';
 import RadioInput from '../components/form-components/radioInput';
 import CheckboxInput from '../components/form-components/checkboxInput';
-import CardsContainer from '../components/cardsContainer';
 import { useState } from 'react';
 import { ICardProps, IForm, IValidationMessage } from 'types/interfaces';
 import InputValidator from '../helpers/inputValidator';
-import Modal from '../components/modal';
-import Card from '../components/card';
+import Modal from '../components/modal-components/modal';
+import Card from '../components/card-components/card';
 
 function FormPage() {
   const { register, handleSubmit, reset } = useForm<FieldValues>({
@@ -121,24 +120,24 @@ function FormPage() {
         />
         <input type="submit" value="Submit" className="form-submit-btn" />
       </form>
-      {cards.map((item, idx) => {
-        return (
-          <Card
-            id={idx}
-            key={idx}
-            file={item.file}
-            date={item.date}
-            sex="Girl"
-            breed="Other"
-            author="admin"
-            name={item.name}
-            views={0}
-            likes={0}
-            tags={item.tags}
-            handleClick={showMessage}
-          />
-        );
-      })}
+      <div className="cards-container">
+        {cards.map((item, idx) => {
+          return (
+            <Card
+              key={idx}
+              file={item.file}
+              date={item.date}
+              sex="Girl"
+              breed="Other"
+              author="admin"
+              name={item.name}
+              views={0}
+              likes={0}
+              tags={item.tags}
+            />
+          );
+        })}
+      </div>
       <Modal show={modalShow} handleClose={hideMessage} />
     </div>
   );

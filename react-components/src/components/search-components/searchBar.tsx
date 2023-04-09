@@ -11,11 +11,11 @@ function SearchBar(props: ISearchProps) {
         key="search-bar"
         value={props.keyword}
         placeholder={'search cards'}
-        onChange={props.handler}
+        onInput={props.handler}
         onKeyDown={props.handleKey}
         data-testid="searchbar"
       />
-      <img src={searchIcon} className="search-img" />
+      <img src={searchIcon} className="search-img" onClick={props.handleClick} />
     </div>
   );
 }

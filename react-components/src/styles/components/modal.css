@@ -49,14 +49,15 @@
 .card-modal-main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr auto auto auto 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr 1fr;
 }
 
 .card-modal-img {
   border-radius: 10px;
   max-width: 500px;
-  grid-row: 1/7;
+  grid-row: 1/6;
   margin-right: 20px;
+  align-self: center;
 }
 
 .card-modal-title,
@@ -67,13 +68,50 @@
 .card-modal-title {
   font-size: 32px;
   font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.card-modal-tags {
+  background-color: #dae0f7;
+  padding: 10px;
+  border-radius: 10px;
+  height: fit-content;
 }
 
 .card-modal-tags-list {
-  padding: 0;
+  padding: 5px 0;
   margin: 0;
   display: flex;
-  justify-content: space-around;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-width: 460px;
+}
+
+.card-modal-tags-list__item {
+  white-space: nowrap;
+}
+
+.card-modal-tags-list::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+.card-modal-tags-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.card-modal-tags-list::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #97a0c6;
+}
+
+/* Handle on hover */
+.card-modal-tags-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .card-modal-bottom {
@@ -93,4 +131,13 @@
 .card-modal-bottom__item {
   display: flex;
   align-items: center;
+}
+
+.modal-close-btn {
+  font-size: 24px;
+  padding: 5px;
+  position: absolute;
+  top: -25px;
+  right: 5px;
+  cursor: pointer;
 }

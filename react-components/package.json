@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "eslint": "eslint . --ext .tsx",
     "lint": "npm run eslint",
-    "test": "jest --collect-coverage"
+    "test": "jest --collect-coverage",
+    "check-ts": "tsc --noemit"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.55.0",

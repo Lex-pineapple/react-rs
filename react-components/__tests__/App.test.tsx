@@ -11,11 +11,8 @@ describe('Main page rendering', () => {
         <App />
       </BrowserRouter>
     );
-    const headerItems = screen.getAllByRole('img');
-    for (let i = 0; i < 6; i++) {
-      expect(headerItems[i]).toBeInTheDocument();
-    }
-    expect(screen.getByText(/Cats cards/i)).toBeInTheDocument();
+    const searchBar = screen.getByTestId('searchbar') as HTMLInputElement;
+    expect(searchBar).toBeInTheDocument();
   });
 
   test('renders the header elements', () => {

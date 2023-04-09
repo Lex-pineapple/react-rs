@@ -22,16 +22,20 @@ function CardsContainer(props: ISearchResultProps) {
 
   if (props.error !== null) {
     return (
-      <div className="error-container">
+      <div className="error-container" data-testid="error-container">
         <p className="error-title">Sorry there was a problem processing your request.</p>
         <p className="error-message">{props.error.message}</p>
       </div>
     );
   } else if (!props.isLoaded) {
-    return <div className="loader-container">Loading...</div>;
+    return (
+      <div className="loader-container" data-testid="loader-container">
+        Loading...
+      </div>
+    );
   } else {
     return (
-      <div className="cards-container">
+      <div className="cards-container" data-testid="cards-container">
         {props.items.photos.photo.map((item, idx) => {
           return (
             <SimpleCard

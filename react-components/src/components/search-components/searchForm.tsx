@@ -27,6 +27,8 @@ function SearchForm() {
   }
 
   function clickHandler() {
+    console.log(searchBarValue);
+
     if (searchBarValue) {
       setSearchSubmit(true);
       localStorage.setItem('searchItem44582', searchBarValue);
@@ -49,7 +51,7 @@ function SearchForm() {
 
   useEffect(() => {
     if (searchSubmit) {
-      console.log('searching...');
+      // console.log('searching...');
       fetch(
         `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=b158ecdf6b84a3ae427372f61ddab5b7&text=${searchValue}&per_page=10&format=json&nojsoncallback=1`
       )

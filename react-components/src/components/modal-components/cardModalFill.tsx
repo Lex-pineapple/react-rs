@@ -39,7 +39,9 @@ function CardModalFill(props: { id: string }) {
     return (
       <>
         <img src={PhotoResultsMapper(item.photo)} className="card-modal-img" />
-        <p className="card-modal-title">{item.photo.title._content}</p>
+        <p className="card-modal-title" data-testid="card-modal-title">
+          {item.photo.title._content}
+        </p>
         <p className="card-modal-date">
           Posted: {new Date(item.photo.dates.taken).toLocaleDateString()}
         </p>

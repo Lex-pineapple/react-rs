@@ -10,6 +10,8 @@ function CardModalFill(props: { id: string }) {
   const [item, setItem] = useState<IPhotoInfoResponse | null>(null);
 
   useEffect(() => {
+    setItem(null);
+    setIsLoaded(false);
     fetch(
       `https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=b158ecdf6b84a3ae427372f61ddab5b7&photo_id=${props.id}&format=json&nojsoncallback=1`
     )

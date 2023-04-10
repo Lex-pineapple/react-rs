@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1681062493842" clover="3.2.0">
-  <project timestamp="1681062493842" name="All files">
-    <metrics statements="128" coveredstatements="116" conditionals="52" coveredconditionals="43" methods="56" coveredmethods="52" elements="236" coveredelements="211" complexity="0" loc="128" ncloc="128" packages="8" files="25" classes="25"/>
+<coverage generated="1681153942379" clover="3.2.0">
+  <project timestamp="1681153942379" name="All files">
+    <metrics statements="130" coveredstatements="118" conditionals="52" coveredconditionals="43" methods="56" coveredmethods="52" elements="238" coveredelements="213" complexity="0" loc="130" ncloc="130" packages="8" files="25" classes="25"/>
     <package name="src">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="D:\react-work\react-rs\react-components\src\App.tsx">
@@ -78,7 +78,7 @@
       </file>
     </package>
     <package name="src.components.modal-components">
-      <metrics statements="25" coveredstatements="21" conditionals="12" coveredconditionals="10" methods="9" coveredmethods="8"/>
+      <metrics statements="27" coveredstatements="23" conditionals="12" coveredconditionals="10" methods="9" coveredmethods="8"/>
       <file name="cardModal.tsx" path="D:\react-work\react-rs\react-components\src\components\modal-components\cardModal.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
@@ -88,25 +88,27 @@
         <line num="19" count="1" type="stmt"/>
       </file>
       <file name="cardModalFill.tsx" path="D:\react-work\react-rs\react-components\src\components\modal-components\cardModalFill.tsx">
-        <metrics statements="18" coveredstatements="14" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="5"/>
+        <metrics statements="20" coveredstatements="16" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="5"/>
         <line num="8" count="2" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="29" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="36" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="31" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="39" count="1" type="stmt"/>
-        <line num="56" count="23" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="58" count="23" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
       </file>
       <file name="modal.tsx" path="D:\react-work\react-rs\react-components\src\components\modal-components\modal.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>

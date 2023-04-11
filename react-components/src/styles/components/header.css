@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #48BF84;
+  width: 100%;
+}
+
+.header-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.header-pathname {
+  position: absolute;
+  font-weight: 900;
+  top: -30px;
+  left: 30px;
+  font-size: 32px;
+}
+
+.header-list {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}

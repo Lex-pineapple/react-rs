@@ -1,16 +1,36 @@
 import CardsContainer from '../../components/cardsContainer';
 import React, { ChangeEvent, useEffect, useState } from 'react';
 import SearchBar from './searchBar';
-import { ISearchResponse } from 'types/interfaces';
+import { ISearchResponse, IState } from 'types/interfaces';
 import { useSelector } from 'react-redux';
+import { useGetSearchResultsQuery } from '../../api/flickrApi';
+
+const SearchQueryParams = {
+  method: 'flickr.photos.search',
+  api_key: 'b158ecdf6b84a3ae427372f61ddab5b7',
+  text: 'cat',
+  per_page: 10,
+  format: 'json',
+  nojsoncallback: 1,
+};
 
 function SearchForm() {
   // const [searchBarValue, setSearchBarValue] = useState<string>(
   //   localStorage.getItem('searchItem44582') || ''
   // );
-  const searchValue = useSelector((state) => state.searchValue);
-
-  console.log(searchValue);
+  const searchValue = useSelector((state: IState) => state.search.searchValue);
+  const [submittedSearch, setSubmittedSearch] = useState(searchValue || 'cat');
+  
+  // SearchQueryParams.text = searchValue;
+  const { data, error, isLoading } = useGetSearchResultsQuery({
+    ...SearchQueryParams,
+    text: submittedSearch,
+  });
+  console.log(submittedSearch);
+  
+  
+  // console.log(data, error, isLoading);
+  
   
   // const [searchValue, setSearchValue] = useState('kitten');
   // const [error, setError] = useState(null);
@@ -21,7 +41,17 @@ function SearchForm() {
   // function inputHandler(event: ChangeEvent<HTMLInputElement>) {
   //   setSearchBarValue(event.target.value);
   // }
+  
 
+  function keyHandler(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === 'Enter') {
+      setSubmittedSearch(searchValue);
+    }
+  }
+
+  function clickHandler() {
+    setSubmittedSearch(searchValue);
+  }
   // function keyHandler(e: React.KeyboardEvent<HTMLInputElement>) {
   //   if (searchBarValue) {
   //     if (e.key === 'Enter') {
@@ -79,10 +109,10 @@ function SearchForm() {
       <SearchBar
         // keyword={searchBarValue}
         // handler={inputHandler}
-        // handleKey={keyHandler}
-        // handleClick={clickHandler}
+        handleKey={keyHandler}
+        handleClick={clickHandler}
       ></SearchBar>
-      {/* <CardsContainer error={error} isLoaded={isLoaded} items={items as ISearchResponse} /> */}
+      <CardsContainer error={error} isLoaded={isLoading} items={data as ISearchResponse} />
     </div>
   );
 }

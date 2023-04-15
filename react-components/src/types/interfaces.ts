@@ -1,3 +1,5 @@
+import { SerializedError } from '@reduxjs/toolkit';
+import { FetchBaseQueryError } from '@reduxjs/toolkit/dist/query';
 import React, { ChangeEvent } from 'react';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
 
@@ -139,7 +141,7 @@ export interface ICardModalProps extends IModalProps {
 }
 
 export interface ISearchResultProps {
-  error: Error | null;
+  error: FetchBaseQueryError | SerializedError | undefined;
   isLoaded: boolean;
   items: ISearchResponse;
 }
@@ -245,4 +247,8 @@ export interface IPhotoInfo {
     }[];
   };
   media: string;
+}
+
+export interface IState {
+  search: { searchValue: string };
 }

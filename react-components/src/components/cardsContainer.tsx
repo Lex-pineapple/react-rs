@@ -20,14 +20,14 @@ function CardsContainer(props: ISearchResultProps) {
     setShowModal(false);
   }
 
-  if (props.error !== null) {
+  if (props.error) {
     return (
       <div className="error-container" data-testid="error-container">
         <p className="error-title">Sorry there was a problem processing your request.</p>
         <p className="error-message">{props.error.message}</p>
       </div>
     );
-  } else if (!props.isLoaded) {
+  } else if (props.isLoaded) {
     return (
       <div className="loader-container" data-testid="loader-container">
         Loading...

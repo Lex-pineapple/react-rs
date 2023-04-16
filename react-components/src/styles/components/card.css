@@ -1,0 +1,133 @@
+.card-container {
+  border: 2px solid #F3A712;
+  border-radius: 12px;
+  overflow: hidden;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-image-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.card-mainImg {
+  display: block;
+  width: 300px;
+}
+
+.card-mainName,
+.card-author,
+.card-breed,
+.card-sex {
+  margin: 5px;
+}
+
+.card-container:hover .card-date-container {
+  display: flex;
+}
+
+.card-date-container {
+  display: none;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  background-color: #f3a81249;
+  position: absolute;
+  width: 300px;
+  bottom: 0;
+}
+
+.card-date {
+  margin: 0;
+}
+
+.card-mainName {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-sex-container {
+  background-color: #F3A712;
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-sex {
+  background-color: #f5d699;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.card-breed {
+  text-align: right;
+  font-style: italic;
+  padding-right: 20px;
+
+}
+
+.card__link {
+  color: #E4572E;
+}
+
+.card__link:hover {
+  color: #eb8b6d;
+}
+
+.card-mainName,
+.card-author {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.card-tags {
+  background-color: #f6ecd9;
+}
+
+.card-tags-list {
+  margin: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.card-tags-list__item {
+  font-style: italic;
+  color: #212853;
+}
+
+.card-bottom {
+  background: #F3A712;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-bottom__item {
+  background-color: #ffffff;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: ease-in-out transform 0.1s;
+}
+
+.card-bottom__item:hover {
+  transform: scale(1.1);
+}
+
+.card-icon {
+  width: 40px;
+}
+
+.card-likes-txt,
+.card-views-txt {
+  margin: 0;
+}

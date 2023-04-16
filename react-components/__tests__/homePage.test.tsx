@@ -3,20 +3,34 @@ import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import HomePage from '../src/routes/homePage';
 import 'jest-localstorage-mock';
+import { Provider } from 'react-redux';
+import store from '../src/store/store';
 
 describe('HomePage bar rendering', () => {
   test('renders the home page', () => {
-    render(<HomePage />);
+    render(
+      <Provider store={store}>
+        <HomePage />
+      </Provider>
+    );
   });
 
   test('check if search bar is empty', () => {
-    render(<HomePage />);
+    render(
+      <Provider store={store}>
+        <HomePage />
+      </Provider>
+    );
     const searchBar = screen.getByTestId('searchbar') as HTMLInputElement;
     expect(searchBar.value).toBe('');
   });
 
   test('check for search bar input', () => {
-    render(<HomePage />);
+    render(
+      <Provider store={store}>
+        <HomePage />
+      </Provider>
+    );
     const searchBar = screen.getByTestId('searchbar') as HTMLInputElement;
     fireEvent.change(searchBar, { target: { value: 'test input' } });
     expect(searchBar.value).toBe('test input');
@@ -29,7 +43,11 @@ describe('HomePage bar rendering', () => {
 
 describe('Card data API', () => {
   test('data is fetched correctly and cards are displayed', async () => {
-    render(<HomePage />);
+    render(
+      <Provider store={store}>
+        <HomePage />
+      </Provider>
+    );
     const searchBar = screen.getByTestId('searchbar') as HTMLInputElement;
     const searchIcon = screen.getByTestId('searchbar-icon');
     const loader = screen.getByTestId('loader-container');

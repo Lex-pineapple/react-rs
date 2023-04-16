@@ -11,7 +11,13 @@ export const flickrApi = createApi({
       }),
       transformErrorResponse: (response: { status: string | number }, meta, arg) => response.status,
     }),
+    getPhotoInfo: builder.query({
+      query: (arg) => ({
+        url: '',
+        params: { ...arg },
+      }),
+    }),
   }),
 });
 
-export const { useGetSearchResultsQuery } = flickrApi;
+export const { useGetSearchResultsQuery, useGetPhotoInfoQuery } = flickrApi;

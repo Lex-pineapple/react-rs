@@ -5,10 +5,11 @@ import DropDownInput from '../components/form-components/dropdownInput';
 import RadioInput from '../components/form-components/radioInput';
 import CheckboxInput from '../components/form-components/checkboxInput';
 import { useState } from 'react';
-import { ICardProps, IForm, IValidationMessage } from 'types/interfaces';
+import { IForm, IState, IValidationMessage } from 'types/interfaces';
 import InputValidator from '../helpers/inputValidator';
 import Modal from '../components/modal-components/modal';
 import Card from '../components/card-components/card';
+import { useDispatch, useSelector } from 'react-redux';
 
 function FormPage() {
   const { register, handleSubmit, reset } = useForm<FieldValues>({
@@ -20,7 +21,6 @@ function FormPage() {
       tags: [],
     },
   });
-  const [cards, setCard] = useState<ICardProps[]>([]);
   const [modalShow, setModalShow] = useState(false);
   const [validationMessage, setValidationMessage] = useState<IValidationMessage>({
     nameInput: '',
@@ -28,7 +28,13 @@ function FormPage() {
     checkboxInput: '',
     fileInput: '',
   });
+  const dispatch = useDispatch();
+  const formData = useSelector((state: IState) => state.formData);
   const inputValidator = new InputValidator();
+
+  console.log(
+    'In case of any questions: Since there is no requirement for form input fields to retain data when switching before pages, this was not implemented (for reference see QA spreadsheet)'
+  );
 
   function onSubmit(data: FieldValues) {
     const validationResult = inputValidator.validateSubmit(data as IForm);
@@ -50,7 +56,7 @@ function FormPage() {
       likes: 0,
     };
     showMessage();
-    setCard([...cards, formData]);
+    dispatch({ type: 'form/setFormData', payload: formData });
   }
 
   function showValidationMessage(validationDetails: IValidationMessage) {
@@ -121,18 +127,18 @@ function FormPage() {
         <input type="submit" value="Submit" className="form-submit-btn" />
       </form>
       <div className="cards-container">
-        {cards.map((item, idx) => {
+        {formData.map((item, idx) => {
           return (
             <Card
               key={idx}
               file={item.file}
               date={item.date}
-              sex="Girl"
-              breed="Other"
+              sex={item.sex}
+              breed={item.breed}
               author="admin"
               name={item.name}
-              views={0}
-              likes={0}
+              views={item.views}
+              likes={item.likes}
               tags={item.tags}
             />
           );

@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">81.81% </span>
+                <span class="strong">85.71% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>9/11</span>
+                <span class='fraction'>12/14</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">75% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>3/4</span>
+                <span class='fraction'>5/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">75% </span>
+                <span class="strong">80% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/4</span>
+                <span class='fraction'>4/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">81.81% </span>
+                <span class="strong">84.61% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>9/11</span>
+                <span class='fraction'>11/13</span>
             </div>
         
             
@@ -120,7 +120,18 @@
 <a name='L55'></a><a href='#L55'>55</a>
 <a name='L56'></a><a href='#L56'>56</a>
 <a name='L57'></a><a href='#L57'>57</a>
-<a name='L58'></a><a href='#L58'>58</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -128,8 +139,19 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">32x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -142,15 +164,15 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">15x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">13x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -179,18 +201,29 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { getCurrentDate } from '../helpers/getCurrentDate';
 import PhotoResultsMapper from '../helpers/protoResultsMapper';
-import { ISearchResultProps } from 'types/interfaces';
-import { useState } from 'react';
+import { IPhotoInfo, IPhotoResponse, ISearchResultProps, IState } from 'types/interfaces';
+import { Key, useState } from 'react';
 import CardModal from './modal-components/cardModal';
 import SimpleCard from './card-components/simpleCard';
+import { SearchQueryParams } from '../types/constants';
+import { useGetSearchResultsQuery } from '../api/flickrApi';
+import { useSelector } from 'react-redux';
 &nbsp;
 function CardsContainer(props: ISearchResultProps) {
   const [showModal, setShowModal] = useState(false);
   const [isOpen, setIsOpen] = useState&lt;{ id: string } | null&gt;(null);
+  const submittedValue = useSelector((state: IState) =&gt; state.search.submittedValue);
+&nbsp;
+  
+  // SearchQueryParams.text = searchValue;
+  const { data, error, isLoading } = useGetSearchResultsQuery({
+    ...SearchQueryParams,
+    text: submittedValue || 'cat',
+  });
 &nbsp;
   function openModal(id: number) {
     setIsOpen({
-      id: props.items.photos.photo[id].id,
+      id: data.photos.photo[id].id,
     });
     setShowModal(true);
   }
@@ -199,14 +232,14 @@ function CardsContainer(props: ISearchResultProps) {
 <span class="cstat-no" title="statement not covered" >    setShowModal(false);</span>
   }
 &nbsp;
-  <span class="missing-if-branch" title="if path not taken" >I</span>if (props.error !== null) {
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (props.error) {
 <span class="cstat-no" title="statement not covered" >    return (</span>
       &lt;div className="error-container" data-testid="error-container"&gt;
         &lt;p className="error-title"&gt;Sorry there was a problem processing your request.&lt;/p&gt;
-        &lt;p className="error-message"&gt;{props.error.message}&lt;/p&gt;
+        &lt;p className="error-message"&gt;{error.message}&lt;/p&gt;
       &lt;/div&gt;
     );
-  } else if (!props.isLoaded) {
+  } else if (isLoading) {
     return (
       &lt;div className="loader-container" data-testid="loader-container"&gt;
         Loading...
@@ -215,7 +248,7 @@ function CardsContainer(props: ISearchResultProps) {
   } else {
     return (
       &lt;div className="cards-container" data-testid="cards-container"&gt;
-        {props.items.photos.photo.map((item, idx) =&gt; {
+        {data.photos.photo.map((item: IPhotoResponse | IPhotoInfo, idx: Key | null | undefined) =&gt; {
           return (
             &lt;SimpleCard
               id={idx}
@@ -241,7 +274,7 @@ export default CardsContainer;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-04-10T19:12:22.307Z
+                at 2023-04-16T13:11:51.796Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

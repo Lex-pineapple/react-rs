@@ -4,8 +4,6 @@ import React, { ChangeEvent } from 'react';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
 
 export interface ISearchProps {
-  keyword: string;
-  handler: (event: ChangeEvent<HTMLInputElement>) => void;
   handleKey: (e: React.KeyboardEvent<HTMLInputElement>) => void;
   handleClick: () => void;
 }
@@ -231,14 +229,7 @@ export interface IPhotoInfo {
     haspeople: number;
   };
   tags: {
-    tag: {
-      id: string;
-      author: string;
-      authorname: string;
-      raw: string;
-      _content: string;
-      machine_tag: boolean;
-    }[];
+    tag: IPhotoInfoTag[];
   };
   urls: {
     url: {
@@ -249,6 +240,26 @@ export interface IPhotoInfo {
   media: string;
 }
 
+export interface IPhotoInfoTag {
+  id: string;
+  author: string;
+  authorname: string;
+  raw: string;
+  _content: string;
+  machine_tag: boolean;
+}
+
 export interface IState {
-  search: { searchValue: string };
+  search: { searchValue: string; submittedValue: string };
+  formInput: IFormInputState;
+  formData: ICardProps[];
+}
+
+export interface IFormInputState {
+  name: string;
+  date: string;
+  breed: string;
+  sex: string;
+  tags: string[];
+  file: string;
 }

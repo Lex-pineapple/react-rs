@@ -3,10 +3,16 @@ import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 import FormPage from '../src/routes/formPage';
 import { act } from 'react-dom/test-utils';
+import { Provider } from 'react-redux';
+import store from '../src/store/store';
 
 describe('Form page rendering', () => {
   test('renders the form page', () => {
-    render(<FormPage />);
+    render(
+      <Provider store={store}>
+        <FormPage />
+      </Provider>
+    );
   });
 });
 
@@ -21,7 +27,11 @@ describe('File upload and validation', () => {
   });
 
   test('the validation should pass', async () => {
-    render(<FormPage />);
+    render(
+      <Provider store={store}>
+        <FormPage />
+      </Provider>
+    );
     const nameInput = screen.getByLabelText('Name of the cat:') as HTMLInputElement;
     const dateInput = screen.getByLabelText('Date of birth:') as HTMLInputElement;
     const checkboxInput = screen.getByLabelText('Friendly') as HTMLInputElement;
@@ -63,7 +73,11 @@ describe('File upload and validation', () => {
       checkbox: 'Check at least one checkbox',
       file: 'Please choose an image file',
     };
-    render(<FormPage />);
+    render(
+      <Provider store={store}>
+        <FormPage />
+      </Provider>
+    );
     const nameInput = screen.getByLabelText('Name of the cat:') as HTMLInputElement;
     const dateInput = screen.getByLabelText('Date of birth:') as HTMLInputElement;
     const submit = screen.getByDisplayValue('Submit');

@@ -5,7 +5,7 @@ import { MockSearchResponse } from './__tests__/__mocks__/mockSearchResponse';
 import { MockCardResponse } from './__tests__/__mocks__/mockCardResponse';
 
 const server = setupServer(
-  rest.get('https://api.flickr.com/services/rest/', (req, res, ctx) => {
+  rest.get('https://api.flickr.com/services/rest', (req, res, ctx) => {
     if (req.url.searchParams.get('method') == 'flickr.photos.getInfo') {
       return res(ctx.status(200), ctx.json(MockCardResponse));
     }

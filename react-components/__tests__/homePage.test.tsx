@@ -35,10 +35,6 @@ describe('HomePage bar rendering', () => {
     fireEvent.change(searchBar, { target: { value: 'test input' } });
     expect(searchBar.value).toBe('test input');
   });
-
-  test('check if input is saved to localStorage', () => {
-    expect(localStorage.getItem('searchItem44582')).toEqual('test input');
-  });
 });
 
 describe('Card data API', () => {
@@ -67,5 +63,16 @@ describe('Card data API', () => {
       const modal = screen.getByTestId('card-modal-title');
       expect(modal).toBeInTheDocument();
     });
+  });
+
+  test('simulate keypress', async () => {
+    render(
+      <Provider store={store}>
+        <HomePage />
+      </Provider>
+    );
+    const searchBar = screen.getByTestId('searchbar') as HTMLInputElement;
+    fireEvent.change(searchBar, { target: { value: 'test input' } });
+    fireEvent.keyDown(searchBar, { key: 'Enter', charCode: 13 });
   });
 });

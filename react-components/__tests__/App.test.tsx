@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import React from 'react';
 import App from '../src/App';
 import '@testing-library/jest-dom/extend-expect';
@@ -30,5 +30,26 @@ describe('Main page rendering', () => {
     const headerItems = screen.getAllByRole('link');
     expect(headerItems[0]).toHaveTextContent('Home');
     expect(headerItems[1]).toHaveTextContent('About');
+  });
+
+  test('check if input is saved between locations', () => {
+    render(
+      <Provider store={store}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Provider>
+    );
+    const searchBar = screen.getByTestId('searchbar') as HTMLInputElement;
+    fireEvent.change(searchBar, { target: { value: 'test input' } });
+    expect(searchBar.value).toBe('test input');
+    const headerLinkHome = screen.getByTestId('header-link-home');
+    const headerLinkAbout = screen.getByTestId('header-link-about');
+
+    fireEvent.click(headerLinkAbout);
+    const aboutHeader = screen.getByTestId('about-header');
+    expect(aboutHeader).toBeInTheDocument();
+    fireEvent.click(headerLinkHome);
+    expect(searchBar.value).toEqual('test input');
   });
 });

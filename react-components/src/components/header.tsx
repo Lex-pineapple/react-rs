@@ -12,8 +12,10 @@ function Header() {
           {PrettifyLocation(location.pathname)}
         </p>
         <ul className="header-list">
-          <li className="header-list__item" data-testid="header-link-home">
-            <Link to="/">Home</Link>
+          <li className="header-list__item">
+            <Link to="/" data-testid="header-link-home">
+              Home
+            </Link>
           </li>
           <li className="header-list__item">
             <Link to="/about" data-testid="header-link-about">

@@ -19,6 +19,9 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./src",
   },
+  "ts-node": {
+    "esm": true
+  },
   "types": ["node", "jest", "@testing-library/jest-dom"],
   "include": ["./src/**/*", "styled.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]

@@ -10,7 +10,7 @@ function CardModal(props: ICardModalProps) {
   return (
     <div className={showHideClassName} data-testid="modal-window">
       <div className="overlay" onClick={props.handleClose}></div>
-      <div className="modal">
+      <div className="modal" data-testid="card-modal">
         <section className="card-modal-main">
           {(() => {
             if (props.info) {

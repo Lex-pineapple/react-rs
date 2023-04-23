@@ -68,7 +68,7 @@ function FormPage() {
   }
 
   return (
-    <div className="card-create-form-container">
+    <div className="card-create-form-container" data-testid="form-container">
       <form onSubmit={handleSubmit(onSubmit)} className="card-create-form">
         <GeneralInput
           name="name"

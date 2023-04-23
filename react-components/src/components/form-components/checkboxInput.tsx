@@ -1,4 +1,4 @@
-import { IValidatedRadioInputProps } from 'types/interfaces';
+import { IValidatedRadioInputProps } from '../../types/interfaces';
 import SelectorInput from './selectorInput';
 
 function CheckboxInput({ register, name, label, validationDetails }: IValidatedRadioInputProps) {

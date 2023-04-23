@@ -18,11 +18,12 @@
     "noImplicitAny": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./src",
+    "composite": true,
   },
   "ts-node": {
     "esm": true
   },
   "types": ["node", "jest", "@testing-library/jest-dom"],
-  "include": ["./src/**/*", "styled.d.ts"],
+  "include": ["./src/**/*.ts", "styled.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

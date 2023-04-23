@@ -1,5 +1,5 @@
 import '../../styles/components/card.css';
-import { ISimpleCardProps } from 'types/interfaces';
+import { ISimpleCardProps } from '../../types/interfaces';
 
 function SimpleCard(props: ISimpleCardProps) {
   return (

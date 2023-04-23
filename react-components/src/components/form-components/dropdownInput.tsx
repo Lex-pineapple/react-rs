@@ -1,4 +1,4 @@
-import { IInputProps } from 'types/interfaces';
+import { IInputProps } from '../../types/interfaces';
 
 function DropDownInput({ register, name, label, ...props }: IInputProps) {
   return (

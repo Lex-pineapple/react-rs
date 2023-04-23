@@ -1,4 +1,4 @@
-import { ICardModalProps } from 'types/interfaces';
+import { ICardModalProps } from '../../types/interfaces';
 import '../../styles/components/modal.css';
 import CardModalFill from './cardModalFill';
 

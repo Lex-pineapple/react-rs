@@ -1,4 +1,4 @@
-import { ISearchProps, IState } from 'types/interfaces';
+import { ISearchProps, IState } from '../../types/interfaces';
 import '../../styles/components/searchBar.css';
 import searchIcon from '../../assets/search-icon.svg';
 import { useDispatch, useSelector } from 'react-redux';

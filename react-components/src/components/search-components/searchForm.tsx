@@ -1,6 +1,6 @@
 import CardsContainer from '../../components/cardsContainer';
 import SearchBar from './searchBar';
-import { IState } from 'types/interfaces';
+import { IState } from '../../types/interfaces';
 import { useDispatch, useSelector } from 'react-redux';
 
 function SearchForm() {

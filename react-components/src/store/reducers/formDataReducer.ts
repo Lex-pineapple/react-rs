@@ -1,5 +1,5 @@
 import { AnyAction } from '@reduxjs/toolkit';
-import { ICardProps } from 'types/interfaces';
+import { ICardProps } from '../../types/interfaces';
 
 const initialState: ICardProps[] = [];
 

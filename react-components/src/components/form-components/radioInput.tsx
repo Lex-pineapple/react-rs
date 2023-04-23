@@ -1,4 +1,4 @@
-import { IRadioInputProps } from 'types/interfaces';
+import { IRadioInputProps } from '../../types/interfaces';
 import SelectorInput from './selectorInput';
 
 function RadioInput({ register, name, label }: IRadioInputProps) {

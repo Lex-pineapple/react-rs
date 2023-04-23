@@ -1,6 +1,5 @@
 import fs from 'node:fs/promises';
 import express from 'express';
-import renderFullPage from './src/renderFullPage';
 import { ViteDevServer } from 'vite';
 
 // Constants
@@ -35,18 +34,14 @@ if (!isProduction) {
 }
 
 // Serve HTML
-app.use('*', async (req, res) => {
+app.use('*', async (req: express.Request, res: express.Response) => {
   try {
     const url = req.originalUrl;
-    let html;
-    let template;
+    let template: string;
     let render;
     if (!isProduction) {
-      // Always read fresh template in development
       template = await fs.readFile('./index.html', 'utf-8');
       template = await vite.transformIndexHtml(url, template);
-      html = template.split('<div id="root"></div>');
-      // res.send(template);
       render = (await vite.ssrLoadModule('/src/entry-server.tsx')).render;
     } else {
       template = templateHtml;
@@ -55,10 +50,9 @@ app.use('*', async (req, res) => {
     const parts = template.split('<!--app-html-->');
 
     const bootStrap = './src/entry-client.tsx';
-    const stream = await render(res, url, {
+    const stream = await render(url, {
       onShellReady() {
         res.statusCode = 200;
-        // res.send(renderFullPage)
         res.setHeader('content-type', 'text/html');
         stream.pipe(res);
       },
@@ -79,13 +73,6 @@ app.use('*', async (req, res) => {
       bootstrapModules: [bootStrap],
     });
 
-    // const rendered = await render(url, ssrManifest)
-
-    // const html = template
-    //   .replace(`<!--app-head-->`, rendered.head ?? '')
-    //   .replace(`<!--app-html-->`, rendered.html ?? '')
-
-    // res.status(200).set({ 'Content-Type': 'text/html' }).end(html)
   } catch (e) {
     if (e instanceof Error) {
       vite?.ssrFixStacktrace(e);

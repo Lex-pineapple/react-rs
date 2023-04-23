@@ -1,5 +1,5 @@
 import '../../styles/components/card.css';
-import { ICardProps } from 'types/interfaces';
+import { ICardProps } from '../../types/interfaces';
 import CardTagList from './cardsTagsList';
 import CardBottomItem from './cardBottomItem';
 

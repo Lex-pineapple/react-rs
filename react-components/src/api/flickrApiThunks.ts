@@ -1,20 +1,18 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { IPhotoInfo, ISearchResponse } from 'types/interfaces';
-import * as toolkitRaw from '@reduxjs/toolkit';
-const { createAsyncThunk } = ((toolkitRaw as any).default ?? toolkitRaw) as typeof toolkitRaw;
+import { IPhotoInfo, IPhotoInfoResponse, ISearchResponse } from '../types/interfaces';
 
-interface SearchState {
-  entities: [];
+export interface SearchState {
+  entities: ISearchResponse;
   loading: 'idle' | 'pending' | 'succeeded' | 'failed';
 }
 
-interface IPhotoDataState {
-  entities: object;
+export interface IPhotoDataState {
+  entities: IPhotoInfoResponse;
   loading: 'idle' | 'pending' | 'succeeded' | 'failed';
 }
 
 const initialState = {
-  entities: [],
+  entities: {},
   loading: 'idle',
 } as SearchState;
 

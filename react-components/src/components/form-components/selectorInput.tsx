@@ -1,4 +1,4 @@
-import { ISelectorInput } from 'types/interfaces';
+import { ISelectorInput } from '../../types/interfaces';
 
 function SelectorInput({ register, name, className, ...props }: ISelectorInput) {
   return (

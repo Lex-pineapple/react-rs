@@ -1,16 +1,13 @@
 import ReactDOMServer from 'react-dom/server';
-import Html from './Html';
 import { StaticRouter } from 'react-router-dom/server';
-import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from './store/store';
-import { flickrApi } from './api/flickrApi';
-// import store from './store/store';
+import Html from './Html';
+import App from './App';
 
 const store = createStore({});
 
-export function render(url, options) {
-  // const preloadedState = store.getState();
+export function render(url: string, options: ReactDOMServer.RenderToPipeableStreamOptions) {
   const stream = ReactDOMServer.renderToPipeableStream(
     <Html preloadedState={store.getState()}>
       <Provider store={store}>

@@ -1,4 +1,4 @@
-import { IValidatedInputProps } from 'types/interfaces';
+import { IValidatedInputProps } from '../../types/interfaces';
 
 function GeneralInput({
   register,

@@ -2,7 +2,7 @@
 
 Commands:
 
-* ***npm run dev*** - start server
+* ***dev*** - start server
 
 * ***cy:e2e-run*** - run cypress testing
 

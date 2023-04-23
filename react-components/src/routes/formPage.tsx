@@ -32,10 +32,6 @@ function FormPage() {
   const formData = useSelector((state: IState) => state.formData);
   const inputValidator = new InputValidator();
 
-  console.log(
-    'In case of any questions: Since there is no requirement for form input fields to retain data when switching before pages, this was not implemented (for reference see QA spreadsheet)'
-  );
-
   function onSubmit(data: FieldValues) {
     const validationResult = inputValidator.validateSubmit(data as IForm);
     if (validationResult.valid) {

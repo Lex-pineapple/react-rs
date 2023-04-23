@@ -1,4 +1,12 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+// import { fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import * as rtkQuery from '@reduxjs/toolkit/dist/query/react/index';
+import { buildCreateApi, coreModule, reactHooksModule } from '@reduxjs/toolkit/query/react';
+const createApi = buildCreateApi(
+  coreModule(),
+  reactHooksModule({ unstable__sideEffectsInRender: true })
+);
+type TypeRtkQuery = typeof rtkQuery & { default?: unknown };
+const { fetchBaseQuery } = ((rtkQuery as TypeRtkQuery).default ?? rtkQuery) as typeof rtkQuery;
 
 export const flickrApi = createApi({
   reducerPath: 'flickrApi',

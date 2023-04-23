@@ -1,6 +1,5 @@
 import fs from 'node:fs/promises';
 import express from 'express';
-import { ViteDevServer } from 'vite';
 
 // Constants
 const isProduction = process.env.NODE_ENV === 'production';
@@ -17,7 +16,7 @@ const ssrManifest = isProduction
 const app = express();
 
 // Add Vite or respective production middlewares
-let vite: ViteDevServer;
+let vite;
 if (!isProduction) {
   const { createServer } = await import('vite');
   vite = await createServer({
@@ -36,7 +35,7 @@ if (!isProduction) {
 // Serve HTML
 app.use('*', async (req, res) => {
   try {
-    const url = req.originalUrl.replace(base, '');
+    const url = req.originalUrl;
     let html;
     let template;
     let render;
@@ -54,13 +53,13 @@ app.use('*', async (req, res) => {
     const parts = template.split('<!--app-html-->');
 
     const bootStrap = './src/entry-client.tsx';
-    const stream = await render({
+    const stream = await render(url, {
       onShellReady() {
         res.statusCode = 200;
         res.setHeader('content-type', 'text/html');
         stream.pipe(res);
       },
-      onShellError() {
+      onShellError(error) {
         res.statusCode = 500;
         res.setHeader('Content-Type', 'text/html');
         res.send('<h1>Something went wrong</h1>');
@@ -69,8 +68,8 @@ app.use('*', async (req, res) => {
         res.write(parts[1]);
         res.end();
       },
-      onError() {
-        // console.error(error);
+      onError(error) {
+        console.error(error);
       },
       bootstrapModules: [bootStrap],
     });
@@ -83,11 +82,9 @@ app.use('*', async (req, res) => {
 
     // res.status(200).set({ 'Content-Type': 'text/html' }).end(html)
   } catch (e) {
-    if (e instanceof Error) {
-      vite?.ssrFixStacktrace(e);
-      console.log(e.stack);
-      res.status(500).end(e.stack);
-    }
+    vite?.ssrFixStacktrace(e);
+    console.log(e.stack);
+    res.status(500).end(e.stack);
   }
 });
 

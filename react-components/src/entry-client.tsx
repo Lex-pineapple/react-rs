@@ -1,14 +1,14 @@
 import React from 'react';
+import './styles/App.css';
+import './styles/index.css';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import './styles/index.css';
-import { Provider } from 'react-redux';
 import store from './store/store';
 
-const root = document.getElementById('root') as HTMLElement;
 ReactDOM.hydrateRoot(
-  root,
+  document.getElementById('root') as HTMLElement,
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>

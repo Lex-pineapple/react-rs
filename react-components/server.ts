@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import express from 'express';
+import renderFullPage from './src/renderFullPage';
 import { ViteDevServer } from 'vite';
 
 // Constants
@@ -36,7 +37,7 @@ if (!isProduction) {
 // Serve HTML
 app.use('*', async (req, res) => {
   try {
-    const url = req.originalUrl.replace(base, '');
+    const url = req.originalUrl;
     let html;
     let template;
     let render;
@@ -49,14 +50,15 @@ app.use('*', async (req, res) => {
       render = (await vite.ssrLoadModule('/src/entry-server.tsx')).render;
     } else {
       template = templateHtml;
-      render = (await import('./dist/server/entry-server.js')).render;
+      // render = (await import('./dist/server/entry-server.js')).render;
     }
     const parts = template.split('<!--app-html-->');
 
     const bootStrap = './src/entry-client.tsx';
-    const stream = await render({
+    const stream = await render(res, url, {
       onShellReady() {
         res.statusCode = 200;
+        // res.send(renderFullPage)
         res.setHeader('content-type', 'text/html');
         stream.pipe(res);
       },
@@ -69,8 +71,10 @@ app.use('*', async (req, res) => {
         res.write(parts[1]);
         res.end();
       },
-      onError() {
-        // console.error(error);
+      onError(error: Error) {
+        if (error) {
+          console.error(error);
+        }
       },
       bootstrapModules: [bootStrap],
     });

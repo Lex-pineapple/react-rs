@@ -6,9 +6,7 @@
 // import { Provider } from 'react-redux';
 // import store from './store/store';
 
-// const root = document.getElementById('root') as HTMLElement;
-// ReactDOM.hydrateRoot(
-//   root,
+// ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 //   <React.StrictMode>
 //     <Provider store={store}>
 //       <BrowserRouter>

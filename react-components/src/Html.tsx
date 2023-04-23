@@ -1,11 +1,13 @@
 import { ReactNode } from 'react';
+import { RootState } from './store/store';
 import refreshScript from './refresh-script.js?raw';
 
 interface IHtmlProps {
   children: ReactNode;
+  preloadedState: RootState;
 }
 
-function Html({ children }: IHtmlProps) {
+function Html({ children, preloadedState }: IHtmlProps) {
   let viteScripts = <></>;
   if (import.meta.env.DEV) {
     viteScripts = (
@@ -26,13 +28,15 @@ function Html({ children }: IHtmlProps) {
       </head>
       <body>
         <div id="root">{children}</div>
-        {/* <script>
-          window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(
+      </body>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(
             /</g,
             '\\u003c'
-          )}
-        </script> */}
-      </body>
+          )}`,
+        }}
+      />
     </html>
   );
 }

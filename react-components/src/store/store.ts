@@ -3,17 +3,27 @@ import { flickrApi } from '../api/flickrApi';
 import thunkMiddleware from 'redux-thunk';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 import RootReducer from './rootReducer';
+import { PreloadedState } from '@reduxjs/toolkit';
+import * as toolkitRaw from '@reduxjs/toolkit';
 
-const store = configureStore({
-  reducer: RootReducer,
-  // preloadedState: window.__PRELOADED_STATE__,
-  // middleware: [thunkMiddleware],
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunkMiddleware)
-  // middleware: applyMiddleware(thunk),
-});
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch;
-export const useAppDispatch = () => useDispatch<AppDispatch>()
-export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector
+type TypeToolkitRaw = typeof toolkitRaw & { default?: unknown };
+const { configureStore, combineReducers } = ((toolkitRaw as TypeToolkitRaw).default ??
+  toolkitRaw) as typeof toolkitRaw;
 
-export default store;
+export const createStore = (preloadedState?: PreloadedState<RootState>) => {
+  return configureStore({
+    reducer: RootReducer,
+    preloadedState,
+    // middleware: [thunkMiddleware],
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunkMiddleware),
+    // middleware: applyMiddleware(thunk),
+  });
+};
+// const store = configureStore({});
+export type RootState = ReturnType<typeof RootReducer>;
+export type AppStore = ReturnType<typeof createStore>;
+export type AppDispatch = AppStore['dispatch'];
+export const useAppDispatch = () => useDispatch<AppDispatch>();
+export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
+
+// export default store;

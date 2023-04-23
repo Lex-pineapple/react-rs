@@ -3,7 +3,7 @@ import searchReducer from './reducers/searchReducer';
 import { flickrApi } from '../api/flickrApi';
 import { formDataReducer } from './reducers/formDataReducer';
 import { formInputReducer } from './reducers/formInputReducer';
-import { searchFetchReducer } from '../api/flickrApiThunks';
+import { photoDataReducer, searchFetchReducer } from '../api/flickrApiThunks';
 
 
 const RootReducer = combineReducers({
@@ -11,6 +11,7 @@ const RootReducer = combineReducers({
   formInput: formInputReducer,
   formData: formDataReducer,
   searchFetch: searchFetchReducer,
+  photoDataFetch: photoDataReducer,
   // [flickrApi.reducerPath]: flickrApi.reducer,
 });
 

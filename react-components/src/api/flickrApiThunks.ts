@@ -1,7 +1,15 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { IPhotoInfo, ISearchResponse } from 'types/interfaces';
+import * as toolkitRaw from '@reduxjs/toolkit';
+const { createAsyncThunk } = ((toolkitRaw as any).default ?? toolkitRaw) as typeof toolkitRaw;
 
 interface SearchState {
   entities: [];
+  loading: 'idle' | 'pending' | 'succeeded' | 'failed';
+}
+
+interface IPhotoDataState {
+  entities: object;
   loading: 'idle' | 'pending' | 'succeeded' | 'failed';
 }
 
@@ -10,13 +18,27 @@ const initialState = {
   loading: 'idle',
 } as SearchState;
 
-const fetchBySearchValue = createAsyncThunk(
-  'search/fetchBySearchValue',
-  async (searchValue: string, thunkAPI) => {
-    const res = await fetchBySearch(searchValue);
-    return res;
-  }
-);
+const initialStatePhoto = {
+  entities: {},
+  loading: 'idle',
+} as IPhotoDataState;
+
+const fetchBySearchValue = createAsyncThunk('search/fetchBySearchValue', fetchCardsCatalog);
+
+const fetchByPhotoId = createAsyncThunk('find/fethByPhotoId', async (id: string) => {
+  const res = await fetchById(id);
+  return res;
+});
+
+async function fetchCardsCatalog(searchValue: string) {
+  const res = await fetchBySearch(searchValue);
+  return res;
+}
+
+export const fetchCatalogPreloadApi = async (callback: (apiResult: ISearchResponse) => void) => {
+  const data = await fetchCardsCatalog('cat');
+  callback(data);
+};
 
 export const searchSlice = createSlice({
   name: 'search',
@@ -32,7 +54,25 @@ export const searchSlice = createSlice({
     });
     builder.addCase(fetchBySearchValue.rejected, (state) => {
       state.loading = 'failed';
-    })
+    });
+  },
+});
+
+export const photoDataSlice = createSlice({
+  name: 'find',
+  initialState: initialStatePhoto,
+  reducers: {},
+  extraReducers: (builder) => {
+    builder.addCase(fetchByPhotoId.pending, (state) => {
+      state.loading = 'pending';
+    });
+    builder.addCase(fetchByPhotoId.fulfilled, (state, { payload }) => {
+      state.loading = 'succeeded';
+      state.entities = payload;
+    });
+    builder.addCase(fetchByPhotoId.rejected, (state) => {
+      state.loading = 'failed';
+    });
   },
 });
 
@@ -42,5 +82,12 @@ async function fetchBySearch(searchValue: string) {
   ).then((res) => res.json());
 }
 
-export { fetchBySearchValue };
+async function fetchById(id: string) {
+  return fetch(
+    `https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=b158ecdf6b84a3ae427372f61ddab5b7&photo_id=${id}&format=json&nojsoncallback=1`
+  ).then((res) => res.json());
+}
+
+export { fetchBySearchValue, fetchByPhotoId };
 export const searchFetchReducer = searchSlice.reducer;
+export const photoDataReducer = photoDataSlice.reducer;

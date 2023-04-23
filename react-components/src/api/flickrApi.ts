@@ -1,10 +1,7 @@
-// import { fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import * as rtkQuery from '@reduxjs/toolkit/dist/query/react/index';
-import { buildCreateApi, coreModule, reactHooksModule } from '@reduxjs/toolkit/query/react';
-const createApi = buildCreateApi(
-  coreModule(),
-  reactHooksModule({ unstable__sideEffectsInRender: true })
-);
+import * as rtkQuery from '@reduxjs/toolkit/dist/query/react/index.js';
+
+import createApi from './createApi';
+
 type TypeRtkQuery = typeof rtkQuery & { default?: unknown };
 const { fetchBaseQuery } = ((rtkQuery as TypeRtkQuery).default ?? rtkQuery) as typeof rtkQuery;
 

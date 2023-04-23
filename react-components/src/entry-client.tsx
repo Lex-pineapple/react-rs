@@ -5,7 +5,16 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import store from './store/store';
+import { createStore, RootState } from './store/store';
+import { PreloadedState } from '@reduxjs/toolkit';
+
+declare global {
+  interface Window {
+    __PRELOADED_STATE__?: PreloadedState<RootState>;
+  }
+}
+const store = createStore(window.__PRELOADED_STATE__);
+delete window.__PRELOADED_STATE__;
 
 ReactDOM.hydrateRoot(
   document.getElementById('root') as HTMLElement,

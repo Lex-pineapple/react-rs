@@ -25,7 +25,9 @@ function CardsContainer() {
 
   useEffect(() => {
     dispatch(fetchBySearchValue(submittedValue || 'cat'));
-  }, [submittedValue]);
+    if (loading === 'idle') {
+    }
+  }, [dispatch, submittedValue]);
 
   function openModal(id: number) {
     setIsOpen({
@@ -37,28 +39,17 @@ function CardsContainer() {
   function closeModal() {
     setShowModal(false);
   }
-  console.log({ entities, loading });
-  
+  // console.log({ entities, loading });
 
-  if (loading !== 'pending' && loading !== 'succeeded') {
-    // let errMsg;
-    // if ('status' in error) {
-    //   errMsg = 'error' in error ? error.error : JSON.stringify(error.data);
-    // } else errMsg = error.message;
-    return (
-      <div className="error-container" data-testid="error-container">
-        <p className="error-title">Sorry there was a problem processing your request.</p>
-        {/* <p className="error-message">{errMsg}</p> */}
-      </div>
-    );
-  } else if (loading == 'pending') {
-    return (
+  let content;
+  if (loading === 'pending' || loading === 'idle') {
+    content = (
       <div className="loader-container" data-testid="loader-container">
         Loading...
       </div>
     );
-  } else {
-    return (
+  } else if (loading === 'succeeded') {
+    content = (
       <div className="cards-container" data-testid="cards-container">
         {entities.photos.photo.map((item: IPhotoResponse, idx: number) => {
           return (
@@ -75,7 +66,52 @@ function CardsContainer() {
         <CardModal show={showModal} handleClose={closeModal} info={isOpen} />
       </div>
     );
+  } else if (loading === 'failed') {
+    content = (
+      <div className="error-container" data-testid="error-container">
+        <p className="error-title">Sorry there was a problem processing your request.</p>
+      </div>
+    );
   }
+
+  return content;
+
+  // if (loading == 'failed') {
+  //   // let errMsg;
+  //   // if ('status' in error) {
+  //   //   errMsg = 'error' in error ? error.error : JSON.stringify(error.data);
+  //   // } else errMsg = error.message;
+  //   return (
+  //     <div className="error-container" data-testid="error-container">
+  //       <p className="error-title">Sorry there was a problem processing your request.</p>
+  //       {/* <p className="error-message">{errMsg}</p> */}
+  //     </div>
+  //   );
+  // } else if (loading == 'pending') {
+  //   return (
+  //     <div className="loader-container" data-testid="loader-container">
+  //       Loading...
+  //     </div>
+  //   );
+  // } else {
+  //   return (
+  //     <div className="cards-container" data-testid="cards-container">
+  //       {entities.photos.photo.map((item: IPhotoResponse, idx: number) => {
+  //         return (
+  //           <SimpleCard
+  //             id={idx}
+  //             key={idx}
+  //             file={PhotoResultsMapper(item)}
+  //             date={getCurrentDate()}
+  //             name={item.title}
+  //             handleClick={openModal}
+  //           />
+  //         );
+  //       })}
+  //       <CardModal show={showModal} handleClose={closeModal} info={isOpen} />
+  //     </div>
+  //   );
+  // }
 }
 
 export default CardsContainer;

@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">83.33% </span>
+                <span class="strong">94.44% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>15/18</span>
+                <span class='fraction'>17/18</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">80% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>4/5</span>
+                <span class='fraction'>5/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">80% </span>
+                <span class="strong">93.33% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>12/15</span>
+                <span class='fraction'>14/15</span>
             </div>
         
             
@@ -114,15 +114,7 @@
 <a name='L49'></a><a href='#L49'>49</a>
 <a name='L50'></a><a href='#L50'>50</a>
 <a name='L51'></a><a href='#L51'>51</a>
-<a name='L52'></a><a href='#L52'>52</a>
-<a name='L53'></a><a href='#L53'>53</a>
-<a name='L54'></a><a href='#L54'>54</a>
-<a name='L55'></a><a href='#L55'>55</a>
-<a name='L56'></a><a href='#L56'>56</a>
-<a name='L57'></a><a href='#L57'>57</a>
-<a name='L58'></a><a href='#L58'>58</a>
-<a name='L59'></a><a href='#L59'>59</a>
-<a name='L60'></a><a href='#L60'>60</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L52'></a><a href='#L52'>52</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -130,11 +122,11 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">11x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -159,17 +151,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -178,64 +161,57 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import PhotoResultsMapper from '../../helpers/protoResultsMapper';
 import { IPhotoInfoTag } from '../../types/interfaces';
 import CardBottomItem from '../card-components/cardBottomItem';
 import CardsTagsList from '../card-components/cardsTagsList';
-import { useAppDispatch, useAppSelector } from '../../store/store';
-import { useEffect } from 'react';
-import { fetchByPhotoId } from '../../api/flickrApiThunks';
+import { useGetPhotoInfoQuery } from '../../api/flickrApi';
+import { PhotoInfoQueryParams } from '../../types/constants';
 &nbsp;
 function CardModalFill(props: { id: string }) {
-  const dispatch = useAppDispatch();
-  const { entities, loading } = useAppSelector((state) =&gt; state.photoDataFetch);
+  const { data, error, isFetching } = useGetPhotoInfoQuery({
+    ...PhotoInfoQueryParams,
+    photo_id: props.id || '52821875329',
+  });
 &nbsp;
-  useEffect(() =&gt; {
-    dispatch(fetchByPhotoId(props.id || <span class="branch-1 cbranch-no" title="branch not covered" >'52821875329')</span>);
-  }, [dispatch, props.id]);
-&nbsp;
-  let content;
-  if (loading === 'pending') {
+  let content = &lt;div&gt;No data found&lt;/div&gt;<span class="branch-1 cbranch-no" title="branch not covered" >;;</span>
+  if (isFetching) {
     content = &lt;div className="loader-container"&gt;Loading...&lt;/div&gt;;
-  <span class="missing-if-branch" title="if path not taken" >I</span>} else if (loading === 'succeeded') {
-<span class="cstat-no" title="statement not covered" >    content = (</span>
+  } else if (data) {
+    content = (
       &lt;&gt;
-        &lt;img src={PhotoResultsMapper(entities.photo)} className="card-modal-img" /&gt;
-        &lt;p className="card-modal-title" data-testid="card-modal-title"&gt;
-          {entities.photo.title._content}
+  <span class="missing-if-branch" title="if path not taken" >I</span>      &lt;img src={PhotoResultsMapper(data.photo)} className="card-modal-img" /&gt;
+<span class="cstat-no" title="statement not covered" >        &lt;p className="card-modal-title" data-testid="card-modal-title"&gt;</span>
+          {data.photo.title._content}
         &lt;/p&gt;
         &lt;p className="card-modal-date"&gt;
-          Posted: {new Date(entities.photo.dates.taken).toLocaleDateString()}
+          Posted: {new Date(data.photo.dates.taken).toLocaleDateString()}
         &lt;/p&gt;
         &lt;p className="card-modal-author"&gt;
           by{' '}
           &lt;a href="#" className="card-codal-author-link"&gt;
-            {entities.photo.owner.username}
+            {data.photo.owner.username}
           &lt;/a&gt;
         &lt;/p&gt;
         &lt;CardsTagsList
           className="card-modal-tags"
-          tags={entities.photo.tags.tag.map(<span class="fstat-no" title="function not covered" >(i</span>tem: IPhotoInfoTag) =&gt; <span class="cstat-no" title="statement not covered" >item.raw)</span>}
+          tags={data.photo.tags.tag.map((item: IPhotoInfoTag) =&gt; item.raw)}
         /&gt;
-        &lt;CardBottomItem
-          className="card-modal-bottom"
-          views={Number(entities.photo.views)}
-          likes={0}
-        /&gt;
+        &lt;CardBottomItem className="card-modal-bottom" views={Number(data.photo.views)} likes={0} /&gt;
       &lt;/&gt;
     );
-  <span class="missing-if-branch" title="if path not taken" >I</span>} else if (loading === 'failed') {
-<span class="cstat-no" title="statement not covered" >    content = (</span>
+  } else if (error) {
+    content = (
       &lt;div className="error-container"&gt;
         &lt;p className="error-title"&gt;Sorry there was a problem processing your request.&lt;/p&gt;
-        {/* &lt;p className="error-message"&gt;{errMsg}&lt;/p&gt; */}
       &lt;/div&gt;
     );
   }
-&nbsp;
+<span class="missing-if-branch" title="if path not taken" >I</span>
   return content;
 }
 &nbsp;
@@ -247,7 +223,7 @@ export default CardModalFill;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-04-23T19:50:27.116Z
+                at 2023-04-30T20:04:34.358Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>

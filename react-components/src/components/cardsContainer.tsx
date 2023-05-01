@@ -5,24 +5,27 @@ import { useEffect, useState } from 'react';
 import CardModal from './modal-components/cardModal';
 import SimpleCard from './card-components/simpleCard';
 import { useSelector } from 'react-redux';
-import { fetchBySearchValue } from '../api/flickrApiThunks';
-import { useAppDispatch, useAppSelector } from '../store/store';
+import { useGetSearchResultsQuery } from '../api/flickrApi';
+import { SearchQueryParams } from '../types/constants';
 
 function CardsContainer() {
-  const dispatch = useAppDispatch();
+  const [inputValue, setInputValue] = useState('');
   const [showModal, setShowModal] = useState(false);
   const [isOpen, setIsOpen] = useState<{ id: string } | null>(null);
   const submittedValue = useSelector((state: IState) => state.search.submittedValue);
 
-  const { entities, loading } = useAppSelector((state) => state.searchFetch);
-
   useEffect(() => {
-    dispatch(fetchBySearchValue(submittedValue || 'cat'));
-  }, [dispatch, submittedValue]);
+    setInputValue(submittedValue);
+  }, [submittedValue]);
+
+  const { data, error, isFetching } = useGetSearchResultsQuery({
+    ...SearchQueryParams,
+    text: inputValue || 'cat',
+  });
 
   function openModal(id: number) {
     setIsOpen({
-      id: entities.photos.photo[id].id,
+      id: data.photos.photo[id].id,
     });
     setShowModal(true);
   }
@@ -31,17 +34,17 @@ function CardsContainer() {
     setShowModal(false);
   }
 
-  let content;
-  if (loading === 'pending' || loading === 'idle') {
+  let content = <div>No data found</div>;
+  if (isFetching) {
     content = (
       <div className="loader-container" data-testid="loader-container">
         Loading...
       </div>
     );
-  } else if (loading === 'succeeded') {
+  } else if (data) {
     content = (
       <div className="cards-container" data-testid="cards-container">
-        {entities.photos.photo.map((item: IPhotoResponse, idx: number) => {
+        {data.photos.photo.map((item: IPhotoResponse, idx: number) => {
           return (
             <SimpleCard
               id={idx}
@@ -56,7 +59,7 @@ function CardsContainer() {
         <CardModal show={showModal} handleClose={closeModal} info={isOpen} />
       </div>
     );
-  } else if (loading === 'failed') {
+  } else if (error) {
     content = (
       <div className="error-container" data-testid="error-container">
         <p className="error-title">Sorry there was a problem processing your request.</p>

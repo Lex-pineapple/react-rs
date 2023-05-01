@@ -3,6 +3,7 @@ import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 import RootReducer from './rootReducer';
 import { PreloadedState } from '@reduxjs/toolkit';
 import * as toolkitRaw from '@reduxjs/toolkit';
+import { flickrApi } from '../api/flickrApi';
 
 type TypeToolkitRaw = typeof toolkitRaw & { default?: unknown };
 const { configureStore, combineReducers } = ((toolkitRaw as TypeToolkitRaw).default ??
@@ -12,7 +13,7 @@ export const createStore = (preloadedState?: PreloadedState<RootState>) => {
   return configureStore({
     reducer: RootReducer,
     preloadedState,
-    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunkMiddleware),
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(flickrApi.middleware),
   });
 };
 

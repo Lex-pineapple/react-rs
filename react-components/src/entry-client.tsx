@@ -14,7 +14,7 @@ declare global {
   }
 }
 const store = createStore(window.__PRELOADED_STATE__);
-delete window.__PRELOADED_STATE__;
+// delete window.__PRELOADED_STATE__;
 
 ReactDOM.hydrateRoot(
   document.getElementById('root') as HTMLElement,

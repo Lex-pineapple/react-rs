@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "ts-node server",
+    "dev": "ts-node server.ts",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "cy:e2e-run": "start-server-and-test dev http-get://localhost:5173 cy:run",

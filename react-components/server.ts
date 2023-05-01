@@ -47,7 +47,9 @@ app.use('*', async (req: express.Request, res: express.Response) => {
       template = templateHtml;
       // render = (await import('./dist/server/entry-server.js')).render;
     }
-    const parts = template.split('<!--app-html-->');
+    // render(req, res);
+    // const parts = template.split('<!--app-html-->');
+
 
     const bootStrap = './src/entry-client.tsx';
     const stream = await render(url, {
@@ -60,10 +62,6 @@ app.use('*', async (req: express.Request, res: express.Response) => {
         res.statusCode = 500;
         res.setHeader('Content-Type', 'text/html');
         res.send('<h1>Something went wrong</h1>');
-      },
-      onAllReady() {
-        res.write(parts[1]);
-        res.end();
       },
       onError(error: Error) {
         if (error) {

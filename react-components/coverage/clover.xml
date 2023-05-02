@@ -1,282 +1,365 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683040381533" clover="3.2.0">
-  <project timestamp="1683040381533" name="All files">
-    <metrics statements="142" coveredstatements="136" conditionals="71" coveredconditionals="62" methods="61" coveredmethods="58" elements="274" coveredelements="256" complexity="0" loc="142" ncloc="142" packages="12" files="33" classes="33"/>
+<coverage generated="1683056023446" clover="3.2.0">
+  <project timestamp="1683056023446" name="All files">
+    <metrics statements="204" coveredstatements="187" conditionals="80" coveredconditionals="65" methods="80" coveredmethods="75" elements="364" coveredelements="327" complexity="0" loc="204" ncloc="204" packages="13" files="39" classes="39"/>
     <package name="src">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="App.tsx" path="D:\REACTFAIL\react-rs\react-components\src\App.tsx">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="D:/REACTTEST1/react-rs/react-components/src/App.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="12" count="5" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+      </file>
+      <file name="Html.tsx" path="D:/REACTTEST1/react-rs/react-components/src/Html.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="entry-client.tsx" path="D:/REACTTEST1/react-rs/react-components/src/entry-client.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+      </file>
+      <file name="entry-server.tsx" path="D:/REACTTEST1/react-rs/react-components/src/entry-server.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.api">
       <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
-      <file name="createApi.ts" path="D:\REACTFAIL\react-rs\react-components\src\api\createApi.ts">
+      <file name="createApi.ts" path="D:/REACTTEST1/react-rs/react-components/src/api/createApi.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
-        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="7" count="4" type="stmt"/>
+        <line num="4" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="6" type="stmt"/>
       </file>
-      <file name="flickrApi.ts" path="D:\REACTFAIL\react-rs\react-components\src\api\flickrApi.ts">
+      <file name="flickrApi.ts" path="D:/REACTTEST1/react-rs/react-components/src/api/flickrApi.ts">
         <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
-        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
-        <line num="28" count="4" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+      </file>
+      <file name="flickrApiThunks.ts" path="D:/REACTTEST1/react-rs/react-components/src/api/flickrApiThunks.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.assets">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="catData.ts" path="D:/REACTTEST1/react-rs/react-components/src/assets/catData.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.components">
-      <metrics statements="21" coveredstatements="18" conditionals="8" coveredconditionals="5" methods="7" coveredmethods="6"/>
-      <file name="cardsContainer.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\cardsContainer.tsx">
-        <metrics statements="19" coveredstatements="16" conditionals="8" coveredconditionals="5" methods="6" coveredmethods="5"/>
-        <line num="12" count="19" type="stmt"/>
-        <line num="13" count="19" type="stmt"/>
-        <line num="14" count="19" type="stmt"/>
-        <line num="15" count="42" type="stmt"/>
-        <line num="17" count="19" type="stmt"/>
-        <line num="18" count="11" type="stmt"/>
-        <line num="21" count="19" type="stmt"/>
+      <metrics statements="27" coveredstatements="25" conditionals="7" coveredconditionals="5" methods="9" coveredmethods="9"/>
+      <file name="cardsContainer.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/cardsContainer.tsx">
+        <metrics statements="22" coveredstatements="20" conditionals="7" coveredconditionals="5" methods="7" coveredmethods="7"/>
+        <line num="11" count="30" type="stmt"/>
+        <line num="12" count="30" type="stmt"/>
+        <line num="13" count="30" type="stmt"/>
+        <line num="14" count="30" type="stmt"/>
+        <line num="15" count="52" type="stmt"/>
+        <line num="17" count="30" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="21" count="30" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="37" count="19" type="stmt"/>
-        <line num="38" count="19" type="cond" truecount="2" falsecount="0"/>
-        <line num="39" count="15" type="stmt"/>
-        <line num="44" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="45" count="4" type="stmt"/>
-        <line num="48" count="40" type="stmt"/>
-        <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="30" type="stmt"/>
+        <line num="38" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="44" count="28" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="28" type="stmt"/>
+        <line num="48" count="280" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="63" count="0" type="stmt"/>
-        <line num="70" count="19" type="stmt"/>
+        <line num="70" count="30" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
       </file>
-      <file name="header.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\header.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="9" type="stmt"/>
-        <line num="8" count="9" type="stmt"/>
+      <file name="header.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/header.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="18" type="stmt"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="8" count="18" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.components.card-components">
-      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
-      <file name="card.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\card-components\card.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="5" type="stmt"/>
+      <metrics statements="20" coveredstatements="20" conditionals="5" coveredconditionals="5" methods="10" coveredmethods="10"/>
+      <file name="card.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/card-components/card.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="12" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
       </file>
-      <file name="cardBottomItem.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\card-components\cardBottomItem.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="6" type="stmt"/>
+      <file name="cardBottomItem.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardBottomItem.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
       </file>
-      <file name="cardsTagsList.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\card-components\cardsTagsList.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="2" count="6" type="stmt"/>
-        <line num="6" count="28" type="stmt"/>
+      <file name="cardsTagsList.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardsTagsList.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
       </file>
-      <file name="simpleCard.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\card-components\simpleCard.tsx">
-        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="5" count="40" type="stmt"/>
+      <file name="simpleCard.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/card-components/simpleCard.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="260" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="21" count="40" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="24" type="stmt"/>
+        <line num="21" count="260" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="96" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.components.form-components">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-      <file name="checkboxInput.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\form-components\checkboxInput.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="8" type="stmt"/>
+      <metrics statements="20" coveredstatements="20" conditionals="5" coveredconditionals="5" methods="10" coveredmethods="10"/>
+      <file name="checkboxInput.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/form-components/checkboxInput.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="26" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
       </file>
-      <file name="dropdownInput.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\form-components\dropdownInput.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="8" type="stmt"/>
+      <file name="dropdownInput.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/form-components/dropdownInput.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="26" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
       </file>
-      <file name="generalInput.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\form-components\generalInput.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="10" count="24" type="stmt"/>
+      <file name="generalInput.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/form-components/generalInput.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="78" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
       </file>
-      <file name="radioInput.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\form-components\radioInput.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="8" type="stmt"/>
+      <file name="radioInput.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/form-components/radioInput.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="26" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
       </file>
-      <file name="selectorInput.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\form-components\selectorInput.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="40" type="stmt"/>
+      <file name="selectorInput.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/form-components/selectorInput.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="130" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.components.modal-components">
-      <metrics statements="17" coveredstatements="15" conditionals="14" coveredconditionals="10" methods="5" coveredmethods="5"/>
-      <file name="cardModal.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\modal-components\cardModal.tsx">
-        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="4" type="stmt"/>
-        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
+      <metrics statements="26" coveredstatements="21" conditionals="14" coveredconditionals="9" methods="8" coveredmethods="7"/>
+      <file name="cardModal.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModal.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="26" type="stmt"/>
+        <line num="16" count="26" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="22" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
       </file>
-      <file name="cardModalFill.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\modal-components\cardModalFill.tsx">
-        <metrics statements="10" coveredstatements="8" conditionals="8" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="35" count="23" type="stmt"/>
-        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+      <file name="cardModalFill.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModalFill.tsx">
+        <metrics statements="13" coveredstatements="8" conditionals="7" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="41" count="0" type="stmt"/>
-        <line num="48" count="2" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
       </file>
-      <file name="modal.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\modal-components\modal.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="8" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="8" type="stmt"/>
+      <file name="modal.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/modal-components/modal.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="26" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.components.search-components">
-      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="7"/>
-      <file name="searchBar.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\search-components\searchBar.tsx">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="8" count="12" type="stmt"/>
-        <line num="9" count="33" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="16" count="12" type="stmt"/>
+      <metrics statements="17" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="8"/>
+      <file name="searchBar.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchBar.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="7" count="18" type="stmt"/>
+        <line num="8" count="18" type="stmt"/>
+        <line num="9" count="39" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="16" count="18" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
       </file>
-      <file name="searchForm.tsx" path="D:\REACTFAIL\react-rs\react-components\src\components\search-components\searchForm.tsx">
-        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
-        <line num="7" count="12" type="stmt"/>
-        <line num="8" count="33" type="stmt"/>
-        <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+      <file name="searchForm.tsx" path="D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchForm.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="4"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="7" count="18" type="stmt"/>
+        <line num="8" count="39" type="stmt"/>
+        <line num="11" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="20" count="12" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.helpers">
-      <metrics statements="20" coveredstatements="20" conditionals="20" coveredconditionals="19" methods="8" coveredmethods="8"/>
-      <file name="getCurrentDate.ts" path="D:\REACTFAIL\react-rs\react-components\src\helpers\getCurrentDate.ts">
+      <metrics statements="20" coveredstatements="19" conditionals="20" coveredconditionals="18" methods="8" coveredmethods="8"/>
+      <file name="getCurrentDate.ts" path="D:/REACTTEST1/react-rs/react-components/src/helpers/getCurrentDate.ts">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="8" count="40" type="stmt"/>
-        <line num="9" count="40" type="stmt"/>
-        <line num="10" count="40" type="stmt"/>
-        <line num="11" count="40" type="stmt"/>
-        <line num="13" count="40" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="280" type="stmt"/>
+        <line num="9" count="280" type="stmt"/>
+        <line num="10" count="280" type="stmt"/>
+        <line num="11" count="280" type="stmt"/>
+        <line num="13" count="280" type="cond" truecount="1" falsecount="1"/>
       </file>
-      <file name="inputValidator.ts" path="D:\REACTFAIL\react-rs\react-components\src\helpers\inputValidator.ts">
+      <file name="inputValidator.ts" path="D:/REACTTEST1/react-rs/react-components/src/helpers/inputValidator.ts">
         <metrics statements="10" coveredstatements="10" conditionals="12" coveredconditionals="12" methods="5" coveredmethods="5"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="42" count="2" type="stmt"/>
-        <line num="46" count="2" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
       </file>
-      <file name="locationPrettifyer.ts" path="D:\REACTFAIL\react-rs\react-components\src\helpers\locationPrettifyer.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="10" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="13" count="1" type="stmt"/>
+      <file name="locationPrettifyer.ts" path="D:/REACTTEST1/react-rs/react-components/src/helpers/locationPrettifyer.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="10" count="18" type="cond" truecount="4" falsecount="0"/>
+        <line num="11" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
       </file>
-      <file name="protoResultsMapper.ts" path="D:\REACTFAIL\react-rs\react-components\src\helpers\protoResultsMapper.ts">
+      <file name="protoResultsMapper.ts" path="D:/REACTTEST1/react-rs/react-components/src/helpers/protoResultsMapper.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="12" count="41" type="stmt"/>
+        <line num="12" count="280" type="stmt"/>
       </file>
     </package>
     <package name="src.routes">
-      <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11"/>
-      <file name="aboutPage.tsx" path="D:\REACTFAIL\react-rs\react-components\src\routes\aboutPage.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="stmt"/>
+      <metrics statements="35" coveredstatements="34" conditionals="5" coveredconditionals="5" methods="15" coveredmethods="14"/>
+      <file name="aboutPage.tsx" path="D:/REACTTEST1/react-rs/react-components/src/routes/aboutPage.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
       </file>
-      <file name="formPage.tsx" path="D:\REACTFAIL\react-rs\react-components\src\routes\formPage.tsx">
-        <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
-        <line num="15" count="8" type="stmt"/>
-        <line num="24" count="8" type="stmt"/>
-        <line num="25" count="8" type="stmt"/>
-        <line num="31" count="8" type="stmt"/>
-        <line num="32" count="11" type="stmt"/>
-        <line num="33" count="8" type="stmt"/>
-        <line num="36" count="2" type="stmt"/>
-        <line num="37" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="59" count="2" type="stmt"/>
-        <line num="63" count="1" type="stmt"/>
-        <line num="67" count="1" type="stmt"/>
-        <line num="70" count="8" type="stmt"/>
-        <line num="127" count="5" type="stmt"/>
+      <file name="formPage.tsx" path="D:/REACTTEST1/react-rs/react-components/src/routes/formPage.tsx">
+        <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
+        <line num="14" count="26" type="stmt"/>
+        <line num="15" count="26" type="stmt"/>
+        <line num="24" count="26" type="stmt"/>
+        <line num="25" count="26" type="stmt"/>
+        <line num="31" count="26" type="stmt"/>
+        <line num="32" count="28" type="stmt"/>
+        <line num="33" count="26" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="70" count="26" type="stmt"/>
+        <line num="127" count="12" type="stmt"/>
+        <line num="146" count="6" type="stmt"/>
+        <line num="148" count="6" type="stmt"/>
       </file>
-      <file name="homePage.tsx" path="D:\REACTFAIL\react-rs\react-components\src\routes\homePage.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="10" type="stmt"/>
+      <file name="homePage.tsx" path="D:/REACTTEST1/react-rs/react-components/src/routes/homePage.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
       </file>
-      <file name="page404.tsx" path="D:\REACTFAIL\react-rs\react-components\src\routes\page404.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
+      <file name="page404.tsx" path="D:/REACTTEST1/react-rs/react-components/src/routes/page404.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="1" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.store">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
-      <file name="rootReducer.ts" path="D:\REACTFAIL\react-rs\react-components\src\store\rootReducer.ts">
+      <file name="rootReducer.ts" path="D:/REACTTEST1/react-rs/react-components/src/store/rootReducer.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="9" count="4" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
       </file>
-      <file name="store.ts" path="D:\REACTFAIL\react-rs\react-components\src\store\store.ts">
+      <file name="store.ts" path="D:/REACTTEST1/react-rs/react-components/src/store/store.ts">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
-        <line num="9" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
+        <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.store.reducers">
-      <metrics statements="18" coveredstatements="18" conditionals="15" coveredconditionals="15" methods="3" coveredmethods="3"/>
-      <file name="formDataReducer.ts" path="D:\REACTFAIL\react-rs\react-components\src\store\reducers\formDataReducer.ts">
+      <metrics statements="18" coveredstatements="12" conditionals="15" coveredconditionals="9" methods="3" coveredmethods="3"/>
+      <file name="formDataReducer.ts" path="D:/REACTTEST1/react-rs/react-components/src/store/reducers/formDataReducer.ts">
         <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="7" count="47" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="12" count="46" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="7" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="41" type="stmt"/>
       </file>
-      <file name="formInputReducer.ts" path="D:\REACTFAIL\react-rs\react-components\src\store\reducers\formInputReducer.ts">
-        <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-        <line num="3" count="5" type="stmt"/>
-        <line num="13" count="54" type="cond" truecount="7" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="51" count="48" type="stmt"/>
+      <file name="formInputReducer.ts" path="D:/REACTTEST1/react-rs/react-components/src/store/reducers/formInputReducer.ts">
+        <metrics statements="9" coveredstatements="3" conditionals="8" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="13" count="43" type="cond" truecount="1" falsecount="6"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="51" count="43" type="stmt"/>
       </file>
-      <file name="searchReducer.ts" path="D:\REACTFAIL\react-rs\react-components\src\store\reducers\searchReducer.ts">
+      <file name="searchReducer.ts" path="D:/REACTTEST1/react-rs/react-components/src/store/reducers/searchReducer.ts">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="6" count="47" type="cond" truecount="3" falsecount="0"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="20" count="43" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="6" count="43" type="cond" truecount="3" falsecount="0"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="20" count="36" type="stmt"/>
       </file>
     </package>
     <package name="src.types">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="constants.ts" path="D:\REACTFAIL\react-rs\react-components\src\types\constants.ts">
+      <file name="constants.ts" path="D:/REACTTEST1/react-rs/react-components/src/types/constants.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+      </file>
+      <file name="interfaces.ts" path="D:/REACTTEST1/react-rs/react-components/src/types/interfaces.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
   </project>

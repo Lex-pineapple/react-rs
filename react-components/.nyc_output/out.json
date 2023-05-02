@@ -1,6 +1,6 @@
 {
-  "D:/react-work/react-rs/react-components/src/helpers/locationPrettifyer.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/helpers/locationPrettifyer.ts",
+  "D:/REACTTEST1/react-rs/react-components/src/helpers/locationPrettifyer.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/helpers/locationPrettifyer.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -210,44 +210,44 @@
       }
     },
     "s": {
-      "0": 32,
-      "1": 12,
-      "2": 20,
-      "3": 4,
-      "4": 16,
-      "5": 16,
+      "0": 18,
+      "1": 6,
+      "2": 12,
+      "3": 2,
+      "4": 10,
+      "5": 10,
       "6": 0
     },
     "f": {
-      "0": 32
+      "0": 18
     },
     "b": {
       "0": [
-        12,
-        20
+        6,
+        12
       ],
       "1": [
-        4,
-        16
+        2,
+        10
       ],
       "2": [
-        16,
+        10,
         0
       ]
     },
     "inputSourceMap": {
       "version": 3,
       "sources": [
-        "D:/react-work/react-rs/react-components/src/helpers/locationPrettifyer.ts"
+        "D:/REACTTEST1/react-rs/react-components/src/helpers/locationPrettifyer.ts"
       ],
       "mappings": "AAQA,SAAS,iBAAiB,MAAsB;AAC9C,MAAI,QAAQ;AAAK,WAAO;AAAA,WACf,QAAQ;AAAU,WAAO;AAAA,WACzB,QAAQ;AAAS,WAAO;AAAA;AAC5B,WAAO;AACd;AAEA,eAAe;",
       "names": []
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b91572e98dde8ebba53364d2b2af5259886bccce"
+    "hash": "375ed35b96ffb1a6e3ce158fa3e1340ce53e8f17"
   },
-  "D:/react-work/react-rs/react-components/src/components/header.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/header.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/header.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/header.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -795,28 +795,28 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 10,
-      "9": 32,
-      "10": 32,
-      "11": 32,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
-      "17": 10,
-      "18": 10,
-      "19": 10,
-      "20": 10,
-      "21": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 18,
+      "10": 18,
+      "11": 18,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
+      "18": 6,
+      "19": 6,
+      "20": 6,
+      "21": 6,
       "22": 0,
       "23": 0,
       "24": 0,
@@ -824,23 +824,23 @@
       "26": 0
     },
     "f": {
-      "0": 10,
-      "1": 32,
-      "2": 10,
-      "3": 10,
+      "0": 6,
+      "1": 18,
+      "2": 6,
+      "3": 6,
       "4": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -867,15 +867,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/header.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/header.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/header.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/header.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "956775570c4b2c6307db66752616502d24cb6e41"
+    "hash": "78dfd7e049f314daff2434be4c0b7e4a91e50958"
   },
-  "D:/react-work/react-rs/react-components/src/helpers/getCurrentDate.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/helpers/getCurrentDate.ts",
+  "D:/REACTTEST1/react-rs/react-components/src/helpers/getCurrentDate.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/helpers/getCurrentDate.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -993,34 +993,34 @@
       }
     },
     "s": {
-      "0": 360,
-      "1": 360,
-      "2": 360,
-      "3": 360,
-      "4": 360
+      "0": 280,
+      "1": 280,
+      "2": 280,
+      "3": 280,
+      "4": 280
     },
     "f": {
-      "0": 360
+      "0": 280
     },
     "b": {
       "0": [
-        360,
+        280,
         0
       ]
     },
     "inputSourceMap": {
       "version": 3,
       "sources": [
-        "D:/react-work/react-rs/react-components/src/helpers/getCurrentDate.ts"
+        "D:/REACTTEST1/react-rs/react-components/src/helpers/getCurrentDate.ts"
       ],
       "mappings": "AAMO,gBAAS,iBAAyB;AACvC,QAAM,UAAU,oBAAI,KAAK;AACzB,QAAM,OAAO,QAAQ,QAAQ;AAC7B,QAAM,QAAQ,QAAQ,SAAS,IAAI;AACnC,QAAM,OAAO,QAAQ,YAAY;AAEjC,SAAO,GAAG,QAAQ,QAAQ,KAAK,IAAI,UAAU,GAAG,WAAW;AAC7D;",
       "names": []
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f7b399f4238df0920314d9bcc8e54588cc6c4e69"
+    "hash": "2e2002b03cc0382fa15885fc9747e23746e5faf3"
   },
-  "D:/react-work/react-rs/react-components/src/helpers/protoResultsMapper.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/helpers/protoResultsMapper.ts",
+  "D:/REACTTEST1/react-rs/react-components/src/helpers/protoResultsMapper.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/helpers/protoResultsMapper.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -1061,25 +1061,25 @@
     },
     "branchMap": {},
     "s": {
-      "0": 360
+      "0": 280
     },
     "f": {
-      "0": 360
+      "0": 280
     },
     "b": {},
     "inputSourceMap": {
       "version": 3,
       "sources": [
-        "D:/react-work/react-rs/react-components/src/helpers/protoResultsMapper.ts"
+        "D:/REACTTEST1/react-rs/react-components/src/helpers/protoResultsMapper.ts"
       ],
       "mappings": "AAUA,SAAS,mBAAmB,WAAwC;AAClE,SAAO,iCAAiC,UAAU,UAAU,UAAU,MAAM,UAAU;AACxF;AAEA,eAAe;",
       "names": []
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "33b94f63420c574cdcf451916d183d07a4617ac1"
+    "hash": "1412bfb7a71584c6913483a6f1fba804deec15b4"
   },
-  "D:/react-work/react-rs/react-components/src/components/card-components/cardBottomItem.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/card-components/cardBottomItem.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardBottomItem.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardBottomItem.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1553,23 +1553,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 18,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 12,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -1577,22 +1577,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 18,
-      "2": 10,
+      "0": 6,
+      "1": 12,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -1619,15 +1619,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/card-components/cardBottomItem.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardBottomItem.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/card-components/cardBottomItem.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardBottomItem.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fae7a21f01c7c62a9b97fbb99d833513f21dd10a"
+    "hash": "f2daeb2f7a712b2697ce39c78f2459d5b265ae3c"
   },
-  "D:/react-work/react-rs/react-components/src/components/card-components/cardsTagsList.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/card-components/cardsTagsList.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardsTagsList.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardsTagsList.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -2135,24 +2135,24 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 18,
-      "9": 18,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
-      "17": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 12,
+      "9": 12,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
       "18": 0,
       "19": 0,
       "20": 0,
@@ -2160,23 +2160,23 @@
       "22": 0
     },
     "f": {
-      "0": 10,
-      "1": 18,
-      "2": 18,
-      "3": 10,
+      "0": 6,
+      "1": 12,
+      "2": 12,
+      "3": 6,
       "4": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -2203,1646 +2203,385 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/card-components/cardsTagsList.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardsTagsList.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/card-components/cardsTagsList.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/cardsTagsList.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "272f2da5ba5671919065dfd8c592c97571a2e3fd"
+    "hash": "d5b395e75ca37f55cd07da954d4a8caddf4d6d5b"
   },
-  "D:/react-work/react-rs/react-components/src/store/reducers/searchReducer.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/store/reducers/searchReducer.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 21
-        },
-        "end": {
-          "line": 1,
-          "column": 60
-        }
-      },
-      "1": {
-        "start": {
-          "line": 3,
-          "column": 2
-        },
-        "end": {
-          "line": 18,
-          "column": 3
-        }
-      },
-      "2": {
-        "start": {
-          "line": 5,
-          "column": 6
-        },
-        "end": {
-          "line": 8,
-          "column": 8
-        }
-      },
-      "3": {
-        "start": {
-          "line": 11,
-          "column": 6
-        },
-        "end": {
-          "line": 14,
-          "column": 8
-        }
-      },
-      "4": {
-        "start": {
-          "line": 17,
-          "column": 6
-        },
-        "end": {
-          "line": 17,
-          "column": 19
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "searchReducer",
-        "decl": {
-          "start": {
-            "line": 2,
-            "column": 24
-          },
-          "end": {
-            "line": 2,
-            "column": 37
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 68
-          },
-          "end": {
-            "line": 19,
-            "column": 1
-          }
-        },
-        "line": 2
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 38
-          },
-          "end": {
-            "line": 2,
-            "column": 58
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 2,
-              "column": 46
-            },
-            "end": {
-              "line": 2,
-              "column": 58
-            }
-          }
-        ],
-        "line": 2
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 2
-          },
-          "end": {
-            "line": 18,
-            "column": 3
-          }
-        },
-        "type": "switch",
-        "locations": [
-          {
-            "start": {
-              "line": 4,
-              "column": 4
-            },
-            "end": {
-              "line": 9,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 10,
-              "column": 4
-            },
-            "end": {
-              "line": 15,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 16,
-              "column": 4
-            },
-            "end": {
-              "line": 17,
-              "column": 19
-            }
-          }
-        ],
-        "line": 3
-      }
-    },
-    "s": {
-      "0": 10,
-      "1": 73,
-      "2": 12,
-      "3": 2,
-      "4": 59
-    },
-    "f": {
-      "0": 73
-    },
-    "b": {
-      "0": [
-        20
-      ],
-      "1": [
-        12,
-        2,
-        59
-      ]
-    },
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/store/reducers/searchReducer.ts"
-      ],
-      "mappings": "AAEA,MAAM,eAAe,EAAE,aAAa,IAAI,gBAAgB,GAAG;AAE3D,wBAAwB,cAAc,QAAQ,cAAc,QAAmB;AAC7E,UAAQ,OAAO,MAAM;AAAA,IACnB,KAAK,yBAAyB;AAC5B,aAAO;AAAA,QACL,GAAG;AAAA,QACH,aAAa,OAAO;AAAA,MACtB;AAAA,IACF;AAAA,IACA,KAAK,6BAA6B;AAChC,aAAO;AAAA,QACL,GAAG;AAAA,QACH,gBAAgB,OAAO;AAAA,MACzB;AAAA,IACF;AAAA,IACA;AACE,aAAO;AAAA,EACX;AACF;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ac73ac8a70653f5ffd7a49c6c6eea989819a2ce9"
-  },
-  "D:/react-work/react-rs/react-components/src/store/reducers/formDataReducer.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/store/reducers/formDataReducer.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 21
-        },
-        "end": {
-          "line": 1,
-          "column": 23
-        }
-      },
-      "1": {
-        "start": {
-          "line": 3,
-          "column": 2
-        },
-        "end": {
-          "line": 9,
-          "column": 3
-        }
-      },
-      "2": {
-        "start": {
-          "line": 5,
-          "column": 6
-        },
-        "end": {
-          "line": 5,
-          "column": 40
-        }
-      },
-      "3": {
-        "start": {
-          "line": 8,
-          "column": 6
-        },
-        "end": {
-          "line": 8,
-          "column": 19
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "formDataReducer",
-        "decl": {
-          "start": {
-            "line": 2,
-            "column": 16
-          },
-          "end": {
-            "line": 2,
-            "column": 31
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 62
-          },
-          "end": {
-            "line": 10,
-            "column": 1
-          }
-        },
-        "line": 2
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 32
-          },
-          "end": {
-            "line": 2,
-            "column": 52
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 2,
-              "column": 40
-            },
-            "end": {
-              "line": 2,
-              "column": 52
-            }
-          }
-        ],
-        "line": 2
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 2
-          },
-          "end": {
-            "line": 9,
-            "column": 3
-          }
-        },
-        "type": "switch",
-        "locations": [
-          {
-            "start": {
-              "line": 4,
-              "column": 4
-            },
-            "end": {
-              "line": 6,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 7,
-              "column": 4
-            },
-            "end": {
-              "line": 8,
-              "column": 19
-            }
-          }
-        ],
-        "line": 3
-      }
-    },
-    "s": {
-      "0": 10,
-      "1": 73,
-      "2": 3,
-      "3": 70
-    },
-    "f": {
-      "0": 73
-    },
-    "b": {
-      "0": [
-        20
-      ],
-      "1": [
-        3,
-        70
-      ]
-    },
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/store/reducers/formDataReducer.ts"
-      ],
-      "mappings": "AAGA,MAAM,eAA6B,CAAC;AAE7B,gBAAS,gBAAgB,QAAQ,cAAc,QAAmB;AACvE,UAAQ,OAAO,MAAM;AAAA,IACnB,KAAK,oBAAoB;AACvB,aAAO,CAAC,GAAG,OAAO,OAAO,OAAO;AAAA,IAClC;AAAA,IACA;AACE,aAAO;AAAA,EACX;AACF;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "5fc811d104c2a2db20e1cd74ee5b63f53183c279"
-  },
-  "D:/react-work/react-rs/react-components/src/store/reducers/formInputReducer.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/store/reducers/formInputReducer.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 21
-        },
-        "end": {
-          "line": 8,
-          "column": 1
-        }
-      },
-      "1": {
-        "start": {
-          "line": 10,
-          "column": 2
-        },
-        "end": {
-          "line": 49,
-          "column": 3
-        }
-      },
-      "2": {
-        "start": {
-          "line": 12,
-          "column": 6
-        },
-        "end": {
-          "line": 15,
-          "column": 8
-        }
-      },
-      "3": {
-        "start": {
-          "line": 18,
-          "column": 6
-        },
-        "end": {
-          "line": 21,
-          "column": 8
-        }
-      },
-      "4": {
-        "start": {
-          "line": 24,
-          "column": 6
-        },
-        "end": {
-          "line": 27,
-          "column": 8
-        }
-      },
-      "5": {
-        "start": {
-          "line": 30,
-          "column": 6
-        },
-        "end": {
-          "line": 33,
-          "column": 8
-        }
-      },
-      "6": {
-        "start": {
-          "line": 36,
-          "column": 6
-        },
-        "end": {
-          "line": 39,
-          "column": 8
-        }
-      },
-      "7": {
-        "start": {
-          "line": 42,
-          "column": 6
-        },
-        "end": {
-          "line": 45,
-          "column": 8
-        }
-      },
-      "8": {
-        "start": {
-          "line": 48,
-          "column": 6
-        },
-        "end": {
-          "line": 48,
-          "column": 19
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "formInputReducer",
-        "decl": {
-          "start": {
-            "line": 9,
-            "column": 16
-          },
-          "end": {
-            "line": 9,
-            "column": 32
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 63
-          },
-          "end": {
-            "line": 50,
-            "column": 1
-          }
-        },
-        "line": 9
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 33
-          },
-          "end": {
-            "line": 9,
-            "column": 53
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 9,
-              "column": 41
-            },
-            "end": {
-              "line": 9,
-              "column": 53
-            }
-          }
-        ],
-        "line": 9
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 10,
-            "column": 2
-          },
-          "end": {
-            "line": 49,
-            "column": 3
-          }
-        },
-        "type": "switch",
-        "locations": [
-          {
-            "start": {
-              "line": 11,
-              "column": 4
-            },
-            "end": {
-              "line": 16,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 17,
-              "column": 4
-            },
-            "end": {
-              "line": 22,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 23,
-              "column": 4
-            },
-            "end": {
-              "line": 28,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 29,
-              "column": 4
-            },
-            "end": {
-              "line": 34,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 35,
-              "column": 4
-            },
-            "end": {
-              "line": 40,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 41,
-              "column": 4
-            },
-            "end": {
-              "line": 46,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 47,
-              "column": 4
-            },
-            "end": {
-              "line": 48,
-              "column": 19
-            }
-          }
-        ],
-        "line": 10
-      }
-    },
-    "s": {
-      "0": 10,
-      "1": 73,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 73
-    },
-    "f": {
-      "0": 73
-    },
-    "b": {
-      "0": [
-        20
-      ],
-      "1": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        73
-      ]
-    },
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/store/reducers/formInputReducer.ts"
-      ],
-      "mappings": "AAEA,MAAM,eAAe;AAAA,EACnB,MAAM;AAAA,EACN,MAAM;AAAA,EACN,OAAO;AAAA,EACP,KAAK;AAAA,EACL,MAAM,CAAC;AAAA,EACP,MAAM;AACR;AAEO,gBAAS,iBAAiB,QAAQ,cAAc,QAAmB;AACxE,UAAQ,OAAO,MAAM;AAAA,IACnB,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA,KAAK,kBAAkB;AACrB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,OAAO,OAAO;AAAA,MAChB;AAAA,IACF;AAAA,IACA,KAAK,gBAAgB;AACnB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,KAAK,OAAO;AAAA,MACd;AAAA,IACF;AAAA,IACA,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA;AACE,aAAO;AAAA,EACX;AACF;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a97bf1f4090e87ff0a89b19c891e92bee6b09038"
-  },
-  "D:/react-work/react-rs/react-components/src/api/flickrApiThunks.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/api/flickrApiThunks.ts",
+  "D:/REACTTEST1/react-rs/react-components/src/api/createApi.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/api/createApi.ts",
     "statementMap": {
       "0": {
         "start": {
           "line": 2,
-          "column": 21
+          "column": 57
         },
         "end": {
-          "line": 5,
-          "column": 1
+          "line": 2,
+          "column": 85
         }
       },
       "1": {
         "start": {
-          "line": 6,
-          "column": 26
-        },
-        "end": {
-          "line": 9,
-          "column": 1
-        }
-      },
-      "2": {
-        "start": {
-          "line": 10,
-          "column": 27
-        },
-        "end": {
-          "line": 10,
-          "column": 91
-        }
-      },
-      "3": {
-        "start": {
-          "line": 11,
-          "column": 23
-        },
-        "end": {
-          "line": 14,
-          "column": 2
-        }
-      },
-      "4": {
-        "start": {
-          "line": 12,
-          "column": 14
-        },
-        "end": {
-          "line": 12,
-          "column": 33
-        }
-      },
-      "5": {
-        "start": {
-          "line": 13,
-          "column": 2
-        },
-        "end": {
-          "line": 13,
-          "column": 13
-        }
-      },
-      "6": {
-        "start": {
-          "line": 16,
-          "column": 14
-        },
-        "end": {
-          "line": 16,
-          "column": 46
-        }
-      },
-      "7": {
-        "start": {
-          "line": 17,
-          "column": 2
-        },
-        "end": {
-          "line": 17,
-          "column": 13
-        }
-      },
-      "8": {
-        "start": {
-          "line": 19,
-          "column": 38
-        },
-        "end": {
-          "line": 22,
-          "column": 1
-        }
-      },
-      "9": {
-        "start": {
-          "line": 20,
-          "column": 15
-        },
-        "end": {
-          "line": 20,
-          "column": 45
-        }
-      },
-      "10": {
-        "start": {
-          "line": 21,
-          "column": 2
-        },
-        "end": {
-          "line": 21,
-          "column": 17
-        }
-      },
-      "11": {
-        "start": {
-          "line": 23,
-          "column": 27
-        },
-        "end": {
-          "line": 39,
-          "column": 2
-        }
-      },
-      "12": {
-        "start": {
-          "line": 28,
-          "column": 4
-        },
-        "end": {
-          "line": 30,
-          "column": 7
-        }
-      },
-      "13": {
-        "start": {
-          "line": 29,
-          "column": 6
-        },
-        "end": {
-          "line": 29,
-          "column": 32
-        }
-      },
-      "14": {
-        "start": {
-          "line": 31,
-          "column": 4
-        },
-        "end": {
-          "line": 34,
-          "column": 7
-        }
-      },
-      "15": {
-        "start": {
-          "line": 32,
-          "column": 6
-        },
-        "end": {
-          "line": 32,
-          "column": 34
-        }
-      },
-      "16": {
-        "start": {
-          "line": 33,
-          "column": 6
-        },
-        "end": {
-          "line": 33,
-          "column": 31
-        }
-      },
-      "17": {
-        "start": {
-          "line": 35,
-          "column": 4
-        },
-        "end": {
-          "line": 37,
-          "column": 7
-        }
-      },
-      "18": {
-        "start": {
-          "line": 36,
-          "column": 6
-        },
-        "end": {
-          "line": 36,
-          "column": 31
-        }
-      },
-      "19": {
-        "start": {
-          "line": 40,
-          "column": 30
-        },
-        "end": {
-          "line": 56,
-          "column": 2
-        }
-      },
-      "20": {
-        "start": {
-          "line": 45,
-          "column": 4
-        },
-        "end": {
-          "line": 47,
-          "column": 7
-        }
-      },
-      "21": {
-        "start": {
-          "line": 46,
-          "column": 6
-        },
-        "end": {
-          "line": 46,
-          "column": 32
-        }
-      },
-      "22": {
-        "start": {
-          "line": 48,
-          "column": 4
-        },
-        "end": {
-          "line": 51,
-          "column": 7
-        }
-      },
-      "23": {
-        "start": {
-          "line": 49,
-          "column": 6
-        },
-        "end": {
-          "line": 49,
-          "column": 34
-        }
-      },
-      "24": {
-        "start": {
-          "line": 50,
-          "column": 6
-        },
-        "end": {
-          "line": 50,
-          "column": 31
-        }
-      },
-      "25": {
-        "start": {
-          "line": 52,
-          "column": 4
-        },
-        "end": {
-          "line": 54,
-          "column": 7
-        }
-      },
-      "26": {
-        "start": {
-          "line": 53,
-          "column": 6
-        },
-        "end": {
-          "line": 53,
-          "column": 31
-        }
-      },
-      "27": {
-        "start": {
-          "line": 58,
-          "column": 2
-        },
-        "end": {
-          "line": 60,
-          "column": 30
-        }
-      },
-      "28": {
-        "start": {
-          "line": 60,
+          "line": 3,
           "column": 18
         },
         "end": {
-          "line": 60,
-          "column": 28
-        }
-      },
-      "29": {
-        "start": {
-          "line": 63,
-          "column": 2
-        },
-        "end": {
-          "line": 65,
-          "column": 30
-        }
-      },
-      "30": {
-        "start": {
-          "line": 65,
-          "column": 18
-        },
-        "end": {
-          "line": 65,
-          "column": 28
-        }
-      },
-      "31": {
-        "start": {
-          "line": 68,
-          "column": 34
-        },
-        "end": {
-          "line": 68,
-          "column": 53
-        }
-      },
-      "32": {
-        "start": {
-          "line": 69,
-          "column": 32
-        },
-        "end": {
-          "line": 69,
-          "column": 54
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 11,
-            "column": 62
-          },
-          "end": {
-            "line": 11,
-            "column": 63
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 11,
-            "column": 76
-          },
-          "end": {
-            "line": 14,
-            "column": 1
-          }
-        },
-        "line": 11
-      },
-      "1": {
-        "name": "fetchCardsCatalog",
-        "decl": {
-          "start": {
-            "line": 15,
-            "column": 15
-          },
-          "end": {
-            "line": 15,
-            "column": 32
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 15,
-            "column": 46
-          },
-          "end": {
-            "line": 18,
-            "column": 1
-          }
-        },
-        "line": 15
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 19,
-            "column": 38
-          },
-          "end": {
-            "line": 19,
-            "column": 39
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 19,
-            "column": 58
-          },
-          "end": {
-            "line": 22,
-            "column": 1
-          }
-        },
-        "line": 19
-      },
-      "3": {
-        "name": "(anonymous_3)",
-        "decl": {
-          "start": {
-            "line": 27,
-            "column": 17
-          },
-          "end": {
-            "line": 27,
-            "column": 18
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 27,
-            "column": 30
-          },
-          "end": {
-            "line": 38,
-            "column": 3
-          }
-        },
-        "line": 27
-      },
-      "4": {
-        "name": "(anonymous_4)",
-        "decl": {
-          "start": {
-            "line": 28,
-            "column": 48
-          },
-          "end": {
-            "line": 28,
-            "column": 49
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 28,
-            "column": 59
-          },
-          "end": {
-            "line": 30,
-            "column": 5
-          }
-        },
-        "line": 28
-      },
-      "5": {
-        "name": "(anonymous_5)",
-        "decl": {
-          "start": {
-            "line": 31,
-            "column": 50
-          },
-          "end": {
-            "line": 31,
-            "column": 51
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 31,
-            "column": 74
-          },
-          "end": {
-            "line": 34,
-            "column": 5
-          }
-        },
-        "line": 31
-      },
-      "6": {
-        "name": "(anonymous_6)",
-        "decl": {
-          "start": {
-            "line": 35,
-            "column": 49
-          },
-          "end": {
-            "line": 35,
-            "column": 50
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 35,
-            "column": 60
-          },
-          "end": {
-            "line": 37,
-            "column": 5
-          }
-        },
-        "line": 35
-      },
-      "7": {
-        "name": "(anonymous_7)",
-        "decl": {
-          "start": {
-            "line": 44,
-            "column": 17
-          },
-          "end": {
-            "line": 44,
-            "column": 18
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 44,
-            "column": 30
-          },
-          "end": {
-            "line": 55,
-            "column": 3
-          }
-        },
-        "line": 44
-      },
-      "8": {
-        "name": "(anonymous_8)",
-        "decl": {
-          "start": {
-            "line": 45,
-            "column": 44
-          },
-          "end": {
-            "line": 45,
-            "column": 45
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 45,
-            "column": 55
-          },
-          "end": {
-            "line": 47,
-            "column": 5
-          }
-        },
-        "line": 45
-      },
-      "9": {
-        "name": "(anonymous_9)",
-        "decl": {
-          "start": {
-            "line": 48,
-            "column": 46
-          },
-          "end": {
-            "line": 48,
-            "column": 47
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 48,
-            "column": 70
-          },
-          "end": {
-            "line": 51,
-            "column": 5
-          }
-        },
-        "line": 48
-      },
-      "10": {
-        "name": "(anonymous_10)",
-        "decl": {
-          "start": {
-            "line": 52,
-            "column": 45
-          },
-          "end": {
-            "line": 52,
-            "column": 46
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 52,
-            "column": 56
-          },
-          "end": {
-            "line": 54,
-            "column": 5
-          }
-        },
-        "line": 52
-      },
-      "11": {
-        "name": "fetchBySearch",
-        "decl": {
-          "start": {
-            "line": 57,
-            "column": 15
-          },
-          "end": {
-            "line": 57,
-            "column": 28
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 57,
-            "column": 42
-          },
-          "end": {
-            "line": 61,
-            "column": 1
-          }
-        },
-        "line": 57
-      },
-      "12": {
-        "name": "(anonymous_12)",
-        "decl": {
-          "start": {
-            "line": 60,
-            "column": 9
-          },
-          "end": {
-            "line": 60,
-            "column": 10
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 60,
-            "column": 18
-          },
-          "end": {
-            "line": 60,
-            "column": 28
-          }
-        },
-        "line": 60
-      },
-      "13": {
-        "name": "fetchById",
-        "decl": {
-          "start": {
-            "line": 62,
-            "column": 15
-          },
-          "end": {
-            "line": 62,
-            "column": 24
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 62,
-            "column": 29
-          },
-          "end": {
-            "line": 66,
-            "column": 1
-          }
-        },
-        "line": 62
-      },
-      "14": {
-        "name": "(anonymous_14)",
-        "decl": {
-          "start": {
-            "line": 65,
-            "column": 9
-          },
-          "end": {
-            "line": 65,
-            "column": 10
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 65,
-            "column": 18
-          },
-          "end": {
-            "line": 65,
-            "column": 28
-          }
-        },
-        "line": 65
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 6,
-      "1": 6,
-      "2": 6,
-      "3": 6,
-      "4": 2,
-      "5": 0,
-      "6": 7,
-      "7": 2,
-      "8": 6,
-      "9": 0,
-      "10": 0,
-      "11": 6,
-      "12": 6,
-      "13": 7,
-      "14": 6,
-      "15": 2,
-      "16": 2,
-      "17": 6,
-      "18": 0,
-      "19": 6,
-      "20": 6,
-      "21": 2,
-      "22": 6,
-      "23": 0,
-      "24": 0,
-      "25": 6,
-      "26": 0,
-      "27": 7,
-      "28": 3,
-      "29": 2,
-      "30": 0,
-      "31": 6,
-      "32": 6
-    },
-    "f": {
-      "0": 2,
-      "1": 7,
-      "2": 0,
-      "3": 6,
-      "4": 7,
-      "5": 2,
-      "6": 0,
-      "7": 6,
-      "8": 2,
-      "9": 0,
-      "10": 0,
-      "11": 7,
-      "12": 3,
-      "13": 2,
-      "14": 0
-    },
-    "b": {},
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/api/flickrApiThunks.ts"
-      ],
-      "mappings": "AAAA,SAAS,kBAAkB,mBAAmB;AAa9C,MAAM,eAAe;AAAA,EACnB,UAAU,CAAC;AAAA,EACX,SAAS;AACX;AAEA,MAAM,oBAAoB;AAAA,EACxB,UAAU,CAAC;AAAA,EACX,SAAS;AACX;AAEA,MAAM,qBAAqB,iBAAiB,6BAA6B,iBAAiB;AAE1F,MAAM,iBAAiB,iBAAiB,sBAAsB,OAAO,OAAe;AAClF,QAAM,MAAM,MAAM,UAAU,EAAE;AAC9B,SAAO;AACT,CAAC;AAED,eAAe,kBAAkB,aAAqB;AACpD,QAAM,MAAM,MAAM,cAAc,WAAW;AAC3C,SAAO;AACT;AAEO,aAAM,yBAAyB,OAAO,aAAmD;AAC9F,QAAM,OAAO,MAAM,kBAAkB,KAAK;AAC1C,WAAS,IAAI;AACf;AAEO,aAAM,cAAc,YAAY;AAAA,EACrC,MAAM;AAAA,EACN;AAAA,EACA,UAAU,CAAC;AAAA,EACX,eAAe,CAAC,YAAY;AAC1B,YAAQ,QAAQ,mBAAmB,SAAS,CAAC,UAAU;AACrD,YAAM,UAAU;AAAA,IAClB,CAAC;AACD,YAAQ,QAAQ,mBAAmB,WAAW,CAAC,OAAO,EAAE,QAAQ,MAAM;AACpE,YAAM,UAAU;AAChB,YAAM,WAAW;AAAA,IACnB,CAAC;AACD,YAAQ,QAAQ,mBAAmB,UAAU,CAAC,UAAU;AACtD,YAAM,UAAU;AAAA,IAClB,CAAC;AAAA,EACH;AACF,CAAC;AAEM,aAAM,iBAAiB,YAAY;AAAA,EACxC,MAAM;AAAA,EACN,cAAc;AAAA,EACd,UAAU,CAAC;AAAA,EACX,eAAe,CAAC,YAAY;AAC1B,YAAQ,QAAQ,eAAe,SAAS,CAAC,UAAU;AACjD,YAAM,UAAU;AAAA,IAClB,CAAC;AACD,YAAQ,QAAQ,eAAe,WAAW,CAAC,OAAO,EAAE,QAAQ,MAAM;AAChE,YAAM,UAAU;AAChB,YAAM,WAAW;AAAA,IACnB,CAAC;AACD,YAAQ,QAAQ,eAAe,UAAU,CAAC,UAAU;AAClD,YAAM,UAAU;AAAA,IAClB,CAAC;AAAA,EACH;AACF,CAAC;AAED,eAAe,cAAc,aAAqB;AAChD,SAAO;AAAA,IACL,mHAAmH;AAAA,EACrH,EAAE,KAAK,CAAC,QAAQ,IAAI,KAAK,CAAC;AAC5B;AAEA,eAAe,UAAU,IAAY;AACnC,SAAO;AAAA,IACL,wHAAwH;AAAA,EAC1H,EAAE,KAAK,CAAC,QAAQ,IAAI,KAAK,CAAC;AAC5B;AAEA,SAAS,oBAAoB;AACtB,aAAM,qBAAqB,YAAY;AACvC,aAAM,mBAAmB,eAAe;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fe96039d95020618967f5e1408a9c0ea7f7eebbf"
-  },
-  "D:/react-work/react-rs/react-components/src/store/rootReducer.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/store/rootReducer.ts",
-    "statementMap": {
-      "0": {
-        "start": {
           "line": 6,
-          "column": 20
-        },
-        "end": {
-          "line": 12,
-          "column": 2
+          "column": 1
         }
       }
     },
     "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 10
-    },
-    "f": {},
-    "b": {},
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/store/rootReducer.ts"
-      ],
-      "mappings": "AAAA,SAAS,uBAAuB;AAChC,OAAO,mBAAmB;AAC1B,SAAS,uBAAuB;AAChC,SAAS,wBAAwB;AACjC,SAAS,kBAAkB,0BAA0B;AAGrD,MAAM,cAAc,gBAAgB;AAAA,EAClC,QAAQ;AAAA,EACR,WAAW;AAAA,EACX,UAAU;AAAA,EACV,aAAa;AAAA,EACb,gBAAgB;AAClB,CAAC;AAED,eAAe;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ef7902b36ed1883818b06c67bddbdfa855f84da3"
-  },
-  "D:/react-work/react-rs/react-components/src/store/store.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/store/store.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 5,
-          "column": 44
-        },
-        "end": {
-          "line": 5,
-          "column": 76
-        }
-      },
-      "1": {
-        "start": {
-          "line": 6,
-          "column": 27
-        },
-        "end": {
-          "line": 12,
-          "column": 1
-        }
-      },
-      "2": {
-        "start": {
-          "line": 7,
-          "column": 2
-        },
-        "end": {
-          "line": 11,
-          "column": 5
-        }
-      },
-      "3": {
-        "start": {
-          "line": 10,
-          "column": 42
-        },
-        "end": {
-          "line": 10,
-          "column": 88
-        }
-      },
-      "4": {
-        "start": {
-          "line": 13,
-          "column": 30
-        },
-        "end": {
-          "line": 13,
-          "column": 49
-        }
-      },
-      "5": {
-        "start": {
-          "line": 13,
-          "column": 36
-        },
-        "end": {
-          "line": 13,
-          "column": 49
-        }
-      },
-      "6": {
-        "start": {
-          "line": 14,
-          "column": 30
-        },
-        "end": {
-          "line": 14,
-          "column": 41
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 6,
-            "column": 27
-          },
-          "end": {
-            "line": 6,
-            "column": 28
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 47
-          },
-          "end": {
-            "line": 12,
-            "column": 1
-          }
-        },
-        "line": 6
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 10,
-            "column": 16
-          },
-          "end": {
-            "line": 10,
-            "column": 17
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 10,
-            "column": 42
-          },
-          "end": {
-            "line": 10,
-            "column": 88
-          }
-        },
-        "line": 10
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 13,
-            "column": 30
-          },
-          "end": {
-            "line": 13,
-            "column": 31
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 13,
-            "column": 36
-          },
-          "end": {
-            "line": 13,
-            "column": 49
-          }
-        },
-        "line": 13
-      }
-    },
     "branchMap": {
       "0": {
         "loc": {
           "start": {
-            "line": 5,
-            "column": 44
+            "line": 2,
+            "column": 57
           },
           "end": {
-            "line": 5,
-            "column": 76
+            "line": 2,
+            "column": 85
           }
         },
         "type": "binary-expr",
         "locations": [
           {
             "start": {
-              "line": 5,
-              "column": 44
+              "line": 2,
+              "column": 57
             },
             "end": {
-              "line": 5,
-              "column": 62
+              "line": 2,
+              "column": 73
             }
           },
           {
             "start": {
-              "line": 5,
-              "column": 66
+              "line": 2,
+              "column": 77
             },
             "end": {
-              "line": 5,
-              "column": 76
+              "line": 2,
+              "column": 85
             }
           }
         ],
-        "line": 5
+        "line": 2
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
-      "2": 10,
-      "3": 10,
-      "4": 10,
-      "5": 38,
-      "6": 10
+      "0": 6,
+      "1": 6
     },
-    "f": {
-      "0": 10,
-      "1": 10,
-      "2": 38
-    },
+    "f": {},
     "b": {
       "0": [
-        10,
-        10
+        6,
+        6
       ]
     },
     "inputSourceMap": {
       "version": 3,
       "sources": [
-        "D:/react-work/react-rs/react-components/src/store/store.ts"
+        "D:/REACTTEST1/react-rs/react-components/src/api/createApi.ts"
       ],
-      "mappings": "AAAA,OAAO,qBAAqB;AAC5B,SAA+B,aAAa,mBAAmB;AAC/D,OAAO,iBAAiB;AAExB,YAAY,gBAAgB;AAG5B,MAAM,EAAE,gBAAgB,gBAAgB,IAAM,WAA8B,WAC1E;AAEK,aAAM,cAAc,CAAC,mBAA+C;AACzE,SAAO,eAAe;AAAA,IACpB,SAAS;AAAA,IACT;AAAA,IACA,YAAY,CAAC,yBAAyB,qBAAqB,EAAE,OAAO,eAAe;AAAA,EACrF,CAAC;AACH;AAKO,aAAM,iBAAiB,MAAM,YAAyB;AACtD,aAAM,iBAAkD;",
+      "mappings": "AAAA,YAAY,cAAc;AAG1B,MAAM,EAAE,gBAAgB,YAAY,iBAAiB,IAAM,SAA0B,WACnF;AAEF,MAAM,YAAY;AAAA,EAChB,WAAW;AAAA,EACX,iBAAiB,EAAE,+BAA+B,KAAK,CAAC;AAC1D;AAEA,eAAe;",
       "names": []
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3e76e2bab35a5b4746c0d61e17ee1f578759e089"
+    "hash": "45a9c6595d3d1a60bc9184df15741f069a7e4788"
   },
-  "D:/react-work/react-rs/react-components/src/components/modal-components/cardModalFill.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/modal-components/cardModalFill.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/api/flickrApi.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/api/flickrApi.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 27
+        },
+        "end": {
+          "line": 3,
+          "column": 55
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 25
+        },
+        "end": {
+          "line": 22,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 27
+        },
+        "end": {
+          "line": 21,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 23
+        },
+        "end": {
+          "line": 12,
+          "column": 7
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 55
+        },
+        "end": {
+          "line": 13,
+          "column": 70
+        }
+      },
+      "5": {
+        "start": {
+          "line": 16,
+          "column": 23
+        },
+        "end": {
+          "line": 19,
+          "column": 7
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 66
+        },
+        "end": {
+          "line": 23,
+          "column": 75
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 13
+          },
+          "end": {
+            "line": 7,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 27
+          },
+          "end": {
+            "line": 21,
+            "column": 3
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 13
+          },
+          "end": {
+            "line": 9,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 23
+          },
+          "end": {
+            "line": 12,
+            "column": 7
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 30
+          },
+          "end": {
+            "line": 13,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 55
+          },
+          "end": {
+            "line": 13,
+            "column": 70
+          }
+        },
+        "line": 13
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 13
+          },
+          "end": {
+            "line": 16,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 23
+          },
+          "end": {
+            "line": 19,
+            "column": 7
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 55
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          },
+          {
+            "start": {
+              "line": 3,
+              "column": 47
+            },
+            "end": {
+              "line": 3,
+              "column": 55
+            }
+          }
+        ],
+        "line": 3
+      }
+    },
+    "s": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "3": 1,
+      "4": 0,
+      "5": 1,
+      "6": 6
+    },
+    "f": {
+      "0": 6,
+      "1": 1,
+      "2": 0,
+      "3": 1
+    },
+    "b": {
+      "0": [
+        6,
+        6
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "D:/REACTTEST1/react-rs/react-components/src/api/flickrApi.ts"
+      ],
+      "mappings": "AAAA,YAAY,cAAc;AAE1B,OAAO,eAAe;AAGtB,MAAM,EAAE,eAAe,IAAM,SAA0B,WAAW;AAE3D,aAAM,YAAY,UAAU;AAAA,EACjC,aAAa;AAAA,EACb,WAAW,eAAe,EAAE,SAAS,uCAAuC,CAAC;AAAA,EAC7E,WAAW,CAAC,aAAa;AAAA,IACvB,kBAAkB,QAAQ,MAAM;AAAA,MAC9B,OAAO,CAAC,SAAS;AAAA,QACf,KAAK;AAAA,QACL,QAAQ,EAAE,GAAG,IAAI;AAAA,MACnB;AAAA,MACA,wBAAwB,CAAC,UAAuC,MAAM,QAAQ,SAAS;AAAA,IACzF,CAAC;AAAA,IACD,cAAc,QAAQ,MAAM;AAAA,MAC1B,OAAO,CAAC,SAAS;AAAA,QACf,KAAK;AAAA,QACL,QAAQ,EAAE,GAAG,IAAI;AAAA,MACnB;AAAA,IACF,CAAC;AAAA,EACH;AACF,CAAC;AAEM,aAAM,EAAE,0BAA0B,qBAAqB,IAAI;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b079b17023ed86fa0b929276e7ce6405dbaae1c0"
+  },
+  "D:/REACTTEST1/react-rs/react-components/src/types/constants.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/types/constants.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 33
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 36
+        },
+        "end": {
+          "line": 15,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 6,
+      "1": 6
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "D:/REACTTEST1/react-rs/react-components/src/types/constants.ts"
+      ],
+      "mappings": "AAAO,aAAM,oBAAoB;AAAA,EAC/B,QAAQ;AAAA,EACR,SAAS;AAAA,EACT,MAAM;AAAA,EACN,UAAU;AAAA,EACV,QAAQ;AAAA,EACR,gBAAgB;AAClB;AAEO,aAAM,uBAAuB;AAAA,EAClC,QAAQ;AAAA,EACR,SAAS;AAAA,EACT,UAAU;AAAA,EACV,QAAQ;AAAA,EACR,gBAAgB;AAClB;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "76228e7951c1af08f22ea1b082f7de2cf4357b59"
+  },
+  "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModalFill.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModalFill.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -3936,291 +2675,261 @@
       },
       "9": {
         "start": {
-          "line": 24,
+          "line": 23,
           "column": 2
         },
         "end": {
-          "line": 24,
+          "line": 23,
           "column": 7
         }
       },
       "10": {
         "start": {
-          "line": 25,
-          "column": 19
+          "line": 28,
+          "column": 6
         },
         "end": {
-          "line": 25,
-          "column": 35
+          "line": 31,
+          "column": 4
         }
       },
       "11": {
         "start": {
-          "line": 29,
-          "column": 6
+          "line": 32,
+          "column": 32
         },
         "end": {
-          "line": 29,
-          "column": 53
+          "line": 36,
+          "column": 10
         }
       },
       "12": {
         "start": {
-          "line": 29,
-          "column": 32
+          "line": 37,
+          "column": 2
         },
         "end": {
-          "line": 29,
-          "column": 52
+          "line": 101,
+          "column": 3
         }
       },
       "13": {
         "start": {
-          "line": 30,
-          "column": 2
+          "line": 38,
+          "column": 4
         },
         "end": {
-          "line": 32,
-          "column": 27
+          "line": 42,
+          "column": 13
         }
       },
       "14": {
         "start": {
-          "line": 31,
-          "column": 4
+          "line": 43,
+          "column": 9
         },
         "end": {
-          "line": 31,
-          "column": 56
+          "line": 101,
+          "column": 3
         }
       },
       "15": {
         "start": {
-          "line": 34,
-          "column": 2
+          "line": 44,
+          "column": 4
         },
         "end": {
-          "line": 98,
-          "column": 3
+          "line": 90,
+          "column": 13
         }
       },
       "16": {
         "start": {
-          "line": 35,
-          "column": 4
+          "line": 76,
+          "column": 116
         },
         "end": {
-          "line": 39,
-          "column": 13
+          "line": 76,
+          "column": 124
         }
       },
       "17": {
         "start": {
-          "line": 40,
+          "line": 91,
           "column": 9
         },
         "end": {
-          "line": 98,
+          "line": 101,
           "column": 3
         }
       },
       "18": {
         "start": {
-          "line": 41,
+          "line": 92,
           "column": 4
         },
         "end": {
-          "line": 87,
+          "line": 100,
           "column": 13
         }
       },
       "19": {
         "start": {
-          "line": 73,
-          "column": 120
+          "line": 102,
+          "column": 2
         },
         "end": {
-          "line": 73,
-          "column": 128
+          "line": 102,
+          "column": 17
         }
       },
       "20": {
         "start": {
-          "line": 88,
-          "column": 9
+          "line": 104,
+          "column": 0
         },
         "end": {
-          "line": 98,
+          "line": 106,
           "column": 3
         }
       },
       "21": {
         "start": {
-          "line": 89,
-          "column": 4
+          "line": 105,
+          "column": 2
         },
         "end": {
-          "line": 97,
-          "column": 13
+          "line": 105,
+          "column": 32
         }
       },
       "22": {
         "start": {
-          "line": 99,
-          "column": 2
+          "line": 107,
+          "column": 0
         },
         "end": {
-          "line": 99,
-          "column": 17
+          "line": 107,
+          "column": 19
         }
       },
       "23": {
         "start": {
-          "line": 101,
+          "line": 110,
           "column": 0
         },
         "end": {
-          "line": 103,
-          "column": 3
+          "line": 110,
+          "column": 34
         }
       },
       "24": {
         "start": {
-          "line": 102,
-          "column": 2
+          "line": 111,
+          "column": 0
         },
         "end": {
-          "line": 102,
-          "column": 42
+          "line": 127,
+          "column": 1
         }
       },
       "25": {
         "start": {
-          "line": 104,
-          "column": 0
+          "line": 112,
+          "column": 2
         },
         "end": {
-          "line": 104,
-          "column": 19
+          "line": 112,
+          "column": 39
         }
       },
       "26": {
         "start": {
-          "line": 107,
-          "column": 0
+          "line": 113,
+          "column": 2
         },
         "end": {
-          "line": 107,
-          "column": 34
+          "line": 113,
+          "column": 39
         }
       },
       "27": {
         "start": {
-          "line": 108,
-          "column": 0
+          "line": 114,
+          "column": 2
         },
         "end": {
-          "line": 124,
-          "column": 1
+          "line": 126,
+          "column": 5
         }
       },
       "28": {
         "start": {
-          "line": 109,
-          "column": 2
+          "line": 118,
+          "column": 4
         },
         "end": {
-          "line": 109,
-          "column": 39
+          "line": 118,
+          "column": 159
         }
       },
       "29": {
         "start": {
-          "line": 110,
-          "column": 2
-        },
-        "end": {
-          "line": 110,
-          "column": 39
-        }
-      },
-      "30": {
-        "start": {
-          "line": 111,
-          "column": 2
-        },
-        "end": {
-          "line": 123,
-          "column": 5
-        }
-      },
-      "31": {
-        "start": {
-          "line": 115,
+          "line": 119,
           "column": 4
         },
         "end": {
-          "line": 115,
-          "column": 159
-        }
-      },
-      "32": {
-        "start": {
-          "line": 116,
-          "column": 4
-        },
-        "end": {
-          "line": 122,
+          "line": 125,
           "column": 7
         }
       },
-      "33": {
-        "start": {
-          "line": 117,
-          "column": 6
-        },
-        "end": {
-          "line": 118,
-          "column": 15
-        }
-      },
-      "34": {
-        "start": {
-          "line": 118,
-          "column": 8
-        },
-        "end": {
-          "line": 118,
-          "column": 15
-        }
-      },
-      "35": {
-        "start": {
-          "line": 119,
-          "column": 32
-        },
-        "end": {
-          "line": 119,
-          "column": 115
-        }
-      },
-      "36": {
+      "30": {
         "start": {
           "line": 120,
           "column": 6
         },
         "end": {
           "line": 121,
-          "column": 54
+          "column": 15
         }
       },
-      "37": {
+      "31": {
         "start": {
           "line": 121,
           "column": 8
         },
         "end": {
           "line": 121,
+          "column": 15
+        }
+      },
+      "32": {
+        "start": {
+          "line": 122,
+          "column": 32
+        },
+        "end": {
+          "line": 122,
+          "column": 115
+        }
+      },
+      "33": {
+        "start": {
+          "line": 123,
+          "column": 6
+        },
+        "end": {
+          "line": 124,
+          "column": 54
+        }
+      },
+      "34": {
+        "start": {
+          "line": 124,
+          "column": 8
+        },
+        "end": {
+          "line": 124,
           "column": 54
         }
       }
@@ -4254,169 +2963,121 @@
         "name": "CardModalFill",
         "decl": {
           "start": {
-            "line": 23,
+            "line": 22,
             "column": 9
           },
           "end": {
-            "line": 23,
+            "line": 22,
             "column": 22
           }
         },
         "loc": {
           "start": {
-            "line": 23,
+            "line": 22,
             "column": 30
-          },
-          "end": {
-            "line": 100,
-            "column": 1
-          }
-        },
-        "line": 23
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 29,
-            "column": 21
-          },
-          "end": {
-            "line": 29,
-            "column": 22
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 29,
-            "column": 32
-          },
-          "end": {
-            "line": 29,
-            "column": 52
-          }
-        },
-        "line": 29
-      },
-      "3": {
-        "name": "(anonymous_3)",
-        "decl": {
-          "start": {
-            "line": 30,
-            "column": 12
-          },
-          "end": {
-            "line": 30,
-            "column": 13
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 30,
-            "column": 18
-          },
-          "end": {
-            "line": 32,
-            "column": 3
-          }
-        },
-        "line": 30
-      },
-      "4": {
-        "name": "(anonymous_4)",
-        "decl": {
-          "start": {
-            "line": 73,
-            "column": 110
-          },
-          "end": {
-            "line": 73,
-            "column": 111
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 73,
-            "column": 120
-          },
-          "end": {
-            "line": 73,
-            "column": 128
-          }
-        },
-        "line": 73
-      },
-      "5": {
-        "name": "(anonymous_5)",
-        "decl": {
-          "start": {
-            "line": 101,
-            "column": 57
-          },
-          "end": {
-            "line": 101,
-            "column": 58
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 101,
-            "column": 68
           },
           "end": {
             "line": 103,
             "column": 1
           }
         },
-        "line": 101
+        "line": 22
       },
-      "6": {
-        "name": "(anonymous_6)",
+      "2": {
+        "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 114,
+            "line": 76,
+            "column": 106
+          },
+          "end": {
+            "line": 76,
+            "column": 107
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 76,
+            "column": 116
+          },
+          "end": {
+            "line": 76,
+            "column": 124
+          }
+        },
+        "line": 76
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 104,
+            "column": 57
+          },
+          "end": {
+            "line": 104,
+            "column": 58
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 104,
+            "column": 68
+          },
+          "end": {
+            "line": 106,
+            "column": 1
+          }
+        },
+        "line": 104
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 117,
             "column": 9
           },
           "end": {
-            "line": 114,
+            "line": 117,
             "column": 10
           }
         },
         "loc": {
           "start": {
-            "line": 114,
+            "line": 117,
             "column": 29
           },
           "end": {
-            "line": 123,
+            "line": 126,
             "column": 3
           }
         },
-        "line": 114
+        "line": 117
       },
-      "7": {
-        "name": "(anonymous_7)",
+      "5": {
+        "name": "(anonymous_5)",
         "decl": {
           "start": {
-            "line": 116,
+            "line": 119,
             "column": 27
           },
           "end": {
-            "line": 116,
+            "line": 119,
             "column": 28
           }
         },
         "loc": {
           "start": {
-            "line": 116,
+            "line": 119,
             "column": 44
           },
           "end": {
-            "line": 122,
+            "line": 125,
             "column": 5
           }
         },
-        "line": 116
+        "line": 119
       }
     },
     "branchMap": {
@@ -4483,47 +3144,47 @@
       "2": {
         "loc": {
           "start": {
-            "line": 31,
-            "column": 28
+            "line": 30,
+            "column": 14
           },
           "end": {
-            "line": 31,
-            "column": 53
+            "line": 30,
+            "column": 39
           }
         },
         "type": "binary-expr",
         "locations": [
           {
             "start": {
-              "line": 31,
-              "column": 28
+              "line": 30,
+              "column": 14
             },
             "end": {
-              "line": 31,
-              "column": 36
+              "line": 30,
+              "column": 22
             }
           },
           {
             "start": {
-              "line": 31,
-              "column": 40
+              "line": 30,
+              "column": 26
             },
             "end": {
-              "line": 31,
-              "column": 53
+              "line": 30,
+              "column": 39
             }
           }
         ],
-        "line": 31
+        "line": 30
       },
       "3": {
         "loc": {
           "start": {
-            "line": 34,
+            "line": 37,
             "column": 2
           },
           "end": {
-            "line": 98,
+            "line": 101,
             "column": 3
           }
         },
@@ -4531,35 +3192,35 @@
         "locations": [
           {
             "start": {
-              "line": 34,
+              "line": 37,
               "column": 2
             },
             "end": {
-              "line": 98,
+              "line": 101,
               "column": 3
             }
           },
           {
             "start": {
-              "line": 40,
+              "line": 43,
               "column": 9
             },
             "end": {
-              "line": 98,
+              "line": 101,
               "column": 3
             }
           }
         ],
-        "line": 34
+        "line": 37
       },
       "4": {
         "loc": {
           "start": {
-            "line": 40,
+            "line": 43,
             "column": 9
           },
           "end": {
-            "line": 98,
+            "line": 101,
             "column": 3
           }
         },
@@ -4567,35 +3228,35 @@
         "locations": [
           {
             "start": {
-              "line": 40,
+              "line": 43,
               "column": 9
             },
             "end": {
-              "line": 98,
+              "line": 101,
               "column": 3
             }
           },
           {
             "start": {
-              "line": 88,
+              "line": 91,
               "column": 9
             },
             "end": {
-              "line": 98,
+              "line": 101,
               "column": 3
             }
           }
         ],
-        "line": 40
+        "line": 43
       },
       "5": {
         "loc": {
           "start": {
-            "line": 88,
+            "line": 91,
             "column": 9
           },
           "end": {
-            "line": 98,
+            "line": 101,
             "column": 3
           }
         },
@@ -4603,11 +3264,11 @@
         "locations": [
           {
             "start": {
-              "line": 88,
+              "line": 91,
               "column": 9
             },
             "end": {
-              "line": 98,
+              "line": 101,
               "column": 3
             }
           },
@@ -4616,16 +3277,16 @@
             "end": {}
           }
         ],
-        "line": 88
+        "line": 91
       },
       "6": {
         "loc": {
           "start": {
-            "line": 108,
+            "line": 111,
             "column": 0
           },
           "end": {
-            "line": 124,
+            "line": 127,
             "column": 1
           }
         },
@@ -4633,11 +3294,11 @@
         "locations": [
           {
             "start": {
-              "line": 108,
+              "line": 111,
               "column": 0
             },
             "end": {
-              "line": 124,
+              "line": 127,
               "column": 1
             }
           },
@@ -4646,39 +3307,9 @@
             "end": {}
           }
         ],
-        "line": 108
+        "line": 111
       },
       "7": {
-        "loc": {
-          "start": {
-            "line": 117,
-            "column": 6
-          },
-          "end": {
-            "line": 118,
-            "column": 15
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 117,
-              "column": 6
-            },
-            "end": {
-              "line": 118,
-              "column": 15
-            }
-          },
-          {
-            "start": {},
-            "end": {}
-          }
-        ],
-        "line": 117
-      },
-      "8": {
         "loc": {
           "start": {
             "line": 120,
@@ -4686,7 +3317,7 @@
           },
           "end": {
             "line": 121,
-            "column": 54
+            "column": 15
           }
         },
         "type": "if",
@@ -4698,7 +3329,7 @@
             },
             "end": {
               "line": 121,
-              "column": 54
+              "column": 15
             }
           },
           {
@@ -4707,85 +3338,110 @@
           }
         ],
         "line": 120
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 123,
+            "column": 6
+          },
+          "end": {
+            "line": 124,
+            "column": 54
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 123,
+              "column": 6
+            },
+            "end": {
+              "line": 124,
+              "column": 54
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 123
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 10,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 11,
-      "13": 10,
-      "14": 2,
-      "15": 6,
-      "16": 4,
-      "17": 2,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 4,
+      "10": 4,
+      "11": 4,
+      "12": 4,
+      "13": 4,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
       "18": 0,
       "19": 4,
       "20": 6,
       "21": 1,
-      "22": 10,
-      "23": 10,
-      "24": 5,
-      "25": 10,
-      "26": 10,
-      "27": 10,
-      "28": 10,
-      "29": 10,
-      "30": 6,
-      "31": 6,
-      "32": 6,
+      "22": 6,
+      "23": 6,
+      "24": 6,
+      "25": 6,
+      "26": 6,
+      "27": 6,
+      "28": 6,
+      "29": 6,
+      "30": 0,
+      "31": 0,
+      "32": 0,
       "33": 0,
-      "34": 0,
-      "35": 0,
-      "36": 0,
-      "37": 0
+      "34": 0
     },
     "f": {
-      "0": 10,
-      "1": 10,
-      "2": 7,
-      "3": 3,
-      "4": 4,
-      "5": 1,
-      "6": 6,
-      "7": 0
+      "0": 6,
+      "1": 4,
+      "2": 0,
+      "3": 1,
+      "4": 6,
+      "5": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        6,
+        4,
         0
       ],
       "3": [
-        8,
-        2
+        4,
+        0
       ],
       "4": [
         0,
-        2
+        0
       ],
       "5": [
         0,
-        2
+        0
       ],
       "6": [
-        10,
+        6,
         0
       ],
       "7": [
@@ -4799,23 +3455,20 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAkBc,SAGR,UAHQ;;;;;;;;;;;;;;;;AAlBd,OAAOA,wBAAwB;AAE/B,OAAOC,oBAAoB;AAC3B,OAAOC,mBAAmB;AAC1B,SAASC,gBAAgBC,sBAAsB;AAC/C,SAASC,iBAAiB;AAC1B,SAASC,sBAAsB;AAE/B,SAASC,cAAcC,OAAuB;AAAAC;AAC5C,QAAMC,WAAWP,eAAc;AAC/B,QAAM;AAAA,IAAEQ;AAAAA,IAAUC;AAAAA,EAAQ,IAAIR,eAAgBS,WAAUA,MAAMC,cAAc;AAE5ET,YAAU,MAAM;AACdK,aAASJ,eAAeE,MAAMO,MAAM,aAAa,CAAC;AAAA,EACpD,GAAG,CAACL,UAAUF,MAAMO,EAAE,CAAC;AAEvB,MAAIC;AACJ,MAAIJ,YAAY,WAAW;AACzBI,cAAU,uBAAC,SAAI,WAAU,oBAAmB,0BAAlC;AAAA;AAAA;AAAA;AAAA,WAA4C;AAAA,EACxD,WAAWJ,YAAY,aAAa;AAClCI,cACE,mCACE;AAAA,6BAAC,SAAI,KAAKhB,mBAAmBW,SAASM,KAAK,GAAG,WAAU,oBAAxD;AAAA;AAAA;AAAA;AAAA,aAAwE;AAAA,MACxE,uBAAC,OAAE,WAAU,oBAAmB,eAAY,oBACzCN,mBAASM,MAAMC,MAAMC,YADxB;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,OAAE,WAAU,mBAAiB;AAAA;AAAA,QACnB,IAAIC,KAAKT,SAASM,MAAMI,MAAMC,KAAK,EAAEC,mBAAkB;AAAA,WADlE;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,OAAE,WAAU,qBAAmB;AAAA;AAAA,QAC3B;AAAA,QACH,uBAAC,OAAE,MAAK,KAAI,WAAU,0BACnBZ,mBAASM,MAAMO,MAAMC,YADxB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,WAJF;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,iBACC,WAAU,mBACV,MAAMd,SAASM,MAAMS,KAAKC,IAAIC,IAAI,CAACC,SAAwBA,KAAKC,GAAG,KAFrE;AAAA;AAAA;AAAA;AAAA,aAEuE;AAAA,MAEvE,uBAAC,kBACC,WAAU,qBACV,OAAOC,OAAOpB,SAASM,MAAMe,KAAK,GAClC,OAAO,KAHT;AAAA;AAAA;AAAA;AAAA,aAGW;AAAA,SArBb;AAAA;AAAA;AAAA;AAAA,WAuBA;AAAA,EAEJ,WAAWpB,YAAY,UAAU;AAC/BI,cACE,uBAAC,SAAI,WAAU,mBACb,iCAAC,OAAE,WAAU,eAAc,kEAA3B;AAAA;AAAA;AAAA;AAAA,WAA6E,KAD/E;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,EAEJ;AAEA,SAAOA;AACT;AAACP,GAhDQF,eAAa;AAAA,UACHJ,gBACaC,cAAc;AAAA;AAAA6B,KAFrC1B;AAkDT,eAAeA;AAAc;AAAA2B",
+      "mappings": "AAagB,SAKV,UALU;;;;;;;;;;;;;;;;AAbhB,OAAOA,wBAAwB;AAE/B,OAAOC,oBAAoB;AAC3B,OAAOC,mBAAmB;AAC1B,SAASC,4BAA4B;AACrC,SAASC,4BAA4B;AAErC,SAASC,cAAcC,OAAuB;AAAAC;AAC5C,QAAM;AAAA,IAAEC;AAAAA,IAAMC;AAAAA,IAAOC;AAAAA,EAAW,IAAIP,qBAAqB;AAAA,IACvD,GAAGC;AAAAA,IACHO,UAAUL,MAAMM,MAAM;AAAA,EACxB,CAAC;AAED,MAAIC,UAAU,uBAAC,SAAI,6BAAL;AAAA;AAAA;AAAA;AAAA,SAAkB;AAChC,MAAIH,YAAY;AACdG,cAAU,uBAAC,SAAI,WAAU,oBAAmB,0BAAlC;AAAA;AAAA;AAAA;AAAA,WAA4C;AAAA,EACxD,WAAWL,MAAM;AACfK,cACE,mCACE;AAAA,6BAAC,SAAI,KAAKb,mBAAmBQ,KAAKM,KAAK,GAAG,WAAU,oBAApD;AAAA;AAAA;AAAA;AAAA,aAAoE;AAAA,MACpE,uBAAC,OAAE,WAAU,oBAAmB,eAAY,oBACzCN,eAAKM,MAAMC,MAAMC,YADpB;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,OAAE,WAAU,mBAAiB;AAAA;AAAA,QACnB,IAAIC,KAAKT,KAAKM,MAAMI,MAAMC,KAAK,EAAEC,mBAAkB;AAAA,WAD9D;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,OAAE,WAAU,qBAAmB;AAAA;AAAA,QAC3B;AAAA,QACH,uBAAC,OAAE,MAAK,KAAI,WAAU,0BACnBZ,eAAKM,MAAMO,MAAMC,YADpB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,WAJF;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,iBACC,WAAU,mBACV,MAAMd,KAAKM,MAAMS,KAAKC,IAAIC,IAAI,CAACC,SAAwBA,KAAKC,GAAG,KAFjE;AAAA;AAAA;AAAA;AAAA,aAEmE;AAAA,MAEnE,uBAAC,kBAAe,WAAU,qBAAoB,OAAOC,OAAOpB,KAAKM,MAAMe,KAAK,GAAG,OAAO,KAAtF;AAAA;AAAA;AAAA;AAAA,aAAwF;AAAA,SAlB1F;AAAA;AAAA;AAAA;AAAA,WAmBA;AAAA,EAEJ,WAAWpB,OAAO;AAChBI,cACE,uBAAC,SAAI,WAAU,mBACb,iCAAC,OAAE,WAAU,eAAc,kEAA3B;AAAA;AAAA;AAAA;AAAA,WAA6E,KAD/E;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,EAEJ;AAEA,SAAOA;AACT;AAACN,GAzCQF,eAAa;AAAA,UACgBF,oBAAoB;AAAA;AAAA2B,KADjDzB;AA2CT,eAAeA;AAAc;AAAA0B",
       "names": [
         "PhotoResultsMapper",
         "CardBottomItem",
         "CardsTagsList",
-        "useAppDispatch",
-        "useAppSelector",
-        "useEffect",
-        "fetchByPhotoId",
+        "useGetPhotoInfoQuery",
+        "PhotoInfoQueryParams",
         "CardModalFill",
         "props",
         "_s",
-        "dispatch",
-        "entities",
-        "loading",
-        "state",
-        "photoDataFetch",
+        "data",
+        "error",
+        "isFetching",
+        "photo_id",
         "id",
         "content",
         "photo",
@@ -4838,15 +3491,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/modal-components/cardModalFill.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModalFill.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/modal-components/cardModalFill.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModalFill.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b385013c880e63fe41add88ba97b438da77a50ca"
+    "hash": "8c20c46eb2fda85d789f687fabec5ebec8ab5fea"
   },
-  "D:/react-work/react-rs/react-components/src/components/modal-components/cardModal.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/modal-components/cardModal.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModal.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModal.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -5450,27 +4103,27 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 34,
-      "9": 34,
-      "10": 34,
-      "11": 8,
-      "12": 26,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
-      "17": 10,
-      "18": 10,
-      "19": 10,
-      "20": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 26,
+      "9": 26,
+      "10": 26,
+      "11": 4,
+      "12": 22,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
+      "18": 6,
+      "19": 6,
+      "20": 6,
       "21": 0,
       "22": 0,
       "23": 0,
@@ -5478,31 +4131,31 @@
       "25": 0
     },
     "f": {
-      "0": 10,
-      "1": 34,
-      "2": 34,
-      "3": 10,
+      "0": 6,
+      "1": 26,
+      "2": 26,
+      "3": 6,
       "4": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        4,
-        30
+        2,
+        24
       ],
       "3": [
-        8,
-        26
+        4,
+        22
       ],
       "4": [
-        10,
+        6,
         0
       ],
       "5": [
@@ -5530,15 +4183,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/modal-components/cardModal.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModal.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/modal-components/cardModal.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/cardModal.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "98d1139877a0cf0acb69875a53d4e477cf5dcdae"
+    "hash": "fed9c48a89bee4d94aaa4aeccd865c0fd6ad778f"
   },
-  "D:/react-work/react-rs/react-components/src/components/card-components/simpleCard.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/card-components/simpleCard.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/card-components/simpleCard.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/simpleCard.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -6130,27 +4783,27 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 340,
-      "9": 2,
-      "10": 340,
-      "11": 82,
-      "12": 258,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
-      "17": 10,
-      "18": 10,
-      "19": 10,
-      "20": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 260,
+      "9": 1,
+      "10": 260,
+      "11": 164,
+      "12": 96,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
+      "18": 6,
+      "19": 6,
+      "20": 6,
       "21": 0,
       "22": 0,
       "23": 0,
@@ -6158,28 +4811,28 @@
       "25": 0
     },
     "f": {
-      "0": 10,
-      "1": 340,
-      "2": 2,
-      "3": 340,
-      "4": 10,
+      "0": 6,
+      "1": 260,
+      "2": 1,
+      "3": 260,
+      "4": 6,
       "5": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        82,
-        258
+        164,
+        96
       ],
       "3": [
-        10,
+        6,
         0
       ],
       "4": [
@@ -6209,15 +4862,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/card-components/simpleCard.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/card-components/simpleCard.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/card-components/simpleCard.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/simpleCard.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fb20777675e544210f3749cfe4aef4c681464fcb"
+    "hash": "1c9009f7c0b5e518a336aa7fefa2329f9c57f6c6"
   },
-  "D:/react-work/react-rs/react-components/src/components/cardsContainer.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/cardsContainer.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/cardsContainer.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/cardsContainer.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -6322,11 +4975,11 @@
       "10": {
         "start": {
           "line": 27,
-          "column": 19
+          "column": 38
         },
         "end": {
           "line": 27,
-          "column": 35
+          "column": 50
         }
       },
       "11": {
@@ -6371,301 +5024,301 @@
       },
       "15": {
         "start": {
-          "line": 34,
-          "column": 6
+          "line": 31,
+          "column": 2
         },
         "end": {
-          "line": 34,
-          "column": 50
+          "line": 33,
+          "column": 23
         }
       },
       "16": {
         "start": {
-          "line": 34,
-          "column": 32
+          "line": 32,
+          "column": 4
         },
         "end": {
-          "line": 34,
-          "column": 49
+          "line": 32,
+          "column": 34
         }
       },
       "17": {
         "start": {
-          "line": 35,
-          "column": 2
+          "line": 38,
+          "column": 6
         },
         "end": {
-          "line": 37,
-          "column": 33
+          "line": 41,
+          "column": 4
         }
       },
       "18": {
         "start": {
-          "line": 36,
+          "line": 43,
           "column": 4
         },
         "end": {
-          "line": 36,
-          "column": 58
+          "line": 45,
+          "column": 7
         }
       },
       "19": {
         "start": {
-          "line": 39,
+          "line": 46,
           "column": 4
         },
         "end": {
-          "line": 41,
-          "column": 7
-        }
-      },
-      "20": {
-        "start": {
-          "line": 42,
-          "column": 4
-        },
-        "end": {
-          "line": 42,
+          "line": 46,
           "column": 23
         }
       },
-      "21": {
-        "start": {
-          "line": 45,
-          "column": 4
-        },
-        "end": {
-          "line": 45,
-          "column": 24
-        }
-      },
-      "22": {
-        "start": {
-          "line": 48,
-          "column": 2
-        },
-        "end": {
-          "line": 83,
-          "column": 3
-        }
-      },
-      "23": {
+      "20": {
         "start": {
           "line": 49,
           "column": 4
         },
         "end": {
-          "line": 53,
+          "line": 49,
+          "column": 24
+        }
+      },
+      "21": {
+        "start": {
+          "line": 51,
+          "column": 32
+        },
+        "end": {
+          "line": 55,
+          "column": 10
+        }
+      },
+      "22": {
+        "start": {
+          "line": 56,
+          "column": 2
+        },
+        "end": {
+          "line": 91,
+          "column": 3
+        }
+      },
+      "23": {
+        "start": {
+          "line": 57,
+          "column": 4
+        },
+        "end": {
+          "line": 61,
           "column": 13
         }
       },
       "24": {
         "start": {
-          "line": 54,
+          "line": 62,
           "column": 9
         },
         "end": {
-          "line": 83,
+          "line": 91,
           "column": 3
         }
       },
       "25": {
         "start": {
-          "line": 55,
+          "line": 63,
           "column": 4
         },
         "end": {
-          "line": 72,
+          "line": 80,
           "column": 13
         }
       },
       "26": {
         "start": {
-          "line": 57,
+          "line": 65,
           "column": 8
         },
         "end": {
-          "line": 61,
+          "line": 69,
           "column": 17
         }
       },
       "27": {
         "start": {
-          "line": 73,
+          "line": 81,
           "column": 9
         },
         "end": {
-          "line": 83,
+          "line": 91,
           "column": 3
         }
       },
       "28": {
         "start": {
-          "line": 74,
+          "line": 82,
           "column": 4
         },
         "end": {
-          "line": 82,
+          "line": 90,
           "column": 13
         }
       },
       "29": {
         "start": {
-          "line": 84,
+          "line": 92,
           "column": 2
         },
         "end": {
-          "line": 84,
+          "line": 92,
           "column": 17
         }
       },
       "30": {
         "start": {
-          "line": 86,
+          "line": 94,
           "column": 0
         },
         "end": {
-          "line": 88,
+          "line": 96,
           "column": 3
         }
       },
       "31": {
         "start": {
-          "line": 87,
+          "line": 95,
           "column": 2
         },
         "end": {
-          "line": 87,
-          "column": 55
+          "line": 95,
+          "column": 49
         }
       },
       "32": {
         "start": {
-          "line": 89,
+          "line": 97,
           "column": 0
         },
         "end": {
-          "line": 89,
+          "line": 97,
           "column": 20
         }
       },
       "33": {
         "start": {
-          "line": 92,
+          "line": 100,
           "column": 0
         },
         "end": {
-          "line": 92,
+          "line": 100,
           "column": 35
         }
       },
       "34": {
         "start": {
-          "line": 93,
+          "line": 101,
           "column": 0
         },
         "end": {
-          "line": 109,
+          "line": 117,
           "column": 1
         }
       },
       "35": {
         "start": {
-          "line": 94,
+          "line": 102,
           "column": 2
         },
         "end": {
-          "line": 94,
+          "line": 102,
           "column": 39
         }
       },
       "36": {
         "start": {
-          "line": 95,
+          "line": 103,
           "column": 2
         },
         "end": {
-          "line": 95,
+          "line": 103,
           "column": 39
         }
       },
       "37": {
         "start": {
-          "line": 96,
+          "line": 104,
           "column": 2
         },
         "end": {
-          "line": 108,
+          "line": 116,
           "column": 5
         }
       },
       "38": {
         "start": {
-          "line": 100,
+          "line": 108,
           "column": 4
         },
         "end": {
-          "line": 100,
+          "line": 108,
           "column": 143
         }
       },
       "39": {
         "start": {
-          "line": 101,
+          "line": 109,
           "column": 4
         },
         "end": {
-          "line": 107,
+          "line": 115,
           "column": 7
         }
       },
       "40": {
         "start": {
-          "line": 102,
+          "line": 110,
           "column": 6
         },
         "end": {
-          "line": 103,
+          "line": 111,
           "column": 15
         }
       },
       "41": {
         "start": {
-          "line": 103,
+          "line": 111,
           "column": 8
         },
         "end": {
-          "line": 103,
+          "line": 111,
           "column": 15
         }
       },
       "42": {
         "start": {
-          "line": 104,
+          "line": 112,
           "column": 32
         },
         "end": {
-          "line": 104,
+          "line": 112,
           "column": 115
         }
       },
       "43": {
         "start": {
-          "line": 105,
+          "line": 113,
           "column": 6
         },
         "end": {
-          "line": 106,
+          "line": 114,
           "column": 54
         }
       },
       "44": {
         "start": {
-          "line": 106,
+          "line": 114,
           "column": 8
         },
         "end": {
-          "line": 106,
+          "line": 114,
           "column": 54
         }
       }
@@ -6713,7 +5366,7 @@
             "column": 26
           },
           "end": {
-            "line": 85,
+            "line": 93,
             "column": 1
           }
         },
@@ -6747,193 +5400,169 @@
         "name": "(anonymous_3)",
         "decl": {
           "start": {
-            "line": 34,
-            "column": 21
-          },
-          "end": {
-            "line": 34,
-            "column": 22
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 34,
-            "column": 32
-          },
-          "end": {
-            "line": 34,
-            "column": 49
-          }
-        },
-        "line": 34
-      },
-      "4": {
-        "name": "(anonymous_4)",
-        "decl": {
-          "start": {
-            "line": 35,
+            "line": 31,
             "column": 12
           },
           "end": {
-            "line": 35,
+            "line": 31,
             "column": 13
           }
         },
         "loc": {
           "start": {
-            "line": 35,
+            "line": 31,
             "column": 18
           },
           "end": {
-            "line": 37,
+            "line": 33,
             "column": 3
           }
         },
-        "line": 35
+        "line": 31
       },
-      "5": {
+      "4": {
         "name": "openModal",
         "decl": {
           "start": {
-            "line": 38,
+            "line": 42,
             "column": 11
           },
           "end": {
-            "line": 38,
+            "line": 42,
             "column": 20
           }
         },
         "loc": {
           "start": {
-            "line": 38,
+            "line": 42,
             "column": 25
           },
           "end": {
-            "line": 43,
+            "line": 47,
             "column": 3
           }
         },
-        "line": 38
+        "line": 42
       },
-      "6": {
+      "5": {
         "name": "closeModal",
         "decl": {
           "start": {
-            "line": 44,
+            "line": 48,
             "column": 11
           },
           "end": {
-            "line": 44,
+            "line": 48,
             "column": 21
           }
         },
         "loc": {
           "start": {
-            "line": 44,
+            "line": 48,
             "column": 24
           },
           "end": {
-            "line": 46,
+            "line": 50,
             "column": 3
           }
         },
-        "line": 44
+        "line": 48
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 64,
+            "column": 28
+          },
+          "end": {
+            "line": 64,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 64,
+            "column": 43
+          },
+          "end": {
+            "line": 70,
+            "column": 7
+          }
+        },
+        "line": 64
       },
       "7": {
         "name": "(anonymous_7)",
         "decl": {
           "start": {
-            "line": 56,
-            "column": 32
-          },
-          "end": {
-            "line": 56,
-            "column": 33
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 56,
-            "column": 47
-          },
-          "end": {
-            "line": 62,
-            "column": 7
-          }
-        },
-        "line": 56
-      },
-      "8": {
-        "name": "(anonymous_8)",
-        "decl": {
-          "start": {
-            "line": 86,
+            "line": 94,
             "column": 58
           },
           "end": {
-            "line": 86,
+            "line": 94,
             "column": 59
           }
         },
         "loc": {
           "start": {
-            "line": 86,
+            "line": 94,
             "column": 69
           },
           "end": {
-            "line": 88,
+            "line": 96,
             "column": 1
           }
         },
-        "line": 86
+        "line": 94
       },
-      "9": {
-        "name": "(anonymous_9)",
+      "8": {
+        "name": "(anonymous_8)",
         "decl": {
           "start": {
-            "line": 99,
+            "line": 107,
             "column": 9
           },
           "end": {
-            "line": 99,
+            "line": 107,
             "column": 10
           }
         },
         "loc": {
           "start": {
-            "line": 99,
+            "line": 107,
             "column": 29
           },
           "end": {
-            "line": 108,
+            "line": 116,
             "column": 3
           }
         },
-        "line": 99
+        "line": 107
       },
-      "10": {
-        "name": "(anonymous_10)",
+      "9": {
+        "name": "(anonymous_9)",
         "decl": {
           "start": {
-            "line": 101,
+            "line": 109,
             "column": 27
           },
           "end": {
-            "line": 101,
+            "line": 109,
             "column": 28
           }
         },
         "loc": {
           "start": {
-            "line": 101,
+            "line": 109,
             "column": 44
           },
           "end": {
-            "line": 107,
+            "line": 115,
             "column": 5
           }
         },
-        "line": 101
+        "line": 109
       }
     },
     "branchMap": {
@@ -7000,47 +5629,47 @@
       "2": {
         "loc": {
           "start": {
-            "line": 36,
-            "column": 32
+            "line": 40,
+            "column": 10
           },
           "end": {
-            "line": 36,
-            "column": 55
+            "line": 40,
+            "column": 29
           }
         },
         "type": "binary-expr",
         "locations": [
           {
             "start": {
-              "line": 36,
-              "column": 32
+              "line": 40,
+              "column": 10
             },
             "end": {
-              "line": 36,
-              "column": 46
+              "line": 40,
+              "column": 20
             }
           },
           {
             "start": {
-              "line": 36,
-              "column": 50
+              "line": 40,
+              "column": 24
             },
             "end": {
-              "line": 36,
-              "column": 55
+              "line": 40,
+              "column": 29
             }
           }
         ],
-        "line": 36
+        "line": 40
       },
       "3": {
         "loc": {
           "start": {
-            "line": 48,
+            "line": 56,
             "column": 2
           },
           "end": {
-            "line": 83,
+            "line": 91,
             "column": 3
           }
         },
@@ -7048,71 +5677,71 @@
         "locations": [
           {
             "start": {
-              "line": 48,
+              "line": 56,
               "column": 2
             },
             "end": {
-              "line": 83,
+              "line": 91,
               "column": 3
             }
           },
           {
             "start": {
-              "line": 54,
+              "line": 62,
               "column": 9
             },
             "end": {
-              "line": 83,
+              "line": 91,
               "column": 3
             }
           }
         ],
-        "line": 48
+        "line": 56
       },
       "4": {
         "loc": {
           "start": {
-            "line": 48,
-            "column": 6
+            "line": 62,
+            "column": 9
           },
           "end": {
-            "line": 48,
-            "column": 49
+            "line": 91,
+            "column": 3
           }
         },
-        "type": "binary-expr",
+        "type": "if",
         "locations": [
           {
             "start": {
-              "line": 48,
-              "column": 6
+              "line": 62,
+              "column": 9
             },
             "end": {
-              "line": 48,
-              "column": 27
+              "line": 91,
+              "column": 3
             }
           },
           {
             "start": {
-              "line": 48,
-              "column": 31
+              "line": 81,
+              "column": 9
             },
             "end": {
-              "line": 48,
-              "column": 49
+              "line": 91,
+              "column": 3
             }
           }
         ],
-        "line": 48
+        "line": 62
       },
       "5": {
         "loc": {
           "start": {
-            "line": 54,
+            "line": 81,
             "column": 9
           },
           "end": {
-            "line": 83,
+            "line": 91,
             "column": 3
           }
         },
@@ -7120,47 +5749,11 @@
         "locations": [
           {
             "start": {
-              "line": 54,
+              "line": 81,
               "column": 9
             },
             "end": {
-              "line": 83,
-              "column": 3
-            }
-          },
-          {
-            "start": {
-              "line": 73,
-              "column": 9
-            },
-            "end": {
-              "line": 83,
-              "column": 3
-            }
-          }
-        ],
-        "line": 54
-      },
-      "6": {
-        "loc": {
-          "start": {
-            "line": 73,
-            "column": 9
-          },
-          "end": {
-            "line": 83,
-            "column": 3
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 73,
-              "column": 9
-            },
-            "end": {
-              "line": 83,
+              "line": 91,
               "column": 3
             }
           },
@@ -7169,16 +5762,16 @@
             "end": {}
           }
         ],
-        "line": 73
+        "line": 81
       },
-      "7": {
+      "6": {
         "loc": {
           "start": {
-            "line": 93,
+            "line": 101,
             "column": 0
           },
           "end": {
-            "line": 109,
+            "line": 117,
             "column": 1
           }
         },
@@ -7186,11 +5779,11 @@
         "locations": [
           {
             "start": {
-              "line": 93,
+              "line": 101,
               "column": 0
             },
             "end": {
-              "line": 109,
+              "line": 117,
               "column": 1
             }
           },
@@ -7199,16 +5792,16 @@
             "end": {}
           }
         ],
-        "line": 93
+        "line": 101
       },
-      "8": {
+      "7": {
         "loc": {
           "start": {
-            "line": 102,
+            "line": 110,
             "column": 6
           },
           "end": {
-            "line": 103,
+            "line": 111,
             "column": 15
           }
         },
@@ -7216,11 +5809,11 @@
         "locations": [
           {
             "start": {
-              "line": 102,
+              "line": 110,
               "column": 6
             },
             "end": {
-              "line": 103,
+              "line": 111,
               "column": 15
             }
           },
@@ -7229,16 +5822,16 @@
             "end": {}
           }
         ],
-        "line": 102
+        "line": 110
       },
-      "9": {
+      "8": {
         "loc": {
           "start": {
-            "line": 105,
+            "line": 113,
             "column": 6
           },
           "end": {
-            "line": 106,
+            "line": 114,
             "column": 54
           }
         },
@@ -7246,11 +5839,11 @@
         "locations": [
           {
             "start": {
-              "line": 105,
+              "line": 113,
               "column": 6
             },
             "end": {
-              "line": 106,
+              "line": 114,
               "column": 54
             }
           },
@@ -7259,50 +5852,50 @@
             "end": {}
           }
         ],
-        "line": 105
+        "line": 113
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 10,
-      "9": 62,
-      "10": 62,
-      "11": 62,
-      "12": 62,
-      "13": 62,
-      "14": 102,
-      "15": 62,
-      "16": 53,
-      "17": 62,
-      "18": 8,
-      "19": 2,
-      "20": 2,
-      "21": 31,
-      "22": 62,
-      "23": 26,
-      "24": 36,
-      "25": 36,
-      "26": 360,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 30,
+      "10": 30,
+      "11": 30,
+      "12": 30,
+      "13": 30,
+      "14": 52,
+      "15": 30,
+      "16": 7,
+      "17": 30,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 30,
+      "22": 30,
+      "23": 2,
+      "24": 28,
+      "25": 28,
+      "26": 280,
       "27": 0,
       "28": 0,
-      "29": 62,
-      "30": 10,
-      "31": 4,
-      "32": 10,
-      "33": 10,
-      "34": 10,
-      "35": 10,
-      "36": 10,
-      "37": 10,
-      "38": 10,
-      "39": 10,
+      "29": 30,
+      "30": 6,
+      "31": 2,
+      "32": 6,
+      "33": 6,
+      "34": 6,
+      "35": 6,
+      "36": 6,
+      "37": 6,
+      "38": 6,
+      "39": 6,
       "40": 0,
       "41": 0,
       "42": 0,
@@ -7310,63 +5903,58 @@
       "44": 0
     },
     "f": {
-      "0": 10,
-      "1": 62,
-      "2": 102,
-      "3": 53,
-      "4": 8,
-      "5": 2,
-      "6": 281,
-      "7": 82,
+      "0": 6,
+      "1": 30,
+      "2": 52,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 280,
+      "7": 2,
       "8": 6,
-      "9": 6,
-      "10": 0
+      "9": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        37,
-        28
+        30,
+        22
       ],
       "3": [
-        26,
-        36
+        2,
+        28
       ],
       "4": [
-        60,
-        12
+        28,
+        0
       ],
       "5": [
-        8,
-        0
-      ],
-      "6": [
-        4,
-        0
-      ],
-      "7": [
-        6,
-        0
-      ],
-      "8": [
         0,
         0
       ],
-      "9": [
+      "6": [
+        6,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
         0,
         0
       ]
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAoCM;;;;;;;;;;;;;;;;AApCN,SAASA,sBAAsB;AAC/B,OAAOC,wBAAwB;AAE/B,SAASC,WAAWC,gBAAgB;AACpC,OAAOC,eAAe;AACtB,OAAOC,gBAAgB;AACvB,SAASC,mBAAmB;AAC5B,SAASC,0BAA0B;AACnC,SAASC,gBAAgBC,sBAAsB;AAE/C,SAASC,iBAAiB;AAAAC;AACxB,QAAMC,WAAWJ,eAAc;AAC/B,QAAM,CAACK,WAAWC,YAAY,IAAIX,SAAS,KAAK;AAChD,QAAM,CAACY,QAAQC,SAAS,IAAIb,SAAgC,IAAI;AAChE,QAAMc,iBAAiBX,YAAY,CAACY,UAAkBA,MAAMC,OAAOF,cAAc;AAEjF,QAAM;AAAA,IAAEG;AAAAA,IAAUC;AAAAA,EAAQ,IAAIZ,eAAgBS,WAAUA,MAAMI,WAAW;AAEzEpB,YAAU,MAAM;AACdU,aAASL,mBAAmBU,kBAAkB,KAAK,CAAC;AAAA,EACtD,GAAG,CAACL,UAAUK,cAAc,CAAC;AAE7B,WAASM,UAAUC,IAAY;AAC7BR,cAAU;AAAA,MACRQ,IAAIJ,SAASK,OAAOC,MAAMF,EAAE,EAAEA;AAAAA,IAChC,CAAC;AACDV,iBAAa,IAAI;AAAA,EACnB;AAEA,WAASa,aAAa;AACpBb,iBAAa,KAAK;AAAA,EACpB;AAEA,MAAIc;AACJ,MAAIP,YAAY,aAAaA,YAAY,QAAQ;AAC/CO,cACE,uBAAC,SAAI,WAAU,oBAAmB,eAAY,oBAAkB,0BAAhE;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,EAEJ,WAAWP,YAAY,aAAa;AAClCO,cACE,uBAAC,SAAI,WAAU,mBAAkB,eAAY,mBAC1CR;AAAAA,eAASK,OAAOC,MAAMG,IAAI,CAACC,MAAsBC,QAAgB;AAChE,eACE,uBAAC,cACC,IAAIA,KAEJ,MAAM9B,mBAAmB6B,IAAI,GAC7B,MAAM9B,eAAc,GACpB,MAAM8B,KAAKE,OACX,aAAaT,aAJRQ,KAFP;AAAA;AAAA;AAAA;AAAA,eAMyB;AAAA,MAG7B,CAAC;AAAA,MACD,uBAAC,aAAU,MAAMlB,WAAW,aAAac,YAAY,MAAMZ,UAA3D;AAAA;AAAA;AAAA;AAAA,aAAkE;AAAA,SAbpE;AAAA;AAAA;AAAA;AAAA,WAcA;AAAA,EAEJ,WAAWM,YAAY,UAAU;AAC/BO,cACE,uBAAC,SAAI,WAAU,mBAAkB,eAAY,mBAC3C,iCAAC,OAAE,WAAU,eAAc,kEAA3B;AAAA;AAAA;AAAA;AAAA,WAA6E,KAD/E;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,EAEJ;AAEA,SAAOA;AACT;AAACjB,GAzDQD,gBAAc;AAAA,UACJF,gBAGMF,aAEOG,cAAc;AAAA;AAAAwB,KANrCvB;AA2DT,eAAeA;AAAe;AAAAwB",
+      "mappings": "AAoCgB;;;;;;;;;;;;;;;;AApChB,SAASA,sBAAsB;AAC/B,OAAOC,wBAAwB;AAE/B,SAASC,WAAWC,gBAAgB;AACpC,OAAOC,eAAe;AACtB,OAAOC,gBAAgB;AACvB,SAASC,mBAAmB;AAC5B,SAASC,gCAAgC;AACzC,SAASC,yBAAyB;AAElC,SAASC,iBAAiB;AAAAC;AACxB,QAAM,CAACC,YAAYC,aAAa,IAAIT,SAAS,EAAE;AAC/C,QAAM,CAACU,WAAWC,YAAY,IAAIX,SAAS,KAAK;AAChD,QAAM,CAACY,QAAQC,SAAS,IAAIb,SAAgC,IAAI;AAChE,QAAMc,iBAAiBX,YAAY,CAACY,UAAkBA,MAAMC,OAAOF,cAAc;AAEjFf,YAAU,MAAM;AACdU,kBAAcK,cAAc;AAAA,EAC9B,GAAG,CAACA,cAAc,CAAC;AAEnB,QAAM;AAAA,IAAEG;AAAAA,IAAMC;AAAAA,IAAOC;AAAAA,EAAW,IAAIf,yBAAyB;AAAA,IAC3D,GAAGC;AAAAA,IACHe,MAAMZ,cAAc;AAAA,EACtB,CAAC;AAED,WAASa,UAAUC,IAAY;AAC7BT,cAAU;AAAA,MACRS,IAAIL,KAAKM,OAAOC,MAAMF,EAAE,EAAEA;AAAAA,IAC5B,CAAC;AACDX,iBAAa,IAAI;AAAA,EACnB;AAEA,WAASc,aAAa;AACpBd,iBAAa,KAAK;AAAA,EACpB;AAEA,MAAIe,UAAU,uBAAC,SAAI,6BAAL;AAAA;AAAA;AAAA;AAAA,SAAkB;AAChC,MAAIP,YAAY;AACdO,cACE,uBAAC,SAAI,WAAU,oBAAmB,eAAY,oBAAkB,0BAAhE;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,EAEJ,WAAWT,MAAM;AACfS,cACE,uBAAC,SAAI,WAAU,mBAAkB,eAAY,mBAC1CT;AAAAA,WAAKM,OAAOC,MAAMG,IAAI,CAACC,MAAsBC,QAAgB;AAC5D,eACE,uBAAC,cACC,IAAIA,KAEJ,MAAM/B,mBAAmB8B,IAAI,GAC7B,MAAM/B,eAAc,GACpB,MAAM+B,KAAKE,OACX,aAAaT,aAJRQ,KAFP;AAAA;AAAA;AAAA;AAAA,eAMyB;AAAA,MAG7B,CAAC;AAAA,MACD,uBAAC,aAAU,MAAMnB,WAAW,aAAae,YAAY,MAAMb,UAA3D;AAAA;AAAA;AAAA;AAAA,aAAkE;AAAA,SAbpE;AAAA;AAAA;AAAA;AAAA,WAcA;AAAA,EAEJ,WAAWM,OAAO;AAChBQ,cACE,uBAAC,SAAI,WAAU,mBAAkB,eAAY,mBAC3C,iCAAC,OAAE,WAAU,eAAc,kEAA3B;AAAA;AAAA;AAAA;AAAA,WAA6E,KAD/E;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,EAEJ;AAEA,SAAOA;AACT;AAACnB,GA5DQD,gBAAc;AAAA,UAIEH,aAMaC,wBAAwB;AAAA;AAAA2B,KAVrDzB;AA8DT,eAAeA;AAAe;AAAA0B",
       "names": [
         "getCurrentDate",
         "PhotoResultsMapper",
@@ -7375,12 +5963,12 @@
         "CardModal",
         "SimpleCard",
         "useSelector",
-        "fetchBySearchValue",
-        "useAppDispatch",
-        "useAppSelector",
+        "useGetSearchResultsQuery",
+        "SearchQueryParams",
         "CardsContainer",
         "_s",
-        "dispatch",
+        "inputValue",
+        "setInputValue",
         "showModal",
         "setShowModal",
         "isOpen",
@@ -7388,9 +5976,10 @@
         "submittedValue",
         "state",
         "search",
-        "entities",
-        "loading",
-        "searchFetch",
+        "data",
+        "error",
+        "isFetching",
+        "text",
         "openModal",
         "id",
         "photos",
@@ -7405,15 +5994,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/cardsContainer.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/cardsContainer.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/cardsContainer.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/cardsContainer.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "0a3b622aa89ba36fa12351d07a9ba92085bebfbd"
+    "hash": "dc2917c9cedcf5129b3b884390e036912159ad56"
   },
-  "D:/react-work/react-rs/react-components/src/components/search-components/searchBar.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/search-components/searchBar.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchBar.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchBar.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -8085,32 +6674,32 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 10,
-      "9": 36,
-      "10": 36,
-      "11": 36,
-      "12": 75,
-      "13": 12,
-      "14": 12,
-      "15": 36,
-      "16": 10,
-      "17": 4,
-      "18": 10,
-      "19": 10,
-      "20": 10,
-      "21": 10,
-      "22": 10,
-      "23": 10,
-      "24": 10,
-      "25": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 18,
+      "10": 18,
+      "11": 18,
+      "12": 39,
+      "13": 6,
+      "14": 6,
+      "15": 18,
+      "16": 6,
+      "17": 2,
+      "18": 6,
+      "19": 6,
+      "20": 6,
+      "21": 6,
+      "22": 6,
+      "23": 6,
+      "24": 6,
+      "25": 6,
       "26": 0,
       "27": 0,
       "28": 0,
@@ -8118,29 +6707,29 @@
       "30": 0
     },
     "f": {
-      "0": 10,
-      "1": 36,
-      "2": 75,
-      "3": 12,
-      "4": 4,
-      "5": 10,
+      "0": 6,
+      "1": 18,
+      "2": 39,
+      "3": 6,
+      "4": 2,
+      "5": 6,
       "6": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        36,
-        12
+        18,
+        6
       ],
       "3": [
-        10,
+        6,
         0
       ],
       "4": [
@@ -8179,15 +6768,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/search-components/searchBar.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchBar.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/search-components/searchBar.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchBar.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "315b85a122be7df4c57adde695c258a825902f6c"
+    "hash": "54710a7a60929cabd236d26f76f6087a4729ce3d"
   },
-  "D:/react-work/react-rs/react-components/src/components/search-components/searchForm.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/search-components/searchForm.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchForm.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchForm.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -8887,33 +7476,33 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 10,
-      "9": 36,
-      "10": 36,
-      "11": 36,
-      "12": 73,
-      "13": 14,
-      "14": 2,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 18,
+      "10": 18,
+      "11": 18,
+      "12": 39,
+      "13": 7,
+      "14": 1,
       "15": 0,
-      "16": 36,
-      "17": 10,
-      "18": 4,
-      "19": 10,
-      "20": 10,
-      "21": 10,
-      "22": 10,
-      "23": 10,
-      "24": 10,
-      "25": 10,
-      "26": 10,
+      "16": 18,
+      "17": 6,
+      "18": 2,
+      "19": 6,
+      "20": 6,
+      "21": 6,
+      "22": 6,
+      "23": 6,
+      "24": 6,
+      "25": 6,
+      "26": 6,
       "27": 0,
       "28": 0,
       "29": 0,
@@ -8921,30 +7510,30 @@
       "31": 0
     },
     "f": {
-      "0": 10,
-      "1": 36,
-      "2": 73,
-      "3": 14,
+      "0": 6,
+      "1": 18,
+      "2": 39,
+      "3": 7,
       "4": 0,
-      "5": 4,
-      "6": 10,
+      "5": 2,
+      "6": 6,
       "7": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        2,
-        12
+        1,
+        6
       ],
       "3": [
-        10,
+        6,
         0
       ],
       "4": [
@@ -8980,15 +7569,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/search-components/searchForm.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchForm.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/search-components/searchForm.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/search-components/searchForm.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b735a12c9a2f6a2737eab37f75ad8aaf035be034"
+    "hash": "0c436bfa04b892e85ef2c719652c8c9d5ab6fdf5"
   },
-  "D:/react-work/react-rs/react-components/src/routes/homePage.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/routes/homePage.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/routes/homePage.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/routes/homePage.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -9462,23 +8051,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 12,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -9486,22 +8075,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 12,
-      "2": 10,
+      "0": 6,
+      "1": 6,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -9523,15 +8112,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/routes/homePage.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/routes/homePage.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/routes/homePage.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/routes/homePage.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f5e2d8b0b4be7e69ffa7a4139a176c675d217711"
+    "hash": "08ba75026eda0d390cceea4c19b7472cd0d78252"
   },
-  "D:/react-work/react-rs/react-components/src/routes/aboutPage.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/routes/aboutPage.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/routes/aboutPage.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/routes/aboutPage.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -10005,23 +8594,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 4,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 2,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -10029,22 +8618,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 4,
-      "2": 10,
+      "0": 6,
+      "1": 2,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -10065,15 +8654,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/routes/aboutPage.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/routes/aboutPage.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/routes/aboutPage.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/routes/aboutPage.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3fc7058b384190f65b3f5eec1cc3df7b813b460b"
+    "hash": "871baa10d3c6898e099cf97378dcd2c9f47b1b53"
   },
-  "D:/react-work/react-rs/react-components/src/routes/page404.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/routes/page404.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/routes/page404.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/routes/page404.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -10547,23 +9136,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
       "8": 0,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -10571,22 +9160,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
+      "0": 6,
       "1": 0,
-      "2": 10,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -10607,15 +9196,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/routes/page404.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/routes/page404.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/routes/page404.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/routes/page404.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "50bf4c5c7c4df53f717c42173abf57574a93e586"
+    "hash": "1c9bc44e2fd97be018ff985769e539616648b3dc"
   },
-  "D:/react-work/react-rs/react-components/src/components/form-components/generalInput.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/form-components/generalInput.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/form-components/generalInput.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/generalInput.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -11089,23 +9678,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 120,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 78,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -11113,22 +9702,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 120,
-      "2": 10,
+      "0": 6,
+      "1": 78,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -11157,15 +9746,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/form-components/generalInput.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/form-components/generalInput.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/form-components/generalInput.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/generalInput.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "bca2ae8d398e8a15efef5b921f266c1a89c7a1b7"
+    "hash": "57bc5b3ccad8d52cfc211cdac0d81f3574214913"
   },
-  "D:/react-work/react-rs/react-components/src/components/form-components/dropdownInput.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/form-components/dropdownInput.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/form-components/dropdownInput.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/dropdownInput.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -11639,23 +10228,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 40,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 26,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -11663,22 +10252,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 40,
-      "2": 10,
+      "0": 6,
+      "1": 26,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -11703,15 +10292,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/form-components/dropdownInput.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/form-components/dropdownInput.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/form-components/dropdownInput.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/dropdownInput.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d0fd3c6834399d6c13b91ac81dcad19acbfa3153"
+    "hash": "1bce0f98824438a39c6bf85dc84f1c0951e0e96f"
   },
-  "D:/react-work/react-rs/react-components/src/components/form-components/selectorInput.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/form-components/selectorInput.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/form-components/selectorInput.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/selectorInput.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -12185,23 +10774,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 200,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 130,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -12209,22 +10798,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 200,
-      "2": 10,
+      "0": 6,
+      "1": 130,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -12252,15 +10841,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/form-components/selectorInput.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/form-components/selectorInput.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/form-components/selectorInput.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/selectorInput.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "deae6a76ed14c634d08b0da3f52a89b9f543a493"
+    "hash": "59c7fba6494b35feb20faf6bdbb9c8473bec0d52"
   },
-  "D:/react-work/react-rs/react-components/src/components/form-components/radioInput.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/form-components/radioInput.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/form-components/radioInput.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/radioInput.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -12734,23 +11323,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 40,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 26,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -12758,22 +11347,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 40,
-      "2": 10,
+      "0": 6,
+      "1": 26,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -12798,15 +11387,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/form-components/radioInput.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/form-components/radioInput.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/form-components/radioInput.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/radioInput.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a6375d7579126587d90f5e06a7ae1b5ca759cded"
+    "hash": "478b0ea2991b199a187148c1403b7d5774d08346"
   },
-  "D:/react-work/react-rs/react-components/src/components/form-components/checkboxInput.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/form-components/checkboxInput.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/form-components/checkboxInput.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/checkboxInput.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -13280,23 +11869,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 40,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 26,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -13304,22 +11893,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 40,
-      "2": 10,
+      "0": 6,
+      "1": 26,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -13348,15 +11937,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/form-components/checkboxInput.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/form-components/checkboxInput.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/form-components/checkboxInput.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/form-components/checkboxInput.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "00d1fd97ea9dd8c09d6b05bf9e565f7acb901d34"
+    "hash": "c0fc9159d8d6453f64ab12ab7ba247e620230d00"
   },
-  "D:/react-work/react-rs/react-components/src/helpers/inputValidator.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/helpers/inputValidator.ts",
+  "D:/REACTTEST1/react-rs/react-components/src/helpers/inputValidator.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/helpers/inputValidator.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -13784,61 +12373,61 @@
       }
     },
     "s": {
-      "0": 6,
-      "1": 6,
-      "2": 6,
-      "3": 6,
-      "4": 6,
-      "5": 6,
-      "6": 6,
-      "7": 6,
-      "8": 6,
-      "9": 6
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4
     },
     "f": {
-      "0": 6,
-      "1": 6,
-      "2": 6,
-      "3": 6,
-      "4": 6
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4
     },
     "b": {
       "0": [
-        6,
-        3,
-        3,
-        3
+        4,
+        2,
+        2,
+        2
       ],
       "1": [
-        3,
-        3
+        2,
+        2
       ],
       "2": [
-        3,
-        3
+        2,
+        2
       ],
       "3": [
-        3,
-        3
+        2,
+        2
       ],
       "4": [
-        3,
-        3
+        2,
+        2
       ]
     },
     "inputSourceMap": {
       "version": 3,
       "sources": [
-        "D:/react-work/react-rs/react-components/src/helpers/inputValidator.ts"
+        "D:/REACTTEST1/react-rs/react-components/src/helpers/inputValidator.ts"
       ],
       "mappings": "AASA,MAAM,eAAe;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EAMnB,eAAe,gBAA0C;AACvD,UAAM,YAAY,KAAK,aAAa,eAAe,IAAI;AACvD,UAAM,YAAY,KAAK,aAAa,eAAe,IAAI;AACvD,UAAM,gBAAgB,KAAK,iBAAiB,eAAe,IAAI;AAC/D,UAAM,YAAY,KAAK,aAAa,eAAe,IAAI;AACvD,WAAO;AAAA,MACL,OAAO,aAAa,aAAa,iBAAiB;AAAA,MAClD,SAAS;AAAA,QACP,WAAW,YAAY,KAAK;AAAA,QAC5B,WAAW,YAAY,KAAK;AAAA,QAC5B,eAAe,gBAAgB,KAAK;AAAA,QACpC,WAAW,YAAY,KAAK;AAAA,MAC9B;AAAA,IACF;AAAA,EACF;AAAA,EAEA,aAAa,MAAc;AACzB,WAAO,KAAK,SAAS;AAAA,EACvB;AAAA,EAEA,aAAa,MAAc;AACzB,UAAM,OAAO,KAAK,MAAM,GAAG,EAAE,CAAC;AAC9B,WAAO,SAAS,IAAI,IAAI;AAAA,EAC1B;AAAA,EAEA,iBAAiB,UAA6B;AAC5C,WAAO,QAAQ,SAAS,MAAM;AAAA,EAChC;AAAA,EAEA,aAAa,MAAgB;AAC3B,WAAO,QAAQ,KAAK,MAAM;AAAA,EAC5B;AACF;AAEA,eAAe;",
       "names": []
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "cdab6a450226ac6764ece14f646691f9fff9c6ae"
+    "hash": "32eae4ae5493e421dbfb81c02701107ecd158d3d"
   },
-  "D:/react-work/react-rs/react-components/src/components/modal-components/modal.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/modal-components/modal.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/modal.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/modal.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -14358,24 +12947,24 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 40,
-      "9": 40,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
-      "17": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 26,
+      "9": 26,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
       "18": 0,
       "19": 0,
       "20": 0,
@@ -14383,26 +12972,26 @@
       "22": 0
     },
     "f": {
-      "0": 10,
-      "1": 40,
-      "2": 10,
+      "0": 6,
+      "1": 26,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        6,
-        34
+        4,
+        22
       ],
       "3": [
-        10,
+        6,
         0
       ],
       "4": [
@@ -14427,15 +13016,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/modal-components/modal.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/modal.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/modal-components/modal.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/modal-components/modal.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "55452dcc1190c72fc0781d4fa948b37381554221"
+    "hash": "30629eef742c40a8d92beb9edcf2d1e4c8abaf02"
   },
-  "D:/react-work/react-rs/react-components/src/components/card-components/card.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/components/card-components/card.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/components/card-components/card.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/card.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -14909,23 +13498,23 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 18,
-      "9": 10,
-      "10": 10,
-      "11": 10,
-      "12": 10,
-      "13": 10,
-      "14": 10,
-      "15": 10,
-      "16": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 12,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
       "17": 0,
       "18": 0,
       "19": 0,
@@ -14933,22 +13522,22 @@
       "21": 0
     },
     "f": {
-      "0": 10,
-      "1": 18,
-      "2": 10,
+      "0": 6,
+      "1": 12,
+      "2": 6,
       "3": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        10,
+        6,
         0
       ],
       "3": [
@@ -14981,15 +13570,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/components/card-components/card.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/components/card-components/card.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/components/card-components/card.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/components/card-components/card.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "bbad34ebbe3e476fd6f2d3377ded7f828eeba123"
+    "hash": "de828e1c382afbf0d7410bbd33edabb8890f4824"
   },
-  "D:/react-work/react-rs/react-components/src/routes/formPage.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/routes/formPage.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/routes/formPage.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/routes/formPage.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -15931,47 +14520,47 @@
       }
     },
     "s": {
-      "0": 10,
-      "1": 10,
+      "0": 6,
+      "1": 6,
       "2": 0,
-      "3": 10,
-      "4": 10,
-      "5": 10,
-      "6": 10,
-      "7": 10,
-      "8": 10,
-      "9": 40,
-      "10": 40,
-      "11": 40,
-      "12": 40,
-      "13": 40,
-      "14": 40,
-      "15": 43,
-      "16": 40,
-      "17": 6,
-      "18": 6,
-      "19": 3,
-      "20": 3,
-      "21": 3,
-      "22": 3,
-      "23": 3,
-      "24": 3,
-      "25": 3,
-      "26": 6,
-      "27": 3,
-      "28": 3,
-      "29": 40,
-      "30": 18,
-      "31": 10,
-      "32": 8,
-      "33": 10,
-      "34": 10,
-      "35": 10,
-      "36": 10,
-      "37": 10,
-      "38": 10,
-      "39": 10,
-      "40": 10,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 26,
+      "10": 26,
+      "11": 26,
+      "12": 26,
+      "13": 26,
+      "14": 26,
+      "15": 28,
+      "16": 26,
+      "17": 4,
+      "18": 4,
+      "19": 2,
+      "20": 2,
+      "21": 2,
+      "22": 2,
+      "23": 2,
+      "24": 2,
+      "25": 2,
+      "26": 4,
+      "27": 2,
+      "28": 2,
+      "29": 26,
+      "30": 12,
+      "31": 6,
+      "32": 5,
+      "33": 6,
+      "34": 6,
+      "35": 6,
+      "36": 6,
+      "37": 6,
+      "38": 6,
+      "39": 6,
+      "40": 6,
       "41": 0,
       "42": 0,
       "43": 0,
@@ -15979,34 +14568,34 @@
       "45": 0
     },
     "f": {
-      "0": 10,
-      "1": 40,
-      "2": 43,
-      "3": 6,
-      "4": 3,
-      "5": 6,
-      "6": 3,
-      "7": 3,
-      "8": 18,
-      "9": 8,
-      "10": 10,
+      "0": 6,
+      "1": 26,
+      "2": 28,
+      "3": 4,
+      "4": 2,
+      "5": 4,
+      "6": 2,
+      "7": 2,
+      "8": 12,
+      "9": 5,
+      "10": 6,
       "11": 0
     },
     "b": {
       "0": [
-        10,
+        6,
         0
       ],
       "1": [
         0,
-        10
+        6
       ],
       "2": [
-        3,
-        3
+        2,
+        2
       ],
       "3": [
-        10,
+        6,
         0
       ],
       "4": [
@@ -16085,15 +14674,15 @@
         "$RefreshReg$"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/routes/formPage.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/routes/formPage.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/routes/formPage.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/routes/formPage.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8beacc3d504473ccf8360dbae6cb9a88ce5724d6"
+    "hash": "c57162f4abfefffa56ab017375e604fd16382161"
   },
-  "D:/react-work/react-rs/react-components/src/App.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/App.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/App.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/App.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -16134,10 +14723,10 @@
     },
     "branchMap": {},
     "s": {
-      "0": 20
+      "0": 12
     },
     "f": {
-      "0": 20
+      "0": 12
     },
     "b": {},
     "inputSourceMap": {
@@ -16157,15 +14746,885 @@
         "render"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/App.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/App.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/App.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/App.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3ae81b4ebca485e433d47dd74d1f976837f739a5"
+    "hash": "b20bdceff326083be48d627eceabbcfe11d2d33e"
   },
-  "D:/react-work/react-rs/react-components/src/entry-client.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/entry-client.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/store/reducers/searchReducer.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/store/reducers/searchReducer.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 21
+        },
+        "end": {
+          "line": 1,
+          "column": 60
+        }
+      },
+      "1": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "end": {
+          "line": 18,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 8
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": 8
+        }
+      },
+      "4": {
+        "start": {
+          "line": 17,
+          "column": 6
+        },
+        "end": {
+          "line": 17,
+          "column": 19
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "searchReducer",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 24
+          },
+          "end": {
+            "line": 2,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 68
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "line": 2
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 38
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 46
+            },
+            "end": {
+              "line": 2,
+              "column": 58
+            }
+          }
+        ],
+        "line": 2
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 2
+          },
+          "end": {
+            "line": 18,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "end": {
+              "line": 9,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 4
+            },
+            "end": {
+              "line": 15,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 16,
+              "column": 4
+            },
+            "end": {
+              "line": 17,
+              "column": 19
+            }
+          }
+        ],
+        "line": 3
+      }
+    },
+    "s": {
+      "0": 6,
+      "1": 43,
+      "2": 6,
+      "3": 1,
+      "4": 36
+    },
+    "f": {
+      "0": 43
+    },
+    "b": {
+      "0": [
+        12
+      ],
+      "1": [
+        6,
+        1,
+        36
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "D:/REACTTEST1/react-rs/react-components/src/store/reducers/searchReducer.ts"
+      ],
+      "mappings": "AAEA,MAAM,eAAe,EAAE,aAAa,IAAI,gBAAgB,GAAG;AAE3D,wBAAwB,cAAc,QAAQ,cAAc,QAAmB;AAC7E,UAAQ,OAAO,MAAM;AAAA,IACnB,KAAK,yBAAyB;AAC5B,aAAO;AAAA,QACL,GAAG;AAAA,QACH,aAAa,OAAO;AAAA,MACtB;AAAA,IACF;AAAA,IACA,KAAK,6BAA6B;AAChC,aAAO;AAAA,QACL,GAAG;AAAA,QACH,gBAAgB,OAAO;AAAA,MACzB;AAAA,IACF;AAAA,IACA;AACE,aAAO;AAAA,EACX;AACF;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a73c60cd9f7af3e8b2859333f95a804c7acf96e2"
+  },
+  "D:/REACTTEST1/react-rs/react-components/src/store/reducers/formDataReducer.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/store/reducers/formDataReducer.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 21
+        },
+        "end": {
+          "line": 1,
+          "column": 23
+        }
+      },
+      "1": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 40
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 19
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "formDataReducer",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 16
+          },
+          "end": {
+            "line": 2,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 62
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "line": 2
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 32
+          },
+          "end": {
+            "line": 2,
+            "column": 52
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 40
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        ],
+        "line": 2
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 4
+            },
+            "end": {
+              "line": 8,
+              "column": 19
+            }
+          }
+        ],
+        "line": 3
+      }
+    },
+    "s": {
+      "0": 6,
+      "1": 43,
+      "2": 2,
+      "3": 41
+    },
+    "f": {
+      "0": 43
+    },
+    "b": {
+      "0": [
+        12
+      ],
+      "1": [
+        2,
+        41
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "D:/REACTTEST1/react-rs/react-components/src/store/reducers/formDataReducer.ts"
+      ],
+      "mappings": "AAGA,MAAM,eAA6B,CAAC;AAE7B,gBAAS,gBAAgB,QAAQ,cAAc,QAAmB;AACvE,UAAQ,OAAO,MAAM;AAAA,IACnB,KAAK,oBAAoB;AACvB,aAAO,CAAC,GAAG,OAAO,OAAO,OAAO;AAAA,IAClC;AAAA,IACA;AACE,aAAO;AAAA,EACX;AACF;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "71812caded1a50c90683a2ab116fb8d6492b2752"
+  },
+  "D:/REACTTEST1/react-rs/react-components/src/store/reducers/formInputReducer.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/store/reducers/formInputReducer.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 21
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 49,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 12,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 8
+        }
+      },
+      "3": {
+        "start": {
+          "line": 18,
+          "column": 6
+        },
+        "end": {
+          "line": 21,
+          "column": 8
+        }
+      },
+      "4": {
+        "start": {
+          "line": 24,
+          "column": 6
+        },
+        "end": {
+          "line": 27,
+          "column": 8
+        }
+      },
+      "5": {
+        "start": {
+          "line": 30,
+          "column": 6
+        },
+        "end": {
+          "line": 33,
+          "column": 8
+        }
+      },
+      "6": {
+        "start": {
+          "line": 36,
+          "column": 6
+        },
+        "end": {
+          "line": 39,
+          "column": 8
+        }
+      },
+      "7": {
+        "start": {
+          "line": 42,
+          "column": 6
+        },
+        "end": {
+          "line": 45,
+          "column": 8
+        }
+      },
+      "8": {
+        "start": {
+          "line": 48,
+          "column": 6
+        },
+        "end": {
+          "line": 48,
+          "column": 19
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "formInputReducer",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 16
+          },
+          "end": {
+            "line": 9,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 63
+          },
+          "end": {
+            "line": 50,
+            "column": 1
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 33
+          },
+          "end": {
+            "line": 9,
+            "column": 53
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 41
+            },
+            "end": {
+              "line": 9,
+              "column": 53
+            }
+          }
+        ],
+        "line": 9
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 2
+          },
+          "end": {
+            "line": 49,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 11,
+              "column": 4
+            },
+            "end": {
+              "line": 16,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 4
+            },
+            "end": {
+              "line": 22,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 4
+            },
+            "end": {
+              "line": 28,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 29,
+              "column": 4
+            },
+            "end": {
+              "line": 34,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 35,
+              "column": 4
+            },
+            "end": {
+              "line": 40,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 41,
+              "column": 4
+            },
+            "end": {
+              "line": 46,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 47,
+              "column": 4
+            },
+            "end": {
+              "line": 48,
+              "column": 19
+            }
+          }
+        ],
+        "line": 10
+      }
+    },
+    "s": {
+      "0": 6,
+      "1": 43,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 43
+    },
+    "f": {
+      "0": 43
+    },
+    "b": {
+      "0": [
+        12
+      ],
+      "1": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        43
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "D:/REACTTEST1/react-rs/react-components/src/store/reducers/formInputReducer.ts"
+      ],
+      "mappings": "AAEA,MAAM,eAAe;AAAA,EACnB,MAAM;AAAA,EACN,MAAM;AAAA,EACN,OAAO;AAAA,EACP,KAAK;AAAA,EACL,MAAM,CAAC;AAAA,EACP,MAAM;AACR;AAEO,gBAAS,iBAAiB,QAAQ,cAAc,QAAmB;AACxE,UAAQ,OAAO,MAAM;AAAA,IACnB,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA,KAAK,kBAAkB;AACrB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,OAAO,OAAO;AAAA,MAChB;AAAA,IACF;AAAA,IACA,KAAK,gBAAgB;AACnB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,KAAK,OAAO;AAAA,MACd;AAAA,IACF;AAAA,IACA,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA,KAAK,iBAAiB;AACpB,aAAO;AAAA,QACL,GAAG;AAAA,QACH,MAAM,OAAO;AAAA,MACf;AAAA,IACF;AAAA,IACA;AACE,aAAO;AAAA,EACX;AACF;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fefe18bd60ac2cabc5071e382637f52252b30617"
+  },
+  "D:/REACTTEST1/react-rs/react-components/src/store/rootReducer.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/store/rootReducer.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 20
+        },
+        "end": {
+          "line": 11,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 6
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "D:/REACTTEST1/react-rs/react-components/src/store/rootReducer.ts"
+      ],
+      "mappings": "AAAA,SAAS,uBAAuB;AAChC,OAAO,mBAAmB;AAC1B,SAAS,uBAAuB;AAChC,SAAS,wBAAwB;AAEjC,SAAS,iBAAiB;AAG1B,MAAM,cAAc,gBAAgB;AAAA,EAClC,QAAQ;AAAA,EACR,WAAW;AAAA,EACX,UAAU;AAAA,EACV,CAAC,UAAU,WAAW,GAAG,UAAU;AACrC,CAAC;AAED,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2a0b6a87ae9b458c61200d643069df69957d3e2d"
+  },
+  "D:/REACTTEST1/react-rs/react-components/src/store/store.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/store/store.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 44
+        },
+        "end": {
+          "line": 5,
+          "column": 76
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 27
+        },
+        "end": {
+          "line": 12,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 5
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 42
+        },
+        "end": {
+          "line": 10,
+          "column": 93
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 30
+        },
+        "end": {
+          "line": 13,
+          "column": 49
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 36
+        },
+        "end": {
+          "line": 13,
+          "column": 49
+        }
+      },
+      "6": {
+        "start": {
+          "line": 14,
+          "column": 30
+        },
+        "end": {
+          "line": 14,
+          "column": 41
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 47
+          },
+          "end": {
+            "line": 12,
+            "column": 1
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 16
+          },
+          "end": {
+            "line": 10,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 42
+          },
+          "end": {
+            "line": 10,
+            "column": 93
+          }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 30
+          },
+          "end": {
+            "line": 13,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 36
+          },
+          "end": {
+            "line": 13,
+            "column": 49
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 44
+          },
+          "end": {
+            "line": 5,
+            "column": 76
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 5,
+              "column": 44
+            },
+            "end": {
+              "line": 5,
+              "column": 62
+            }
+          },
+          {
+            "start": {
+              "line": 5,
+              "column": 66
+            },
+            "end": {
+              "line": 5,
+              "column": 76
+            }
+          }
+        ],
+        "line": 5
+      }
+    },
+    "s": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 0,
+      "6": 6
+    },
+    "f": {
+      "0": 6,
+      "1": 6,
+      "2": 0
+    },
+    "b": {
+      "0": [
+        6,
+        6
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "D:/REACTTEST1/react-rs/react-components/src/store/store.ts"
+      ],
+      "mappings": "AACA,SAA+B,aAAa,mBAAmB;AAC/D,OAAO,iBAAiB;AAExB,YAAY,gBAAgB;AAC5B,SAAS,iBAAiB;AAG1B,MAAM,EAAE,gBAAgB,gBAAgB,IAAM,WAA8B,WAC1E;AAEK,aAAM,cAAc,CAAC,mBAA+C;AACzE,SAAO,eAAe;AAAA,IACpB,SAAS;AAAA,IACT;AAAA,IACA,YAAY,CAAC,yBAAyB,qBAAqB,EAAE,OAAO,UAAU,UAAU;AAAA,EAC1F,CAAC;AACH;AAKO,aAAM,iBAAiB,MAAM,YAAyB;AACtD,aAAM,iBAAkD;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "be1c37cc2aaf8b09201b46181cf27285dc62f90a"
+  },
+  "D:/REACTTEST1/react-rs/react-components/src/entry-client.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/entry-client.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -16183,17 +15642,7 @@
           "column": 0
         },
         "end": {
-          "line": 11,
-          "column": 34
-        }
-      },
-      "2": {
-        "start": {
-          "line": 12,
-          "column": 0
-        },
-        "end": {
-          "line": 28,
+          "line": 27,
           "column": 10
         }
       }
@@ -16201,15 +15650,14 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 10,
-      "1": 10,
-      "2": 6
+      "0": 6,
+      "1": 6
     },
     "f": {},
     "b": {},
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAuBQ;AAvBR,OAAOA,WAAW;AAClB,OAAO;AACP,OAAO;AACP,OAAOC,cAAc;AACrB,SAASC,gBAAgB;AACzB,SAASC,qBAAqB;AAC9B,OAAOC,SAAS;AAChB,SAASC,mBAA8B;AAQvC,MAAMC,QAAQD,YAAYE,OAAOC,mBAAmB;AACpD,OAAOD,OAAOC;AAEdP,SAASQ,YACPC,SAASC,eAAe,MAAM,GAC9B,uBAAC,MAAM,YAAN,EACC,iCAAC,YAAS,OACR,iCAAC,iBACC,iCAAC,SAAD;AAAA;AAAA;AAAA;AAAA,OAAI,KADN;AAAA;AAAA;AAAA;AAAA,OAEA,KAHF;AAAA;AAAA;AAAA;AAAA,OAIA,KALF;AAAA;AAAA;AAAA;AAAA,OAMA,CAAmB",
+      "mappings": "AAuBQ;AAvBR,OAAOA,WAAW;AAClB,OAAO;AACP,OAAO;AACP,OAAOC,cAAc;AACrB,SAASC,gBAAgB;AACzB,SAASC,qBAAqB;AAC9B,OAAOC,SAAS;AAChB,SAASC,mBAA8B;AAQvC,MAAMC,QAAQD,YAAYE,OAAOC,mBAAmB;AAGpDP,SAASQ,YACPC,SAASC,eAAe,MAAM,GAC9B,uBAAC,MAAM,YAAN,EACC,iCAAC,YAAS,OACR,iCAAC,iBACC,iCAAC,SAAD;AAAA;AAAA;AAAA;AAAA,OAAI,KADN;AAAA;AAAA;AAAA;AAAA,OAEA,KAHF;AAAA;AAAA;AAAA;AAAA,OAIA,KALF;AAAA;AAAA;AAAA;AAAA,OAMA,CAAmB",
       "names": [
         "React",
         "ReactDOM",
@@ -16225,385 +15673,15 @@
         "getElementById"
       ],
       "sources": [
-        "D:/react-work/react-rs/react-components/src/entry-client.tsx"
+        "D:/REACTTEST1/react-rs/react-components/src/entry-client.tsx"
       ],
-      "file": "D:/react-work/react-rs/react-components/src/entry-client.tsx"
+      "file": "D:/REACTTEST1/react-rs/react-components/src/entry-client.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8fa56878499655ddcf3667c52e2e650feb7354f9"
+    "hash": "541a5750e458eca9b5c80a937085a5899077d216"
   },
-  "D:/react-work/react-rs/react-components/src/api/createApi.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/api/createApi.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 2,
-          "column": 57
-        },
-        "end": {
-          "line": 2,
-          "column": 85
-        }
-      },
-      "1": {
-        "start": {
-          "line": 3,
-          "column": 18
-        },
-        "end": {
-          "line": 6,
-          "column": 1
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 57
-          },
-          "end": {
-            "line": 2,
-            "column": 85
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 2,
-              "column": 57
-            },
-            "end": {
-              "line": 2,
-              "column": 73
-            }
-          },
-          {
-            "start": {
-              "line": 2,
-              "column": 77
-            },
-            "end": {
-              "line": 2,
-              "column": 85
-            }
-          }
-        ],
-        "line": 2
-      }
-    },
-    "s": {
-      "0": 4,
-      "1": 4
-    },
-    "f": {},
-    "b": {
-      "0": [
-        4,
-        4
-      ]
-    },
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/api/createApi.ts"
-      ],
-      "mappings": "AAAA,YAAY,cAAc;AAG1B,MAAM,EAAE,gBAAgB,YAAY,iBAAiB,IAAM,SAA0B,WACnF;AAEF,MAAM,YAAY;AAAA,EAChB,WAAW;AAAA,EACX,iBAAiB,EAAE,+BAA+B,KAAK,CAAC;AAC1D;AAEA,eAAe;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "81da9fb846d257c69952351bd3f0b35d6f91f14d"
-  },
-  "D:/react-work/react-rs/react-components/src/api/flickrApi.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/api/flickrApi.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 27
-        },
-        "end": {
-          "line": 3,
-          "column": 55
-        }
-      },
-      "1": {
-        "start": {
-          "line": 4,
-          "column": 25
-        },
-        "end": {
-          "line": 22,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 7,
-          "column": 27
-        },
-        "end": {
-          "line": 21,
-          "column": 3
-        }
-      },
-      "3": {
-        "start": {
-          "line": 9,
-          "column": 23
-        },
-        "end": {
-          "line": 12,
-          "column": 7
-        }
-      },
-      "4": {
-        "start": {
-          "line": 13,
-          "column": 55
-        },
-        "end": {
-          "line": 13,
-          "column": 70
-        }
-      },
-      "5": {
-        "start": {
-          "line": 16,
-          "column": 23
-        },
-        "end": {
-          "line": 19,
-          "column": 7
-        }
-      },
-      "6": {
-        "start": {
-          "line": 23,
-          "column": 66
-        },
-        "end": {
-          "line": 23,
-          "column": 75
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 7,
-            "column": 13
-          },
-          "end": {
-            "line": 7,
-            "column": 14
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 7,
-            "column": 27
-          },
-          "end": {
-            "line": 21,
-            "column": 3
-          }
-        },
-        "line": 7
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 9,
-            "column": 13
-          },
-          "end": {
-            "line": 9,
-            "column": 14
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 23
-          },
-          "end": {
-            "line": 12,
-            "column": 7
-          }
-        },
-        "line": 9
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 13,
-            "column": 30
-          },
-          "end": {
-            "line": 13,
-            "column": 31
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 13,
-            "column": 55
-          },
-          "end": {
-            "line": 13,
-            "column": 70
-          }
-        },
-        "line": 13
-      },
-      "3": {
-        "name": "(anonymous_3)",
-        "decl": {
-          "start": {
-            "line": 16,
-            "column": 13
-          },
-          "end": {
-            "line": 16,
-            "column": 14
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 16,
-            "column": 23
-          },
-          "end": {
-            "line": 19,
-            "column": 7
-          }
-        },
-        "line": 16
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 3,
-            "column": 27
-          },
-          "end": {
-            "line": 3,
-            "column": 55
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 3,
-              "column": 27
-            },
-            "end": {
-              "line": 3,
-              "column": 43
-            }
-          },
-          {
-            "start": {
-              "line": 3,
-              "column": 47
-            },
-            "end": {
-              "line": 3,
-              "column": 55
-            }
-          }
-        ],
-        "line": 3
-      }
-    },
-    "s": {
-      "0": 4,
-      "1": 4,
-      "2": 4,
-      "3": 1,
-      "4": 0,
-      "5": 1,
-      "6": 4
-    },
-    "f": {
-      "0": 4,
-      "1": 1,
-      "2": 0,
-      "3": 1
-    },
-    "b": {
-      "0": [
-        4,
-        4
-      ]
-    },
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/api/flickrApi.ts"
-      ],
-      "mappings": "AAAA,YAAY,cAAc;AAE1B,OAAO,eAAe;AAGtB,MAAM,EAAE,eAAe,IAAM,SAA0B,WAAW;AAE3D,aAAM,YAAY,UAAU;AAAA,EACjC,aAAa;AAAA,EACb,WAAW,eAAe,EAAE,SAAS,uCAAuC,CAAC;AAAA,EAC7E,WAAW,CAAC,aAAa;AAAA,IACvB,kBAAkB,QAAQ,MAAM;AAAA,MAC9B,OAAO,CAAC,SAAS;AAAA,QACf,KAAK;AAAA,QACL,QAAQ,EAAE,GAAG,IAAI;AAAA,MACnB;AAAA,MACA,wBAAwB,CAAC,UAAuC,MAAM,QAAQ,SAAS;AAAA,IACzF,CAAC;AAAA,IACD,cAAc,QAAQ,MAAM;AAAA,MAC1B,OAAO,CAAC,SAAS;AAAA,QACf,KAAK;AAAA,QACL,QAAQ,EAAE,GAAG,IAAI;AAAA,MACnB;AAAA,IACF,CAAC;AAAA,EACH;AACF,CAAC;AAEM,aAAM,EAAE,0BAA0B,qBAAqB,IAAI;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ac48e368a4feb6a1875015589bcc4839f24a200b"
-  },
-  "D:/react-work/react-rs/react-components/src/types/constants.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/types/constants.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 33
-        },
-        "end": {
-          "line": 8,
-          "column": 1
-        }
-      },
-      "1": {
-        "start": {
-          "line": 9,
-          "column": 36
-        },
-        "end": {
-          "line": 15,
-          "column": 1
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 4,
-      "1": 4
-    },
-    "f": {},
-    "b": {},
-    "inputSourceMap": {
-      "version": 3,
-      "sources": [
-        "D:/react-work/react-rs/react-components/src/types/constants.ts"
-      ],
-      "mappings": "AAAO,aAAM,oBAAoB;AAAA,EAC/B,QAAQ;AAAA,EACR,SAAS;AAAA,EACT,MAAM;AAAA,EACN,UAAU;AAAA,EACV,QAAQ;AAAA,EACR,gBAAgB;AAClB;AAEO,aAAM,uBAAuB;AAAA,EAClC,QAAQ;AAAA,EACR,SAAS;AAAA,EACT,UAAU;AAAA,EACV,QAAQ;AAAA,EACR,gBAAgB;AAClB;",
-      "names": []
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fe034638e36505a4e24f25dabcb2bf67beb69e39"
-  },
-  "D:/react-work/react-rs/react-components/src/assets/catData.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/assets/catData.ts",
+  "D:/REACTTEST1/react-rs/react-components/src/api/flickrApiThunks.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/api/flickrApiThunks.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -16611,8 +15689,8 @@
     "f": {},
     "b": {}
   },
-  "D:/react-work/react-rs/react-components/src/types/interfaces.ts": {
-    "path": "D:/react-work/react-rs/react-components/src/types/interfaces.ts",
+  "D:/REACTTEST1/react-rs/react-components/src/assets/catData.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/assets/catData.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -16620,8 +15698,8 @@
     "f": {},
     "b": {}
   },
-  "D:/react-work/react-rs/react-components/src/entry-server.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/entry-server.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/types/interfaces.ts": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/types/interfaces.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -16629,8 +15707,8 @@
     "f": {},
     "b": {}
   },
-  "D:/react-work/react-rs/react-components/src/Html.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/Html.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/entry-server.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/entry-server.tsx",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -16638,8 +15716,8 @@
     "f": {},
     "b": {}
   },
-  "D:/react-work/react-rs/react-components/src/main.tsx": {
-    "path": "D:/react-work/react-rs/react-components/src/main.tsx",
+  "D:/REACTTEST1/react-rs/react-components/src/Html.tsx": {
+    "path": "D:/REACTTEST1/react-rs/react-components/src/Html.tsx",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},

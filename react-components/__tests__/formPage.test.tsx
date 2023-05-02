@@ -4,8 +4,10 @@ import '@testing-library/jest-dom/extend-expect';
 import FormPage from '../src/routes/formPage';
 import { act } from 'react-dom/test-utils';
 import { Provider } from 'react-redux';
-import store from '../src/store/store';
+// import store from '../src/store/store';
+import { createStore } from '../src/store/store';
 
+const store = createStore({});
 describe('Form page rendering', () => {
   test('renders the form page', () => {
     render(

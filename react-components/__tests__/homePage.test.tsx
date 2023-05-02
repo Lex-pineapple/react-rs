@@ -4,7 +4,11 @@ import '@testing-library/jest-dom/extend-expect';
 import HomePage from '../src/routes/homePage';
 import 'jest-localstorage-mock';
 import { Provider } from 'react-redux';
-import store from '../src/store/store';
+// import store from '../src/store/store';
+import { createStore } from '../src/store/store';
+
+const store = createStore({});
+
 
 describe('HomePage bar rendering', () => {
   test('renders the home page', () => {

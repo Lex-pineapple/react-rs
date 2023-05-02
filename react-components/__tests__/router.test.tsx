@@ -3,7 +3,10 @@ import App from '../src/App';
 import { fireEvent, render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '../src/store/store';
+// import store from '../src/store/store';
+import { createStore } from '../src/store/store';
+
+const store = createStore({});
 
 describe('Router changes Header', () => {
   test('header should change on header link click', () => {

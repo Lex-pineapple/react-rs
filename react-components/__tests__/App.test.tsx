@@ -3,9 +3,10 @@ import React from 'react';
 import App from '../src/App';
 import '@testing-library/jest-dom/extend-expect';
 import { BrowserRouter } from 'react-router-dom';
+import { createStore } from '../src/store/store';
 import { Provider } from 'react-redux';
-import store from '../src/store/store';
 
+const store = createStore({});
 describe('Main page rendering', () => {
   test('renders the landing page', () => {
     render(

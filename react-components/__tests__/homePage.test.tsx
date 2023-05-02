@@ -9,7 +9,6 @@ import { createStore } from '../src/store/store';
 
 const store = createStore({});
 
-
 describe('HomePage bar rendering', () => {
   test('renders the home page', () => {
     render(
